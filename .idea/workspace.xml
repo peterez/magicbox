@@ -2,96 +2,96 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f14e56d3-3091-493c-a54c-573d8948c039" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\assets\css\asset.css" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\assets\css\asset.css" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_form_builder\view\formList.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_form_builder\view\formList.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_admin_menu_manager\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_admin_menu_manager\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_admin_menu_manager\view\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_admin_menu_manager\view\index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_disqus_comment/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_disqus_comment/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_admin_menu_manager/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_admin_menu_manager/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_sitemap/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_sitemap/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_white_label/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_white_label/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_user_switch/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_user_switch/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_post_authentication/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_post_authentication/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_cache_manager/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_cache_manager/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_backup_manager/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_backup_manager/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_admin_menu_manager/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_admin_menu_manager/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_form_builder/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_form_builder/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_captcha/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_captcha/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_custom_redirects/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_custom_redirects/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_form_builder/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_form_builder/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/asset.css" afterPath="$PROJECT_DIR$/assets/css/asset.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_user_permissions/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_user_permissions/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_htaccess_editor/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_htaccess_editor/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_error_redirects/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_error_redirects/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_fancybox/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_fancybox/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_form_builder/view/formList.php" afterPath="$PROJECT_DIR$/app/moduls/mb_form_builder/view/formList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_bulk_mail/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_bulk_mail/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_contact_buttons/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_contact_buttons/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_custom_dashboard/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_custom_dashboard/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_robot_txt_editor/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_robot_txt_editor/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_captcha/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_captcha/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_cache_manager/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_cache_manager/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_bulk_mail/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_bulk_mail/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_popup/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_popup/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_error_logs/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_error_logs/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_bulk_image_resize/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_bulk_image_resize/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_clone_manager/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_clone_manager/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_visit_limitation/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_visit_limitation/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_bulk_mail/view/sendMail.php" afterPath="$PROJECT_DIR$/app/moduls/mb_bulk_mail/view/sendMail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_bulk_image_resize/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_bulk_image_resize/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_maintenance_mode/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_maintenance_mode/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_login_logs/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_login_logs/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_google_authenticator/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_google_authenticator/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_live_search/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_live_search/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_duplicate_manager/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_duplicate_manager/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_white_label/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_white_label/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_cookie_policy/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_cookie_policy/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_userini_editor/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_userini_editor/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/magicbox.php" afterPath="$PROJECT_DIR$/model/magicbox.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_backup_manager/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_backup_manager/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_gutenberg_editor/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_gutenberg_editor/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_user_permissions/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_user_permissions/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/main/magic_box-view.php" afterPath="$PROJECT_DIR$/app/moduls/main/magic_box-view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/magicboxStaff.php" afterPath="$PROJECT_DIR$/model/magicboxStaff.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_gutenberg_editor/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_gutenberg_editor/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_code_insert_manager/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_code_insert_manager/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_login_url/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_login_url/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_url_replacement/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_url_replacement/view/index.php" />
       <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_affiliate_marketing\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_affiliate_marketing\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_backup_manager\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_backup_manager\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_backup_manager\view\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_backup_manager\view\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_bulk_image_resize\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_bulk_image_resize\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_bulk_image_resize\view\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_bulk_image_resize\view\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_bulk_mail\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_bulk_mail\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_bulk_mail\view\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_bulk_mail\view\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_cache_manager\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_cache_manager\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_cache_manager\view\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_cache_manager\view\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_captcha\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_captcha\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_captcha\view\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_captcha\view\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_clone_manager\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_clone_manager\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_code_insert_manager\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_code_insert_manager\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_code_insert_manager\view\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_code_insert_manager\view\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_comment_manager\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_comment_manager\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_comment_manager\view\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_comment_manager\view\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_contact_buttons\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_contact_buttons\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_contact_buttons\view\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_contact_buttons\view\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_cookie_policy\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_cookie_policy\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_cookie_policy\view\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_cookie_policy\view\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_custom_css\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_custom_css\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_custom_dashboard\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_custom_dashboard\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_custom_dashboard\view\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_custom_dashboard\view\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_custom_login\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_custom_login\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_custom_redirects\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_custom_redirects\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_custom_redirects\view\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_custom_redirects\view\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_disqus_comment\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_disqus_comment\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_disqus_comment\view\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_disqus_comment\view\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_duplicate_manager\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_duplicate_manager\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_duplicate_manager\view\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_duplicate_manager\view\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_error_logs\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_error_logs\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_error_page_manager\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_error_page_manager\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_error_page_manager\view\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_error_page_manager\view\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_error_redirects\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_error_redirects\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_error_redirects\view\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_error_redirects\view\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_fancybox\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_fancybox\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_fancybox\view\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_fancybox\view\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_form_builder\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_form_builder\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_form_builder\view\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_form_builder\view\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_google_authenticator\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_google_authenticator\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_google_authenticator\view\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_google_authenticator\view\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_gutenberg_editor\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_gutenberg_editor\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_gutenberg_editor\view\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_gutenberg_editor\view\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_htaccess_editor\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_htaccess_editor\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_image_upload_optimiser\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_image_upload_optimiser\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_image_upload_optimiser\view\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_image_upload_optimiser\view\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_keyword_suggestion\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_keyword_suggestion\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_lazyload\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_lazyload\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_lazyload\view\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_lazyload\view\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_live_search\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_live_search\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_login_logs\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_login_logs\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_login_logs\view\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_login_logs\view\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_login_url\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_login_url\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_maintenance_mode\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_maintenance_mode\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_popup\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_popup\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_popup\view\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_popup\view\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_post_authentication\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_post_authentication\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_post_authentication\view\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_post_authentication\view\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_preloader\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_preloader\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_preloader\view\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_preloader\view\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_robot_txt_editor\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_robot_txt_editor\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_seo_image\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_seo_image\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_site_redirects\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_site_redirects\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_sitemap\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_sitemap\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_sitemap\view\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_sitemap\view\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_smtp\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_smtp\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_tracking_codes\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_tracking_codes\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_tracking_codes\view\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_tracking_codes\view\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_url_replacement\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_url_replacement\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_url_replacement\view\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_url_replacement\view\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_user_permissions\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_user_permissions\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_user_permissions\view\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_user_permissions\view\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_user_switch\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_user_switch\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_user_switch\view\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_user_switch\view\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_userini_editor\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_userini_editor\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_visit_limitation\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_visit_limitation\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_white_label\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_white_label\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_white_label\view\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_white_label\view\index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\main\magic_box-view.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\main\magic_box-view.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\model\magicbox.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\model\magicbox.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\model\magicboxStaff.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\model\magicboxStaff.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\assets\css\main.css" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\assets\css\main.css" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\masterPage.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\masterPage.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_bulk_mail\view\sendMail.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_bulk_mail\view\sendMail.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\.idea\workspace.xml" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\.idea\workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_sitemap/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_sitemap/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_cookie_policy/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_cookie_policy/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_error_redirects/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_error_redirects/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_duplicate_manager/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_duplicate_manager/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_comment_manager/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_comment_manager/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_preloader/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_preloader/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_image_upload_optimiser/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_image_upload_optimiser/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_custom_dashboard/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_custom_dashboard/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_post_authentication/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_post_authentication/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_comment_manager/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_comment_manager/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_error_page_manager/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_error_page_manager/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_custom_redirects/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_custom_redirects/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_site_redirects/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_site_redirects/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_lazyload/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_lazyload/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_login_logs/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_login_logs/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_custom_login/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_custom_login/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_image_upload_optimiser/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_image_upload_optimiser/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_contact_buttons/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_contact_buttons/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_error_page_manager/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_error_page_manager/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_tracking_codes/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_tracking_codes/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_fancybox/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_fancybox/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_preloader/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_preloader/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_custom_css/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_custom_css/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_google_authenticator/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_google_authenticator/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_code_insert_manager/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_code_insert_manager/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_url_replacement/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_url_replacement/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/masterPage.php" afterPath="$PROJECT_DIR$/app/moduls/masterPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_lazyload/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_lazyload/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/main.css" afterPath="$PROJECT_DIR$/assets/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_tracking_codes/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_tracking_codes/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_seo_image/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_seo_image/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_smtp/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_smtp/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_user_switch/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_user_switch/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_disqus_comment/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_disqus_comment/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_keyword_suggestion/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_keyword_suggestion/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_popup/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_popup/index.php" />
     </list>
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -111,7 +111,44 @@
     <favorites_list name="magicboxx" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="magicbox.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/magicbox.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="283" column="56" selection-start="9022" selection-end="9022" vertical-scroll-proportion="-4.946429" vertical-offset="5666" max-vertical-offset="8442">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="asset.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/asset.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="1" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4032">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.txt" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="400" column="9" selection-start="19430" selection-end="19430" vertical-scroll-proportion="2.5862458" vertical-offset="6106" max-vertical-offset="9429">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="magicboxStaff.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/magicboxStaff.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="761" column="72" selection-start="25208" selection-end="25211" vertical-scroll-proportion="-5.875" vertical-offset="15652" max-vertical-offset="16485">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -132,9 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/moduls/mb_tracking_codes/view/index.php" />
-        <option value="$PROJECT_DIR$/app/moduls/mb_captcha/index.php" />
-        <option value="$PROJECT_DIR$/app/moduls/mb_captcha/view/index.php" />
         <option value="$PROJECT_DIR$/app/moduls/mb_google_authenticator/index.php" />
         <option value="$PROJECT_DIR$/app/moduls/mb_google_authenticator/view/index.php" />
         <option value="$PROJECT_DIR$/app/moduls/mb_custom_redirects/index.php" />
@@ -183,6 +217,9 @@
         <option value="$PROJECT_DIR$/app/moduls/mb_comment_manager/view/index.php" />
         <option value="$PROJECT_DIR$/app/moduls/mb_disqus_comment/view/index.php" />
         <option value="$PROJECT_DIR$/app/moduls/mb_error_redirects/view/index.php" />
+        <option value="$PROJECT_DIR$/model/magicbox.php" />
+        <option value="$PROJECT_DIR$/assets/css/asset.css" />
+        <option value="$PROJECT_DIR$/readme.txt" />
       </list>
     </option>
   </component>
@@ -225,7 +262,66 @@
     <panes>
       <pane id="Scope" />
       <pane id="ProjectPane">
-        <subPane />
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magicbox_freemium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magicbox_freemium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magicbox_freemium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magicbox_freemium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magicbox_freemium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magicbox_freemium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magicbox_freemium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magicbox_freemium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magicbox_freemium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
       </pane>
     </panes>
   </component>
@@ -276,14 +372,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28700745" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29020235" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -291,11 +387,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,6 +414,36 @@
     <breakpoint-manager>
       <option name="time" value="3" />
     </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/model/magicboxStaff.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="761" column="72" selection-start="25208" selection-end="25211" vertical-scroll-proportion="-5.875" vertical-offset="15652" max-vertical-offset="16485">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/magicbox.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="283" column="56" selection-start="9022" selection-end="9022" vertical-scroll-proportion="-4.946429" vertical-offset="5666" max-vertical-offset="8442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/asset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="1" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4032">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="400" column="9" selection-start="19430" selection-end="19430" vertical-scroll-proportion="2.5862458" vertical-offset="6106" max-vertical-offset="9429">
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
 

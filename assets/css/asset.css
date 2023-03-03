@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-.hasSubModul_0::after{
+.mb-menu .hasSubModul_0::after{
     content: "PRO";
     display: inline-block;
     right: 10px;

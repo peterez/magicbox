@@ -343,13 +343,64 @@ What can't you do? With many features in MAGICBOX, you can manage your WordPress
 
 == Screenshots ==
 
-1-screenshot-1.png
-2-screenshot-2.png
-2-screenshot-3.png
-2-screenshot-4.png
+1-2.jpg
+2-3.jpg
+3-4.jpg
+4-5.jpg
+5-6.jpg
+6-7.jpg
+7-8.jpg
+8-9.jpg
+9-10.jpg
+10-11.jpg
+11-12.jpg
+12-13.jpg
+13-14.jpg
+14-15.jpg
+15-16.jpg
+16-17.jpg
+17-18.jpg
+18-19.jpg
+19-20.jpg
+20-21.jpg
+21-22.jpg
+22-23.jpg
+23-24.jpg
+24-25.jpg
+25-26.jpg
+26-27.jpg
+27-28.jpg
+28-29.jpg
+29-30.jpg
+30-31.jpg
+31-32.jpg
+32-33.jpg
+33-34.jpg
+34-35.jpg
+35-36.jpg
+36-37.jpg
+37-38.jpg
+38-39.jpg
+39-40.jpg
+40-41.jpg
+41-42.jpg
+42-43.jpg
+43-44.jpg
+44-45.jpg
+45-46.jpg
+46-47.jpg
+47-48.jpg
+48-49.jpg
+49-50.jpg
+50-51.jpg
+
 
 
 == Changelog ==
+
+= 1.2.1 =
+Broken links fixed
+Some design upgrades
 
 = 1.2.0 =
 Changed licencing control and folders name.
