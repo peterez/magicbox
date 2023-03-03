@@ -5,7 +5,6 @@ Plugin URI: https://wpmagicbox.com
 Description: <strong>MagicBox</strong> <code>everything for wordpress</code>. Turn your website into a professional CMS system
 Version: 1.2.1
 Author: MagicBox
-Author URI: https://wpmagicbox.com
 Text Domain: magicbox
 Domain Path: /languages
 */
