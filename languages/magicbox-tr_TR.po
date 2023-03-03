@@ -1,0 +1,3962 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Magic Box\n"
+"POT-Creation-Date: 2022-07-01 18:23+0300\n"
+"PO-Revision-Date: 2022-07-01 18:26+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: index.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: app/moduls/main/magic-box-view.php:18
+msgid "Manage Licence"
+msgstr "Lisans Kontrolü"
+
+#: app/moduls/main/magic-box-view.php:29
+msgid "Licence Key"
+msgstr "Lisans Anahtarı"
+
+#: app/moduls/main/magic-box-view.php:31 app/moduls/main/magic-box-view.php:32
+#: app/moduls/mb-affiliate_marketing/index.php:286
+#: app/moduls/mb-affiliate_marketing/view/index.php:95
+#: app/moduls/mb-bulk_image_resize/view/index.php:90
+#: app/moduls/mb-bulk_mail/view/campaigns.php:54
+#: app/moduls/mb-bulk_mail/view/campaigns.php:58
+#: app/moduls/mb-bulk_mail/view/campaigns.php:62
+#: app/moduls/mb-bulk_mail/view/campaigns.php:65
+#: app/moduls/mb-bulk_mail/view/index.php:47
+#: app/moduls/mb-bulk_mail/view/sendMail.php:92
+#: app/moduls/mb-cache_manager/view/index.php:178
+#: app/moduls/mb-captcha/view/index.php:148
+#: app/moduls/mb-clone_manager/view/index.php:76
+#: app/moduls/mb-clone_manager/view/index.php:77
+#: app/moduls/mb-code_insert_manager/view/index.php:198
+#: app/moduls/mb-code_insert_manager/view/index.php:199
+#: app/moduls/mb-comment_manager/view/index.php:105
+#: app/moduls/mb-contact_buttons/view/index.php:548
+#: app/moduls/mb-cookie_policy/view/index.php:297
+#: app/moduls/mb-custom_css/view/index.php:190
+#: app/moduls/mb-custom_dashboard/view/index.php:320
+#: app/moduls/mb-custom_login/view/index.php:354
+#: app/moduls/mb-custom_redirects/view/index.php:67
+#: app/moduls/mb-custom_redirects/view/index.php:140
+#: app/moduls/mb-disqus_comment/view/index.php:116
+#: app/moduls/mb-duplicate_manager/view/index.php:54
+#: app/moduls/mb-duplicate_manager/view/index.php:55
+#: app/moduls/mb-error_logs/view/index.php:53
+#: app/moduls/mb-error_page_manager/view/index.php:56
+#: app/moduls/mb-error_redirects/view/index.php:50
+#: app/moduls/mb-error_redirects/view/index.php:124
+#: app/moduls/mb-fancybox/view/index.php:221
+#: app/moduls/mb-form_builder/view/index.php:188
+#: app/moduls/mb-form_builder/view/index.php:189
+#: app/moduls/mb-form_builder/view/index.php:204
+#: app/moduls/mb-google_authenticator/view/index.php:28
+#: app/moduls/mb-gutenberg_editor/view/index.php:36
+#: app/moduls/mb-head_code_manager/view/index.php:38
+#: app/moduls/mb-htaccess_editor/view/index.php:36
+#: app/moduls/mb-image_upload_optimiser/view/index.php:72
+#: app/moduls/mb-keyword_suggestion/view/index.php:35
+#: app/moduls/mb-lazyload/view/index.php:81
+#: app/moduls/mb-live_search/view/index.php:117
+#: app/moduls/mb-login_logs/view/index.php:37
+#: app/moduls/mb-login_logs/view/index.php:38
+#: app/moduls/mb-login_url/view/index.php:60
+#: app/moduls/mb-maintenance_mode/view/index.php:143
+#: app/moduls/mb-popup/view/index.php:300
+#: app/moduls/mb-post_authentication/view/index.php:27
+#: app/moduls/mb-preloader/view/index.php:197
+#: app/moduls/mb-robot_txt_editor/view/index.php:31
+#: app/moduls/mb-seo_image/view/index.php:45
+#: app/moduls/mb-site_redirects/view/index.php:124
+#: app/moduls/mb-sitemap/view/index.php:245
+#: app/moduls/mb-smtp/view/index.php:114 app/moduls/mb-smtp/view/index.php:115
+#: app/moduls/mb-smtp/view/index.php:117
+#: app/moduls/mb-user_permissions/view/index.php:259
+#: app/moduls/mb-user_switch/view/index.php:74
+#: app/moduls/mb-user_switch/view/index.php:75
+#: app/moduls/mb-userini_editor/view/index.php:36
+#: app/moduls/mb-visit_limitation/view/index.php:203
+#: app/moduls/mb-white_label/view/index.php:264 system/ext/wp-login.php:602
+msgid "Update"
+msgstr "Güncelle"
+
+#: app/moduls/main/magic-box-view.php:49
+msgid "UPDATE"
+msgstr "GÜNCELLE"
+
+#: app/moduls/main/magic-box-view.php:69
+msgid "UPDATE NOW"
+msgstr "ŞİMDİ GÜNCELLE"
+
+#: app/moduls/main/magic-box-view.php:79
+msgid "LICENCE"
+msgstr "LİSANS"
+
+#: app/moduls/main/magic-box-view.php:88
+msgid "LICENCE ACTIVE!"
+msgstr "LİSANS AKTİF!"
+
+#: app/moduls/main/magic-box-view.php:88
+msgid "LICENCE DEACTIVE!"
+msgstr "LİSANS AKTİF DEĞİL!"
+
+#: app/moduls/main/magic-box-view.php:92
+msgid "Expires"
+msgstr ""
+
+#: app/moduls/main/magic-box-view.php:96
+msgid "MANAGE LICENCE"
+msgstr "LİSANS KONTROLÜ"
+
+#: app/moduls/main/magic-box-view.php:104
+msgid "HELP CENTER"
+msgstr "YARDIM MERKEZİ"
+
+#: app/moduls/main/magic-box-view.php:109
+msgid "Tutorials"
+msgstr "İçerikler"
+
+#: app/moduls/main/magic-box-view.php:113
+msgid "Ask for New Feature"
+msgstr "Yeni Özellik İste"
+
+#: app/moduls/main/magic-box-view.php:117
+msgid "Bug Report"
+msgstr "Hata Raporla"
+
+#: app/moduls/main/magic-box-view.php:121
+msgid "Contact Support"
+msgstr ""
+
+#: app/moduls/main/magic-box-view.php:178
+#: app/moduls/main/magic-box-view.php:204
+#: app/moduls/main/magic-box-view.php:228 app/moduls/masterPage.php:203
+#: app/moduls/mb-bulk_image_resize/view/index.php:122
+#: app/moduls/mb-code_insert_manager/view/index.php:290
+#: app/moduls/mb-custom_redirects/view/index.php:166
+#: app/moduls/mb-custom_redirects/view/index.php:331
+#: app/moduls/mb-custom_redirects/view/index.php:357
+#: app/moduls/mb-custom_redirects/view/index.php:377
+#: app/moduls/mb-error_redirects/view/index.php:225
+#: app/moduls/mb-error_redirects/view/index.php:245
+#: app/moduls/mb-login_logs/view/index.php:90
+#: app/moduls/mb-sitemap/view/index.php:257
+#: app/moduls/mb-url_replacement/view/index.php:84
+msgid "Successfully"
+msgstr ""
+
+#: app/moduls/main/magic-box-view.php:178
+msgid "It's Done, please wait"
+msgstr ""
+
+#: app/moduls/main/magic-box-view.php:204 app/moduls/masterPage.php:203
+#: app/moduls/mb-bulk_image_resize/view/index.php:122
+#: app/moduls/mb-error_redirects/view/index.php:225
+#: app/moduls/mb-error_redirects/view/index.php:245
+#: app/moduls/mb-login_logs/view/index.php:90
+#: app/moduls/mb-smtp/view/index.php:184
+msgid "It's Done"
+msgstr ""
+
+#: app/moduls/main/magic-box-view.php:228
+msgid "It's Done, plugin updated"
+msgstr ""
+
+#: app/moduls/main/mb-admin_panel-view.php:5
+#: app/moduls/main/mb-code_manager-view.php:5
+#: app/moduls/main/mb-contact-view.php:5 app/moduls/main/mb-design-view.php:5
+#: app/moduls/main/mb-information-view.php:5
+#: app/moduls/main/mb-marketing-view.php:5
+#: app/moduls/main/mb-security-view.php:5 app/moduls/main/mb-seo-view.php:5
+#: app/moduls/main/mb-settings-view.php:5 app/moduls/main/mb-speed-view.php:5
+#: app/moduls/mb-maintenance_mode/view/index.php:4
+msgid "Maintenance Mode"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#. Author of the plugin/theme
+#: app/moduls/masterPage.php:27
+msgid "Magic Box"
+msgstr ""
+
+#: app/moduls/masterPage.php:109
+msgid "Home"
+msgstr ""
+
+#: app/moduls/masterPage.php:131
+msgid ""
+"You can't manage magixbox without licence key. Please update your licence "
+"key or buy new one"
+msgstr ""
+
+#: app/moduls/masterPage.php:132
+msgid "For buy new licence key"
+msgstr ""
+
+#: app/moduls/masterPage.php:132
+msgid "Buy Licence"
+msgstr ""
+
+#: app/moduls/masterPage.php:149
+msgid "Your licence key will expire soon. You have to upgrade your licence."
+msgstr ""
+
+#: app/moduls/masterPage.php:151
+msgid "Your licence key expired. You have to buy or upgrade your licence."
+msgstr ""
+
+#: app/moduls/masterPage.php:153
+msgid "For licence key process"
+msgstr ""
+
+#: app/moduls/masterPage.php:153
+msgid "Upgrade Licence"
+msgstr ""
+
+#: app/moduls/masterPage.php:205 app/moduls/mb-bulk_mail/view/campaigns.php:33
+#: app/moduls/mb-bulk_mail/view/sendMail.php:132
+#: app/moduls/mb-login_logs/view/index.php:92 model/magicboxStaff.php:669
+msgid "Error"
+msgstr ""
+
+#: app/moduls/mb-admin_menu_manager/view/index.php:36
+msgid "Warning!"
+msgstr ""
+
+#: app/moduls/mb-admin_menu_manager/view/index.php:36
+msgid "This user role can't view/edit this section"
+msgstr ""
+
+#: app/moduls/mb-admin_menu_manager/view/index.php:47
+msgid "Main"
+msgstr ""
+
+#: app/moduls/mb-admin_menu_manager/view/index.php:53
+msgid "Sub"
+msgstr ""
+
+#: app/moduls/mb-admin_menu_manager/view/index.php:115
+msgid "Admin Menu Manager"
+msgstr ""
+
+#: app/moduls/mb-admin_menu_manager/view/index.php:123
+#: app/moduls/mb-admin_menu_manager/view/index.php:124
+#: app/moduls/mb-admin_menu_manager/view/index.php:162
+#: app/moduls/mb-admin_menu_manager/view/index.php:170
+msgid "You can sort the admin menu as you wish"
+msgstr ""
+
+#: app/moduls/mb-admin_menu_manager/view/index.php:125
+msgid "You can change the menu names"
+msgstr ""
+
+#: app/moduls/mb-admin_menu_manager/view/index.php:126
+msgid "You can hide the menu links you want to the administrators"
+msgstr ""
+
+#: app/moduls/mb-admin_menu_manager/view/index.php:127
+msgid "You can change the icons of the links"
+msgstr ""
+
+#: app/moduls/mb-admin_menu_manager/view/index.php:144
+#: app/moduls/mb-affiliate_marketing/index.php:394
+#: app/moduls/mb-affiliate_marketing/view/index.php:29
+#: app/moduls/mb-affiliate_marketing/view/userPayments.php:69
+#: app/moduls/mb-captcha/view/index.php:28
+#: app/moduls/mb-clone_manager/view/index.php:28
+#: app/moduls/mb-code_insert_manager/view/index.php:52
+#: app/moduls/mb-comment_manager/view/index.php:37
+#: app/moduls/mb-contact_buttons/view/index.php:54
+#: app/moduls/mb-cookie_policy/view/index.php:43
+#: app/moduls/mb-custom_css/view/index.php:30
+#: app/moduls/mb-custom_dashboard/view/index.php:31
+#: app/moduls/mb-custom_login/view/index.php:29
+#: app/moduls/mb-custom_redirects/view/index.php:60
+#: app/moduls/mb-database_repair/view/index.php:22
+#: app/moduls/mb-disqus_comment/view/index.php:42
+#: app/moduls/mb-error_page_manager/view/index.php:29
+#: app/moduls/mb-error_redirects/view/index.php:42
+#: app/moduls/mb-fancybox/view/index.php:38
+#: app/moduls/mb-form_builder/view/contacts.php:17
+#: app/moduls/mb-form_builder/view/view.php:28
+#: app/moduls/mb-google_authenticator/view/index.php:20
+#: app/moduls/mb-gutenberg_editor/view/index.php:29
+#: app/moduls/mb-image_upload_optimiser/view/index.php:29
+#: app/moduls/mb-keyword_suggestion/view/index.php:28
+#: app/moduls/mb-lazyload/view/index.php:29
+#: app/moduls/mb-live_search/view/index.php:29
+#: app/moduls/mb-login_logs/view/index.php:30
+#: app/moduls/mb-login_logs/view/index.php:58
+#: app/moduls/mb-login_url/view/index.php:46
+#: app/moduls/mb-maintenance_mode/view/index.php:28
+#: app/moduls/mb-popup/view/index.php:29
+#: app/moduls/mb-post_authentication/view/index.php:20
+#: app/moduls/mb-preloader/view/index.php:29
+#: app/moduls/mb-seo_image/view/index.php:37
+#: app/moduls/mb-site_redirects/view/index.php:36
+#: app/moduls/mb-sitemap/view/index.php:33
+#: app/moduls/mb-sitemap/view/index.php:119
+#: app/moduls/mb-sitemap/view/index.php:167
+#: app/moduls/mb-sitemap/view/index.php:215
+#: app/moduls/mb-smtp/view/index.php:30
+#: app/moduls/mb-user_permissions/view/index.php:31
+#: app/moduls/mb-user_switch/view/index.php:46
+#: app/moduls/mb-visit_limitation/view/index.php:29
+#: app/moduls/mb-white_label/view/index.php:29
+msgid "Status"
+msgstr ""
+
+#: app/moduls/mb-admin_menu_manager/view/index.php:154
+msgid "Menü Nesnelerini Düzenleyin"
+msgstr ""
+
+#: app/moduls/mb-admin_menu_manager/view/index.php:200
+#: app/moduls/mb-admin_menu_manager/view/index.php:265
+msgid "Separator"
+msgstr ""
+
+#: app/moduls/mb-admin_menu_manager/view/index.php:320
+msgid "Menu Title"
+msgstr ""
+
+#: app/moduls/mb-admin_menu_manager/view/index.php:326
+#: app/moduls/mb-contact_buttons/view/index.php:560
+#: app/moduls/mb-form_builder/view/index.php:150
+#: app/moduls/mb-form_builder/view/index.php:159
+#: app/moduls/mb-lazyload/view/index.php:38
+msgid "Choose"
+msgstr ""
+
+#: app/moduls/mb-admin_menu_manager/view/index.php:332
+msgid "Target Page"
+msgstr ""
+
+#: app/moduls/mb-admin_menu_manager/view/index.php:340
+#: app/moduls/mb-admin_menu_manager/view/index.php:341
+msgid "Update Menu Order"
+msgstr ""
+
+#: app/moduls/mb-admin_menu_manager/view/index.php:343
+#: app/moduls/mb-user_permissions/view/index.php:428
+msgid "Are you sure?"
+msgstr ""
+
+#: app/moduls/mb-admin_menu_manager/view/index.php:343
+#: app/moduls/mb-admin_menu_manager/view/index.php:345
+#: app/moduls/mb-admin_menu_manager/view/index.php:346
+msgid "Reset Menu Order"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/index.php:213
+msgid "Affilate"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/index.php:221
+msgid "Reference Code"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/index.php:226
+#: app/moduls/mb-affiliate_marketing/view/addCode.php:48
+#: app/moduls/mb-affiliate_marketing/view/addCode.php:49
+#: app/moduls/mb-affiliate_marketing/view/index.php:56
+#: app/moduls/mb-affiliate_marketing/view/index.php:57
+msgid "Commision"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/index.php:236
+msgid "Name Surname"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/index.php:244
+#: app/moduls/mb-affiliate_marketing/view/addCode.php:64
+#: app/moduls/mb-affiliate_marketing/view/codes.php:50
+#: app/moduls/mb-affiliate_marketing/view/userPayments.php:31
+#: app/moduls/mb-contact_buttons/view/index.php:10
+#: app/moduls/mb-form_builder/view/index.php:80
+msgid "Phone"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/index.php:252
+#: app/moduls/mb-affiliate_marketing/view/codes.php:48
+#: app/moduls/mb-affiliate_marketing/view/userPayments.php:32
+msgid "Identity"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/index.php:260
+msgid "Bank Account Info (IBAN)"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/index.php:269
+msgid "Contract"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/index.php:280
+msgid "I read contract and i accept"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/index.php:286 system/ext/wp-login.php:776
+#: system/ext/wp-login.php:912 system/ext/wp-login.php:1005
+#: system/ext/wp-login.php:1361
+msgid "Register"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/index.php:353
+msgid "Statics"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/index.php:361
+msgid "Total Member"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/index.php:362
+msgid "Total Single Visitor"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/index.php:363
+msgid "Total Order"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/index.php:364
+msgid "Total Earn"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/index.php:382
+msgid "References"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/index.php:389
+#: app/moduls/mb-affiliate_marketing/view/payments.php:44
+#: app/moduls/mb-backup_manager/view/index.php:78
+#: app/moduls/mb-form_builder/view/contacts.php:15
+#: app/moduls/mb-form_builder/view/view.php:35
+#: app/moduls/mb-login_logs/view/index.php:55
+msgid "Date"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/index.php:390
+#: app/moduls/mb-affiliate_marketing/view/codes.php:47
+#: app/moduls/mb-affiliate_marketing/view/userPayments.php:30
+msgid "Customer Name"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/index.php:391
+msgid "Product"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/index.php:392
+msgid "Price"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/index.php:393
+#: app/moduls/mb-affiliate_marketing/view/codes.php:51
+msgid "Commission"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/index.php:402
+msgid "Paid"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/index.php:402
+msgid "Unpaid"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/index.php:630
+#: app/moduls/mb-custom_redirects/index.php:169
+#: app/moduls/mb-error_redirects/index.php:158
+#: app/moduls/mb-live_search/index.php:64
+msgid "No Results"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/index.php:668
+msgid "<b>Error</b>: Please fill every input"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/index.php:669
+#: app/moduls/mb-affiliate_marketing/index.php:686
+msgid "Form Submission Failure"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/index.php:685
+msgid "<b>Error</b>: User missing"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/view/addCode.php:5
+#: app/moduls/mb-affiliate_marketing/view/index.php:4
+#: app/moduls/mb-affiliate_marketing/view/index.php:38
+msgid "Affiliate Manager"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/view/addCode.php:13
+msgid ""
+"You can make register any member you want to the Affiliate Marketing system"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/view/addCode.php:23
+msgid "Search And Select User"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/view/addCode.php:49
+#: app/moduls/mb-error_logs/view/index.php:12
+msgid "You can set the commission specific to this member only"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/view/addCode.php:57
+msgid "Full name for payment"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/view/addCode.php:71
+msgid "Identity Number / Tax Number"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/view/addCode.php:78
+#: app/moduls/mb-affiliate_marketing/view/codes.php:52
+#: app/moduls/mb-affiliate_marketing/view/userPayments.php:36
+msgid "Bank Account"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/view/addCode.php:85
+#: app/moduls/mb-contact_buttons/view/index.php:123
+#: app/moduls/mb-custom_redirects/view/index.php:249
+#: app/moduls/mb-form_builder/view/index.php:204
+msgid "Add"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/view/codes.php:9
+msgid "Affiliate Codes"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/view/codes.php:17
+msgid "You can see Affiliate Marketing system members on this page"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/view/codes.php:30
+#: app/moduls/mb-affiliate_marketing/view/payments.php:26
+msgid "Keyword"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/view/codes.php:35
+#: app/moduls/mb-affiliate_marketing/view/payments.php:31
+#: app/moduls/mb-contact_buttons/view/index.php:529
+msgid "Filter"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/view/codes.php:37
+#: app/moduls/mb-affiliate_marketing/view/payments.php:33
+msgid "Clear"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/view/codes.php:49
+#: app/moduls/mb-affiliate_marketing/view/payments.php:46
+msgid "Code"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/view/codes.php:53
+#: app/moduls/mb-affiliate_marketing/view/payments.php:47
+#: app/moduls/mb-affiliate_marketing/view/userPayments.php:67
+msgid "Earn"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/view/codes.php:54
+#: app/moduls/mb-affiliate_marketing/view/codes.php:68
+msgid "Orders"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/view/codes.php:66
+#: app/moduls/mb-bulk_mail/view/campaigns.php:68
+#: app/moduls/mb-contact_buttons/view/index.php:14
+msgid "Show"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/view/codes.php:87
+#: app/moduls/mb-affiliate_marketing/view/payments.php:79
+#: app/moduls/mb-affiliate_marketing/view/userPayments.php:111
+#: app/moduls/mb-bulk_mail/view/campaigns.php:83
+#: app/moduls/mb-custom_redirects/view/index.php:265
+#: app/moduls/mb-duplicate_manager/view/index.php:65
+#: app/moduls/mb-error_redirects/view/index.php:140
+#: app/moduls/mb-form_builder/view/contacts.php:54
+#: app/moduls/mb-form_builder/view/formList.php:48
+#: app/moduls/mb-login_logs/view/index.php:106
+msgid "Pagination"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/view/codes.php:90
+#: app/moduls/mb-affiliate_marketing/view/payments.php:82
+#: app/moduls/mb-affiliate_marketing/view/userPayments.php:114
+#: app/moduls/mb-bulk_mail/view/campaigns.php:86
+#: app/moduls/mb-custom_redirects/view/index.php:268
+#: app/moduls/mb-duplicate_manager/view/index.php:68
+#: app/moduls/mb-error_redirects/view/index.php:143
+#: app/moduls/mb-form_builder/view/contacts.php:57
+#: app/moduls/mb-form_builder/view/formList.php:51
+#: app/moduls/mb-login_logs/view/index.php:109
+msgid "Previous"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/view/codes.php:93
+#: app/moduls/mb-affiliate_marketing/view/payments.php:85
+#: app/moduls/mb-affiliate_marketing/view/userPayments.php:118
+#: app/moduls/mb-bulk_mail/view/campaigns.php:89
+#: app/moduls/mb-custom_redirects/view/index.php:271
+#: app/moduls/mb-duplicate_manager/view/index.php:71
+#: app/moduls/mb-error_redirects/view/index.php:146
+#: app/moduls/mb-form_builder/view/contacts.php:60
+#: app/moduls/mb-form_builder/view/formList.php:54
+#: app/moduls/mb-login_logs/view/index.php:112
+msgid "Next"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/view/index.php:12
+msgid ""
+"Make More Sales! Affiliate Marketing is one of the easiest and most cost "
+"effective ways to advertise your products."
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/view/index.php:46
+msgid ""
+"Step 1 : Add new page and put this shortcode for affiliate register form "
+"[mbAffiliateForm]"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/view/index.php:47
+msgid ""
+"Step 2 : Add new page and put this shortcode for user affiliate references "
+"[mbAffiliateReference]"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/view/index.php:57
+msgid ""
+"Enter the commission that all members will earn from each sale. You can also "
+"define a different commission rate for each member"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/view/index.php:63
+#: app/moduls/mb-affiliate_marketing/view/index.php:64
+msgid "Cookie Day"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/view/index.php:64
+msgid ""
+"The shopping of the visitor who clicks on the reference link within the "
+"period you specify is calculated"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/view/index.php:70
+#: app/moduls/mb-affiliate_marketing/view/index.php:71
+msgid "Currency"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/view/index.php:71
+msgid "Currency for payment"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/view/index.php:79
+#: app/moduls/mb-affiliate_marketing/view/index.php:80
+msgid "Affiliate Contract"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/view/index.php:79
+msgid ""
+"The contract that your member who wants to activate the Affiliate Market "
+"system must accept"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/view/index.php:88
+#: app/moduls/mb-affiliate_marketing/view/index.php:89
+msgid "Affiliate Description"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/view/index.php:88
+msgid "Your promotional information on the Affiliate Register page"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/view/payments.php:6
+msgid "Affiliate Payments"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/view/payments.php:14
+msgid ""
+"You can follow the sales earned by your members and the commissions you will "
+"pay on this page"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/view/payments.php:43
+msgid "User"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/view/payments.php:45
+msgid "Sales Count"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/view/payments.php:55
+msgid "User Profile"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/view/payments.php:60
+msgid "Go Pay"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/view/payments.php:61
+msgid "Go Paid"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/view/userPayments.php:6
+msgid "Get Unpaid Orders"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/view/userPayments.php:9
+msgid "Get Paid Orders"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/view/userPayments.php:22
+msgid "Code Info"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/view/userPayments.php:33
+#: app/moduls/mb-affiliate_marketing/view/userPayments.php:66
+msgid "Rate"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/view/userPayments.php:34
+msgid "Unpaid Total"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/view/userPayments.php:35
+msgid "Paid Total"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/view/userPayments.php:57
+msgid "User Payments"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/view/userPayments.php:64
+msgid "Product Name"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/view/userPayments.php:65
+msgid "Product Price"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/view/userPayments.php:68
+msgid "Registered User"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/view/userPayments.php:95
+msgid "Set Paid"
+msgstr ""
+
+#: app/moduls/mb-affiliate_marketing/view/userPayments.php:96
+msgid "Set Unpaid"
+msgstr ""
+
+#: app/moduls/mb-backup_manager/index.php:334
+msgid "There was an error writing a line to the backup script:"
+msgstr ""
+
+#: app/moduls/mb-backup_manager/index.php:362
+msgid "Error getting table details"
+msgstr ""
+
+#: app/moduls/mb-backup_manager/index.php:369
+#, php-format
+msgid "Delete any existing table %s"
+msgstr ""
+
+#: app/moduls/mb-backup_manager/index.php:376
+#, php-format
+msgid "Table structure of table %s"
+msgstr ""
+
+#: app/moduls/mb-backup_manager/index.php:382
+#, php-format
+msgid "Error with SHOW CREATE TABLE for %s."
+msgstr ""
+
+#: app/moduls/mb-backup_manager/index.php:389
+#, php-format
+msgid "Error getting table structure of %s"
+msgstr ""
+
+#: app/moduls/mb-backup_manager/index.php:396
+#, php-format
+msgid "Data contents of table %s"
+msgstr ""
+
+#: app/moduls/mb-backup_manager/index.php:452
+#, php-format
+msgid "End of data contents of table %s"
+msgstr ""
+
+#: app/moduls/mb-backup_manager/index.php:468
+msgid "Could not open the backup file for writing!"
+msgstr ""
+
+#: app/moduls/mb-backup_manager/index.php:472
+msgid "The backup directory is not writeable!"
+msgstr ""
+
+#: app/moduls/mb-backup_manager/index.php:482
+msgid "WordPress MySQL database backup"
+msgstr ""
+
+#: app/moduls/mb-backup_manager/index.php:484
+#, php-format
+msgid "Generated: %s"
+msgstr ""
+
+#: app/moduls/mb-backup_manager/index.php:485
+#, php-format
+msgid "Hostname: %s"
+msgstr ""
+
+#: app/moduls/mb-backup_manager/index.php:486
+#, php-format
+msgid "Database: %s"
+msgstr ""
+
+#: app/moduls/mb-backup_manager/index.php:491
+#, php-format
+msgid "Table: %s"
+msgstr ""
+
+#: app/moduls/mb-backup_manager/view/index.php:6
+msgid "Backup Manager"
+msgstr ""
+
+#: app/moduls/mb-backup_manager/view/index.php:14
+msgid ""
+"You can take a backup of your website with one click. You can back up your "
+"entire website, plugins, themes, uploads folder or database if you want"
+msgstr ""
+
+#: app/moduls/mb-backup_manager/view/index.php:26
+msgid "Full Backup"
+msgstr ""
+
+#: app/moduls/mb-backup_manager/view/index.php:44
+msgid "You can close this page. Backup progress will be continue"
+msgstr ""
+
+#: app/moduls/mb-backup_manager/view/index.php:57
+#: app/moduls/mb-backup_manager/view/index.php:250
+msgid "In Progress"
+msgstr ""
+
+#: app/moduls/mb-backup_manager/view/index.php:60
+msgid "Backup Now"
+msgstr ""
+
+#: app/moduls/mb-backup_manager/view/index.php:70
+msgid "Backup List"
+msgstr ""
+
+#: app/moduls/mb-backup_manager/view/index.php:79
+#: app/moduls/mb-form_builder/view/index.php:160
+msgid "Full"
+msgstr ""
+
+#: app/moduls/mb-backup_manager/view/index.php:80
+msgid "Database"
+msgstr ""
+
+#: app/moduls/mb-backup_manager/view/index.php:81
+msgid "Plugins"
+msgstr ""
+
+#: app/moduls/mb-backup_manager/view/index.php:82
+msgid "Themes"
+msgstr ""
+
+#: app/moduls/mb-backup_manager/view/index.php:83
+msgid "Uploads"
+msgstr ""
+
+#: app/moduls/mb-backup_manager/view/index.php:213
+#: app/moduls/mb-bulk_mail/view/campaigns.php:117
+#: app/moduls/mb-bulk_mail/view/campaigns.php:137
+#: app/moduls/mb-google_authenticator/index.php:357
+#: app/moduls/mb-smtp/view/index.php:186
+msgid "Error."
+msgstr ""
+
+#: app/moduls/mb-bulk_image_resize/view/index.php:6
+msgid "Bulk Image Resize"
+msgstr ""
+
+#: app/moduls/mb-bulk_image_resize/view/index.php:14
+msgid ""
+"This feature resizes images (JPEG, GIF, and PNG) and reduce server space "
+"usage, speed up your website, save you time"
+msgstr ""
+
+#: app/moduls/mb-bulk_image_resize/view/index.php:23
+msgid ""
+"Don't close to page when you start the process. When you close the page this "
+"process will end but you can continue after where you stay"
+msgstr ""
+
+#: app/moduls/mb-bulk_image_resize/view/index.php:42
+msgid "Resize Images"
+msgstr ""
+
+#: app/moduls/mb-bulk_image_resize/view/index.php:51
+msgid "Maximum Width"
+msgstr ""
+
+#: app/moduls/mb-bulk_image_resize/view/index.php:58
+msgid "Maximum Height"
+msgstr ""
+
+#: app/moduls/mb-bulk_image_resize/view/index.php:69
+msgid "Crop"
+msgstr ""
+
+#: app/moduls/mb-bulk_image_resize/view/index.php:76
+#: app/moduls/mb-image_upload_optimiser/view/index.php:56
+msgid "Quality"
+msgstr ""
+
+#: app/moduls/mb-bulk_image_resize/view/index.php:90
+msgid "Start Resize"
+msgstr ""
+
+#: app/moduls/mb-bulk_mail/index.php:129
+msgid "You send stop this campaign, it's already done"
+msgstr ""
+
+#: app/moduls/mb-bulk_mail/index.php:164
+msgid "It's mail campaign already done"
+msgstr ""
+
+#: app/moduls/mb-bulk_mail/index.php:193
+msgid "Please fill all inputs"
+msgstr ""
+
+#: app/moduls/mb-bulk_mail/view/campaigns.php:3
+#: app/moduls/mb-bulk_mail/view/sendMail.php:2
+msgid "Users"
+msgstr ""
+
+#: app/moduls/mb-bulk_mail/view/campaigns.php:4
+#: app/moduls/mb-bulk_mail/view/sendMail.php:2
+msgid "Manuel"
+msgstr ""
+
+#: app/moduls/mb-bulk_mail/view/campaigns.php:11
+msgid "Campaigns"
+msgstr ""
+
+#: app/moduls/mb-bulk_mail/view/campaigns.php:19
+msgid "You can review the mail campaigns you have sent from the list"
+msgstr ""
+
+#: app/moduls/mb-bulk_mail/view/campaigns.php:27
+#: app/moduls/mb-cookie_policy/view/index.php:71
+#: app/moduls/mb-custom_dashboard/view/index.php:182
+#: app/moduls/mb-custom_dashboard/view/index.php:277
+#: app/moduls/mb-form_builder/view/contacts.php:13
+#: app/moduls/mb-form_builder/view/formList.php:17
+#: app/moduls/mb-form_builder/view/index.php:16
+msgid "Title"
+msgstr ""
+
+#: app/moduls/mb-bulk_mail/view/campaigns.php:28
+msgid "Type"
+msgstr ""
+
+#: app/moduls/mb-bulk_mail/view/campaigns.php:29
+msgid "Total"
+msgstr ""
+
+#: app/moduls/mb-bulk_mail/view/campaigns.php:30
+msgid "Start Date"
+msgstr ""
+
+#: app/moduls/mb-bulk_mail/view/campaigns.php:31
+msgid "Last Process"
+msgstr ""
+
+#: app/moduls/mb-bulk_mail/view/campaigns.php:32
+msgid "End Date"
+msgstr ""
+
+#: app/moduls/mb-bulk_mail/view/campaigns.php:54
+msgid "Force Send"
+msgstr ""
+
+#: app/moduls/mb-bulk_mail/view/campaigns.php:58
+msgid "Stop"
+msgstr ""
+
+#: app/moduls/mb-bulk_mail/view/campaigns.php:62
+msgid "Resume"
+msgstr ""
+
+#: app/moduls/mb-bulk_mail/view/campaigns.php:65
+#: app/moduls/mb-cache_manager/index.php:135
+#: app/moduls/mb-cache_manager/view/index.php:196
+#: app/moduls/mb-custom_redirects/index.php:87
+#: app/moduls/mb-custom_redirects/index.php:106
+#: app/moduls/mb-error_redirects/index.php:87
+msgid "Done"
+msgstr ""
+
+#: app/moduls/mb-bulk_mail/view/campaigns.php:115
+#: app/moduls/mb-bulk_mail/view/campaigns.php:134
+#: app/moduls/mb-cache_manager/view/index.php:197
+#: app/moduls/mb-duplicate_manager/view/index.php:91
+#: app/moduls/mb-duplicate_manager/view/index.php:104
+#: app/moduls/mb-smtp/view/index.php:184
+msgid "Successfully!"
+msgstr ""
+
+#: app/moduls/mb-bulk_mail/view/campaigns.php:115
+msgid "Started again mail sending"
+msgstr ""
+
+#: app/moduls/mb-bulk_mail/view/campaigns.php:134
+msgid "Campaign stoped"
+msgstr ""
+
+#: app/moduls/mb-bulk_mail/view/index.php:4
+#: app/moduls/mb-bulk_mail/view/sendMail.php:8
+msgid "Bulk Mail"
+msgstr ""
+
+#: app/moduls/mb-bulk_mail/view/index.php:12
+msgid ""
+"You can send mass e-mails to the members on your website or to the e-mail "
+"addresses you want"
+msgstr ""
+
+#: app/moduls/mb-bulk_mail/view/index.php:13
+msgid "You must be a member of the https://sendgrid.com website"
+msgstr ""
+
+#: app/moduls/mb-bulk_mail/view/index.php:14
+msgid "Enter SendGrid API Key"
+msgstr ""
+
+#: app/moduls/mb-bulk_mail/view/index.php:26
+msgid "API Key"
+msgstr ""
+
+#: app/moduls/mb-bulk_mail/view/index.php:33
+msgid "Sender E-Mail"
+msgstr ""
+
+#: app/moduls/mb-bulk_mail/view/index.php:40
+#: app/moduls/mb-smtp/view/index.php:98
+msgid "Sender Name"
+msgstr ""
+
+#: app/moduls/mb-bulk_mail/view/sendMail.php:17
+msgid "You can make your mail design with the following editor"
+msgstr ""
+
+#: app/moduls/mb-bulk_mail/view/sendMail.php:34
+#: app/moduls/mb-contact_buttons/view/index.php:368
+msgid "Target"
+msgstr ""
+
+#: app/moduls/mb-bulk_mail/view/sendMail.php:53
+msgid "Mails"
+msgstr ""
+
+#: app/moduls/mb-bulk_mail/view/sendMail.php:53
+#: app/moduls/mb-contact_buttons/view/index.php:110
+#: app/moduls/mb-contact_buttons/view/index.php:582
+#: app/moduls/mb-php_information/view/index.php:53
+#: app/moduls/mb-php_information/view/index.php:99
+#: app/moduls/mb-php_information/view/index.php:141
+#: app/moduls/mb-php_information/view/index.php:191
+#: app/moduls/mb-php_information/view/index.php:240
+msgid "Name"
+msgstr ""
+
+#: app/moduls/mb-bulk_mail/view/sendMail.php:53
+#: app/moduls/mb-login_logs/view/index.php:56 system/ext/wp-login.php:982
+msgid "Username"
+msgstr ""
+
+#: app/moduls/mb-bulk_mail/view/sendMail.php:53
+msgid "Name Lastname"
+msgstr ""
+
+#: app/moduls/mb-bulk_mail/view/sendMail.php:59
+msgid "Subject"
+msgstr ""
+
+#: app/moduls/mb-bulk_mail/view/sendMail.php:71
+msgid "You can use some special tags"
+msgstr ""
+
+#: app/moduls/mb-bulk_mail/view/sendMail.php:72
+msgid ""
+"For example : <b>-name-</b> tag for User Name, <b>-mail-</b> tag for User "
+"Mail, <b>-username-</b> for Username"
+msgstr ""
+
+#: app/moduls/mb-bulk_mail/view/sendMail.php:83
+msgid "It's only displaying, you can't edit campign"
+msgstr ""
+
+#: app/moduls/mb-bulk_mail/view/sendMail.php:92
+msgid "Send Now"
+msgstr ""
+
+#: app/moduls/mb-bulk_mail/view/sendMail.php:120
+#: app/moduls/mb-cache_manager/view/index.php:190
+msgid "Wait"
+msgstr ""
+
+#: app/moduls/mb-bulk_mail/view/sendMail.php:129
+msgid "Started mail sending"
+msgstr ""
+
+#: app/moduls/mb-cache_manager/view/index.php:6
+msgid "Cache"
+msgstr ""
+
+#: app/moduls/mb-cache_manager/view/index.php:14
+#: app/moduls/mb-cache_manager/view/index.php:15
+#: app/moduls/mb-cache_manager/view/index.php:66
+#: app/moduls/mb-cache_manager/view/index.php:154
+#: app/moduls/mb-cache_manager/view/index.php:162
+#: app/moduls/mb-cache_manager/view/index.php:170
+#: app/moduls/mb-form_builder/view/index.php:112
+#: app/moduls/mb-visit_limitation/view/index.php:93
+msgid "Note"
+msgstr ""
+
+#: app/moduls/mb-cache_manager/view/index.php:14
+msgid "If you change caching method all cached files will delete"
+msgstr ""
+
+#: app/moduls/mb-cache_manager/view/index.php:15
+msgid ""
+"The cache system not work if there is have ajax request, specific php file "
+"request or user post request also if there is have logged user or admin"
+msgstr ""
+
+#: app/moduls/mb-cache_manager/view/index.php:24
+#: app/moduls/mb-form_builder/view/formList.php:29
+msgid "None"
+msgstr ""
+
+#: app/moduls/mb-cache_manager/view/index.php:46
+msgid "Cache Lifetime"
+msgstr ""
+
+#: app/moduls/mb-cache_manager/view/index.php:46
+msgid "Hours"
+msgstr ""
+
+#: app/moduls/mb-cache_manager/view/index.php:59
+msgid "Re-Cache Behavior"
+msgstr ""
+
+#: app/moduls/mb-cache_manager/view/index.php:66
+msgid ""
+"If you add new post or edit someone, it will be re-cache self page. No need "
+"to settings for that."
+msgstr ""
+
+#: app/moduls/mb-cache_manager/view/index.php:74
+msgid "Re-cache homepage if add new post"
+msgstr ""
+
+#: app/moduls/mb-cache_manager/view/index.php:81
+msgid "Re-cache homepage if edit post"
+msgstr ""
+
+#: app/moduls/mb-cache_manager/view/index.php:88
+msgid "Re-cache homepage if delete post"
+msgstr ""
+
+#: app/moduls/mb-cache_manager/view/index.php:95
+msgid ""
+"Re-cache homepage if there is comment situation ( if tagged active, passive "
+"or spammed )"
+msgstr ""
+
+#: app/moduls/mb-cache_manager/view/index.php:102
+msgid ""
+"Re-cache homepage if there is plugin situation ( if tagged active, passive "
+"or delete )"
+msgstr ""
+
+#: app/moduls/mb-cache_manager/view/index.php:109
+msgid "Disable cache when user logged"
+msgstr ""
+
+#: app/moduls/mb-cache_manager/view/index.php:117
+msgid "Separate mobil and desktop user cache"
+msgstr ""
+
+#: app/moduls/mb-cache_manager/view/index.php:125
+msgid "Minify HTML"
+msgstr ""
+
+#: app/moduls/mb-cache_manager/view/index.php:133
+msgid "Pre-compress cache pages with Gzip"
+msgstr ""
+
+#: app/moduls/mb-cache_manager/view/index.php:144
+msgid "Cache Exclusions"
+msgstr ""
+
+#: app/moduls/mb-cache_manager/view/index.php:153
+#: app/moduls/mb-cache_manager/view/index.php:154
+msgid "Query String"
+msgstr ""
+
+#: app/moduls/mb-cache_manager/view/index.php:154
+#: app/moduls/mb-cache_manager/view/index.php:162
+#: app/moduls/mb-cache_manager/view/index.php:170
+msgid "Write with (,)"
+msgstr ""
+
+#: app/moduls/mb-cache_manager/view/index.php:154
+#: app/moduls/mb-cache_manager/view/index.php:162
+#: app/moduls/mb-cache_manager/view/index.php:170
+msgid "Example"
+msgstr ""
+
+#: app/moduls/mb-cache_manager/view/index.php:154
+msgid "sale_id,user_id,post_id"
+msgstr ""
+
+#: app/moduls/mb-cache_manager/view/index.php:161
+#: app/moduls/mb-cache_manager/view/index.php:162
+msgid "Cookies"
+msgstr ""
+
+#: app/moduls/mb-cache_manager/view/index.php:162
+msgid "adv,user_id"
+msgstr ""
+
+#: app/moduls/mb-cache_manager/view/index.php:169
+#: app/moduls/mb-cache_manager/view/index.php:170
+msgid "Url Path"
+msgstr ""
+
+#: app/moduls/mb-cache_manager/view/index.php:170
+msgid "user-basket,payment"
+msgstr ""
+
+#: app/moduls/mb-cache_manager/view/index.php:180
+msgid "Clear Cache and Update"
+msgstr ""
+
+#: app/moduls/mb-captcha/index.php:105
+msgid "<b>Captcha Error</b>: Your answer was incorrect, please try again"
+msgstr ""
+
+#: app/moduls/mb-captcha/index.php:106
+msgid "Comment Submission Failure"
+msgstr ""
+
+#: app/moduls/mb-captcha/view/index.php:4
+msgid "Captcha Settings"
+msgstr ""
+
+#: app/moduls/mb-captcha/view/index.php:12
+msgid ""
+"Captcha plugin is an effective security solution that protects your "
+"WordPress website forms from spam entries while letting real people pass "
+"through with ease. Users are required to confirm that they are not a robot "
+"before the form can be submitted. It’s easy for people and hard for bots"
+msgstr ""
+
+#: app/moduls/mb-captcha/view/index.php:37
+msgid "Google Captcha Settings"
+msgstr ""
+
+#: app/moduls/mb-captcha/view/index.php:45
+msgid "Take Key"
+msgstr ""
+
+#: app/moduls/mb-captcha/view/index.php:46
+msgid "Info"
+msgstr ""
+
+#: app/moduls/mb-captcha/view/index.php:56
+msgid "Google Captcha Site Key"
+msgstr ""
+
+#: app/moduls/mb-captcha/view/index.php:63
+msgid "Google Captcha Secret Key"
+msgstr ""
+
+#: app/moduls/mb-captcha/view/index.php:72
+msgid "Choose Areas"
+msgstr ""
+
+#: app/moduls/mb-captcha/view/index.php:80
+msgid "Please select in which fields you want the Captcha to appear"
+msgstr ""
+
+#: app/moduls/mb-captcha/view/index.php:97
+msgid "Login Page"
+msgstr ""
+
+#: app/moduls/mb-captcha/view/index.php:111
+msgid "Register Page"
+msgstr ""
+
+#: app/moduls/mb-captcha/view/index.php:125 system/ext/wp-login.php:740
+msgid "Lost Password"
+msgstr ""
+
+#: app/moduls/mb-captcha/view/index.php:139
+msgid "Comment Page"
+msgstr ""
+
+#: app/moduls/mb-clone_manager/view/index.php:4
+#: app/moduls/mb-clone_manager/view/index.php:37
+msgid "Clone Manager"
+msgstr ""
+
+#: app/moduls/mb-clone_manager/view/index.php:12
+#: app/moduls/mb-clone_manager/view/index.php:44
+msgid ""
+"Duplicate Posts, Pages and Products easily using single click. You can "
+"duplicate your pages, posts and custom post by just one click and it will "
+"save as your selected options (draft, private, public, pending)"
+msgstr ""
+
+#: app/moduls/mb-clone_manager/view/index.php:52
+msgid ""
+"After activating the clone features, the clone feature will be active under "
+"the page, post and product lists"
+msgstr ""
+
+#: app/moduls/mb-clone_manager/view/index.php:53
+#: app/moduls/mb-htaccess_editor/view/index.php:21
+msgid "Please backup the file contents before making changes"
+msgstr ""
+
+#: app/moduls/mb-clone_manager/view/index.php:64
+msgid "Set as active"
+msgstr ""
+
+#: app/moduls/mb-code_insert_manager/view/index.php:25
+msgid "Code Inserter Manager"
+msgstr ""
+
+#: app/moduls/mb-code_insert_manager/view/index.php:33
+msgid ""
+"You can add code to the head, body and footer fields of the page, article "
+"and product pages on your site"
+msgstr ""
+
+#: app/moduls/mb-code_insert_manager/view/index.php:34
+#: app/moduls/mb-code_insert_manager/view/index.php:69
+#: app/moduls/mb-code_insert_manager/view/index.php:127
+msgid "Css, js and metą etc. you can add all codes"
+msgstr ""
+
+#: app/moduls/mb-code_insert_manager/view/index.php:35
+msgid ""
+"Google Analytics, Adsense etc. You can add verification codes from this "
+"section"
+msgstr ""
+
+#: app/moduls/mb-code_insert_manager/view/index.php:61
+msgid "Add New Code"
+msgstr ""
+
+#: app/moduls/mb-code_insert_manager/view/index.php:83
+msgid "Page"
+msgstr ""
+
+#: app/moduls/mb-code_insert_manager/view/index.php:94
+msgid "Device"
+msgstr ""
+
+#: app/moduls/mb-code_insert_manager/view/index.php:105
+#: app/moduls/mb-cookie_policy/view/index.php:110
+#: app/moduls/mb-disqus_comment/view/index.php:96
+#: app/moduls/mb-popup/view/index.php:136
+msgid "Position"
+msgstr ""
+
+#: app/moduls/mb-code_insert_manager/view/index.php:110
+#: app/moduls/mb-code_insert_manager/view/index.php:111
+#: app/moduls/mb-custom_redirects/view/index.php:152
+msgid "Add New"
+msgstr ""
+
+#: app/moduls/mb-code_insert_manager/view/index.php:119
+msgid "Eklenen Kodları Düzenele"
+msgstr ""
+
+#: app/moduls/mb-code_insert_manager/view/index.php:290
+msgid "You already added before"
+msgstr ""
+
+#: app/moduls/mb-comment_manager/view/index.php:12
+msgid "Comment Manager"
+msgstr ""
+
+#: app/moduls/mb-comment_manager/view/index.php:20
+msgid "You can hide comments on your website and prevent new comments"
+msgstr ""
+
+#: app/moduls/mb-comment_manager/view/index.php:46
+msgid "Comment Manager Setting"
+msgstr ""
+
+#: app/moduls/mb-comment_manager/view/index.php:53
+msgid "Hidden old comments"
+msgstr ""
+
+#: app/moduls/mb-comment_manager/view/index.php:72
+msgid "Disable new comment"
+msgstr ""
+
+#: app/moduls/mb-comment_manager/view/index.php:92
+#: app/moduls/mb-disqus_comment/view/index.php:102
+msgid "Comment Captcha"
+msgstr ""
+
+#: app/moduls/mb-comment_manager/view/index.php:93
+#: app/moduls/mb-comment_manager/view/index.php:99
+#: app/moduls/mb-disqus_comment/view/index.php:103
+#: app/moduls/mb-disqus_comment/view/index.php:110
+msgid "Go Settings"
+msgstr ""
+
+#: app/moduls/mb-comment_manager/view/index.php:98
+#: app/moduls/mb-disqus_comment/view/index.php:108
+msgid "Comment Limitation"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:2
+msgid "Open New Page"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:2
+msgid "Open Current Page"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:2
+msgid "Open Parent Page"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:6
+msgid "Block"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:6
+msgid "Inline Block"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:6
+#: app/moduls/mb-contact_buttons/view/index.php:12
+msgid "Inline"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:8
+msgid "Set 1"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:8
+msgid "Set 2"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:10
+msgid "Facebook"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:10
+msgid "Facebook Messenger"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:10
+msgid "Instagram"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:10
+msgid "Linkedin"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:10
+msgid "Pinterest"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:10
+msgid "Whatsapp"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:10
+msgid "Telegram"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:10
+msgid "Tumblr"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:10
+msgid "Youtube"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:10
+#: app/moduls/mb-form_builder/view/contacts.php:14
+#: app/moduls/mb-form_builder/view/formList.php:18
+msgid "Mail"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:10
+msgid "Other"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:12
+#: app/moduls/mb-popup/view/index.php:186
+msgid "Bottom"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:12
+#: app/moduls/mb-popup/view/index.php:172
+msgid "Top"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:14
+msgid "Fade"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:14
+msgid "Slide"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:16
+msgid "Zoom Icon"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:17
+msgid "Zoom Icon & Display Text"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:18
+msgid "Margin Right-Left"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:19
+msgid "Margin Top-Bottom"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:29
+msgid "Contact Button Settings"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:37
+#: app/moduls/mb-contact_buttons/view/index.php:74
+#: app/moduls/mb-contact_buttons/view/index.php:141
+#: app/moduls/mb-contact_buttons/view/index.php:282
+#: app/moduls/mb-contact_buttons/view/index.php:414
+#: app/moduls/mb-contact_buttons/view/index.php:483
+msgid ""
+"You can add the addresses of pages such as phone, Whatsapp, Skype, "
+"Instagram, Youtube to your Web Page"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:67
+msgid "Contact Buttons"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:95
+#: app/moduls/mb-contact_buttons/view/index.php:565
+msgid "Icon"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:104
+#: app/moduls/mb-contact_buttons/view/index.php:576
+msgid "Url"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:104
+#: app/moduls/mb-contact_buttons/view/index.php:576
+msgid "Required"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:110
+#: app/moduls/mb-contact_buttons/view/index.php:582
+msgid "Optional"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:133
+msgid "Contact Widget Settings"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:157
+msgid "Positions"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:167
+#: app/moduls/mb-contact_buttons/view/index.php:168
+msgid "Z-Index"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:168
+#: app/moduls/mb-contact_buttons/view/index.php:184
+#: app/moduls/mb-contact_buttons/view/index.php:194
+#: app/moduls/mb-contact_buttons/view/index.php:206
+#: app/moduls/mb-contact_buttons/view/index.php:216
+#: app/moduls/mb-contact_buttons/view/index.php:232
+#: app/moduls/mb-contact_buttons/view/index.php:242
+#: app/moduls/mb-contact_buttons/view/index.php:254
+#: app/moduls/mb-contact_buttons/view/index.php:264
+#: app/moduls/mb-contact_buttons/view/index.php:294
+#: app/moduls/mb-contact_buttons/view/index.php:318
+#: app/moduls/mb-contact_buttons/view/index.php:329
+#: app/moduls/mb-contact_buttons/view/index.php:338
+#: app/moduls/mb-contact_buttons/view/index.php:439
+#: app/moduls/mb-contact_buttons/view/index.php:448
+msgid "Etc"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:174
+msgid "Margin Settings"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:183
+#: app/moduls/mb-contact_buttons/view/index.php:184
+#: app/moduls/mb-cookie_policy/view/index.php:192
+msgid "Margin Left"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:193
+#: app/moduls/mb-contact_buttons/view/index.php:194
+#: app/moduls/mb-cookie_policy/view/index.php:176
+msgid "Margin Right"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:205
+#: app/moduls/mb-contact_buttons/view/index.php:206
+#: app/moduls/mb-cookie_policy/view/index.php:168
+msgid "Margin Top"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:215
+#: app/moduls/mb-contact_buttons/view/index.php:216
+#: app/moduls/mb-cookie_policy/view/index.php:184
+msgid "Margin Bottom"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:222
+msgid "Padding Settings"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:231
+#: app/moduls/mb-contact_buttons/view/index.php:232
+#: app/moduls/mb-cookie_policy/view/index.php:158
+msgid "Padding Left"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:241
+#: app/moduls/mb-contact_buttons/view/index.php:242
+#: app/moduls/mb-cookie_policy/view/index.php:142
+msgid "Padding Right"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:253
+#: app/moduls/mb-contact_buttons/view/index.php:254
+#: app/moduls/mb-cookie_policy/view/index.php:134
+msgid "Padding Top"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:263
+#: app/moduls/mb-contact_buttons/view/index.php:264
+#: app/moduls/mb-cookie_policy/view/index.php:150
+msgid "Padding Bottom"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:274
+msgid "Button Settings"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:293
+#: app/moduls/mb-contact_buttons/view/index.php:294
+#: app/moduls/mb-cookie_policy/view/index.php:236
+msgid "Buttons Margin"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:308
+msgid "Buttons List Style"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:317
+#: app/moduls/mb-contact_buttons/view/index.php:318
+#: app/moduls/mb-cookie_policy/view/index.php:290
+msgid "Font Size"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:328
+#: app/moduls/mb-contact_buttons/view/index.php:329
+msgid "Buttons Width"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:337
+#: app/moduls/mb-contact_buttons/view/index.php:338
+msgid "Buttons Height"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:352
+msgid "Text Position"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:382
+msgid "Rel Tag"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:396
+msgid "Icon Set"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:406
+msgid "Effects Setting"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:430
+msgid "Opening Effects"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:438
+#: app/moduls/mb-contact_buttons/view/index.php:439
+#: app/moduls/mb-contact_buttons/view/index.php:447
+#: app/moduls/mb-contact_buttons/view/index.php:448
+msgid "Opening Effect Speed"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:464
+msgid "Hover Effects"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:475
+msgid "Fab Settings"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:506 system/core.php:54
+msgid "Active"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:518
+msgid "Fab Button Background"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:529
+#: app/moduls/mb-fancybox/view/index.php:190
+#: app/moduls/mb-lazyload/view/index.php:45
+#: app/moduls/mb-popup/view/index.php:266
+#: app/moduls/mb-preloader/view/index.php:166
+msgid "Choose Pages"
+msgstr ""
+
+#: app/moduls/mb-contact_buttons/view/index.php:548
+msgid "Update All"
+msgstr ""
+
+#: app/moduls/mb-cookie_policy/index.php:160
+msgid "Accept"
+msgstr ""
+
+#: app/moduls/mb-cookie_policy/view/index.php:3
+msgid "Bottom of Site"
+msgstr ""
+
+#: app/moduls/mb-cookie_policy/view/index.php:4
+msgid "Top of Site"
+msgstr ""
+
+#: app/moduls/mb-cookie_policy/view/index.php:8
+msgid "Fixed"
+msgstr ""
+
+#: app/moduls/mb-cookie_policy/view/index.php:9
+msgid "Absolute"
+msgstr ""
+
+#: app/moduls/mb-cookie_policy/view/index.php:18
+msgid "Cookie Policy"
+msgstr ""
+
+#: app/moduls/mb-cookie_policy/view/index.php:26
+msgid ""
+"The plugin will enable a WordPress cookie notice with Accept and Reject "
+"options. The cookies are not rendered by default and only upon user consent. "
+"(The cookie value will be set to 'null' by default; it takes a value 'yes' "
+"when the user clicks 'Accept' and 'no' upon 'Reject'. Your developer can "
+"check this value to set a cookie accordingly)"
+msgstr ""
+
+#: app/moduls/mb-cookie_policy/view/index.php:53
+msgid "Cookie Policy Content"
+msgstr ""
+
+#: app/moduls/mb-cookie_policy/view/index.php:61
+#: app/moduls/mb-cookie_policy/view/index.php:94
+msgid ""
+"The plugin will enable a WordPress cookie notice with Accept and Reject "
+"options. )"
+msgstr ""
+
+#: app/moduls/mb-cookie_policy/view/index.php:77
+msgid "Text"
+msgstr ""
+
+#: app/moduls/mb-cookie_policy/view/index.php:86
+msgid "Cookie Policy Design"
+msgstr ""
+
+#: app/moduls/mb-cookie_policy/view/index.php:124
+msgid "Element Status"
+msgstr ""
+
+#: app/moduls/mb-cookie_policy/view/index.php:202
+msgid "Buttons Color"
+msgstr ""
+
+#: app/moduls/mb-cookie_policy/view/index.php:211
+msgid "Buttons Background"
+msgstr ""
+
+#: app/moduls/mb-cookie_policy/view/index.php:220
+msgid "Buttons Radius"
+msgstr ""
+
+#: app/moduls/mb-cookie_policy/view/index.php:228
+msgid "Buttons Padding"
+msgstr ""
+
+#: app/moduls/mb-cookie_policy/view/index.php:246
+msgid "Extra Button Name"
+msgstr ""
+
+#: app/moduls/mb-cookie_policy/view/index.php:254
+msgid "Extra Button Link"
+msgstr ""
+
+#: app/moduls/mb-cookie_policy/view/index.php:264
+#: app/moduls/mb-preloader/view/index.php:95
+msgid "Background"
+msgstr ""
+
+#: app/moduls/mb-cookie_policy/view/index.php:273
+#: app/moduls/mb-maintenance_mode/view/index.php:88
+msgid "Color"
+msgstr ""
+
+#: app/moduls/mb-cookie_policy/view/index.php:282
+msgid "Font Family"
+msgstr ""
+
+#: app/moduls/mb-custom_css/view/index.php:5
+msgid "Custom Css"
+msgstr ""
+
+#: app/moduls/mb-custom_css/view/index.php:13
+msgid ""
+"Customize your WordPress site's appearance by easily adding custom CSS code "
+"without even having to modify your theme or plugin files."
+msgstr ""
+
+#: app/moduls/mb-custom_css/view/index.php:41
+msgid "Frontend Design"
+msgstr ""
+
+#: app/moduls/mb-custom_css/view/index.php:48
+#: app/moduls/mb-custom_css/view/index.php:54
+#: app/moduls/mb-custom_css/view/index.php:125
+#: app/moduls/mb-custom_css/view/index.php:131
+msgid "Custom Css For All Devices"
+msgstr ""
+
+#: app/moduls/mb-custom_css/view/index.php:61
+#: app/moduls/mb-custom_css/view/index.php:138
+msgid "Accept Custom Css"
+msgstr ""
+
+#: app/moduls/mb-custom_css/view/index.php:69
+#: app/moduls/mb-custom_css/view/index.php:75
+#: app/moduls/mb-custom_css/view/index.php:146
+#: app/moduls/mb-custom_css/view/index.php:152
+msgid "Custom Css For Mobile"
+msgstr ""
+
+#: app/moduls/mb-custom_css/view/index.php:82
+#: app/moduls/mb-custom_css/view/index.php:159
+msgid "Accept Mobile Css"
+msgstr ""
+
+#: app/moduls/mb-custom_css/view/index.php:90
+#: app/moduls/mb-custom_css/view/index.php:96
+#: app/moduls/mb-custom_css/view/index.php:167
+#: app/moduls/mb-custom_css/view/index.php:173
+msgid "Custom Css For Tablet"
+msgstr ""
+
+#: app/moduls/mb-custom_css/view/index.php:103
+#: app/moduls/mb-custom_css/view/index.php:180
+msgid "Accept Tablet Css"
+msgstr ""
+
+#: app/moduls/mb-custom_css/view/index.php:118
+msgid "Admin Panel Design"
+msgstr ""
+
+#: app/moduls/mb-custom_dashboard/index.php:155
+msgid "Dismiss"
+msgstr ""
+
+#: app/moduls/mb-custom_dashboard/view/index.php:4
+msgid "Custom Dashboard"
+msgstr ""
+
+#: app/moduls/mb-custom_dashboard/view/index.php:12
+#: app/moduls/mb-custom_dashboard/view/index.php:48
+#: app/moduls/mb-custom_dashboard/view/index.php:80
+#: app/moduls/mb-custom_dashboard/view/index.php:137
+#: app/moduls/mb-custom_dashboard/view/index.php:231
+msgid ""
+"You can add a logo and audience to the dashboard area of the administration "
+"panel"
+msgstr ""
+
+#: app/moduls/mb-custom_dashboard/view/index.php:13
+msgid "You can hide the widgets you want to the administrators"
+msgstr ""
+
+#: app/moduls/mb-custom_dashboard/view/index.php:14
+#: app/moduls/mb-custom_dashboard/view/index.php:15
+msgid "You can add a message widget to your Dashboard"
+msgstr ""
+
+#: app/moduls/mb-custom_dashboard/view/index.php:40
+msgid "Change Dashboard Title & Logo"
+msgstr ""
+
+#: app/moduls/mb-custom_dashboard/view/index.php:57
+msgid "Dasboard Title"
+msgstr ""
+
+#: app/moduls/mb-custom_dashboard/view/index.php:72
+msgid "Hide Dashboard Widgets"
+msgstr ""
+
+#: app/moduls/mb-custom_dashboard/view/index.php:129
+#: app/moduls/mb-custom_dashboard/view/index.php:223
+msgid "Own Dashboard Message"
+msgstr ""
+
+#: app/moduls/mb-custom_dashboard/view/index.php:144
+msgid "Parent Message Status"
+msgstr ""
+
+#: app/moduls/mb-custom_dashboard/view/index.php:161
+#: app/moduls/mb-custom_dashboard/view/index.php:256
+msgid "In header"
+msgstr ""
+
+#: app/moduls/mb-custom_dashboard/view/index.php:169
+#: app/moduls/mb-custom_dashboard/view/index.php:265
+msgid "Dismissible"
+msgstr ""
+
+#: app/moduls/mb-custom_dashboard/view/index.php:198
+#: app/moduls/mb-custom_dashboard/view/index.php:299
+msgid "Hangi kullanıcı rollerinin mesajı görebileceğini seçin"
+msgstr ""
+
+#: app/moduls/mb-custom_dashboard/view/index.php:237
+msgid "Second Message Status"
+msgstr ""
+
+#: app/moduls/mb-custom_dashboard/view/index.php:284
+msgid "Description"
+msgstr ""
+
+#: app/moduls/mb-custom_login/view/index.php:4
+msgid "Custom Login"
+msgstr ""
+
+#: app/moduls/mb-custom_login/view/index.php:12
+#: app/moduls/mb-custom_login/view/index.php:46
+msgid "You can change the logo on the login page"
+msgstr ""
+
+#: app/moduls/mb-custom_login/view/index.php:38
+msgid "Change Login Page Logo"
+msgstr ""
+
+#: app/moduls/mb-custom_login/view/index.php:67
+msgid "Logo Width"
+msgstr ""
+
+#: app/moduls/mb-custom_login/view/index.php:76
+msgid "Logo Height"
+msgstr ""
+
+#: app/moduls/mb-custom_login/view/index.php:86
+msgid "Change Login Page Background"
+msgstr ""
+
+#: app/moduls/mb-custom_login/view/index.php:94
+msgid "You can change the background on the login page"
+msgstr ""
+
+#: app/moduls/mb-custom_login/view/index.php:108
+#: app/moduls/mb-maintenance_mode/view/index.php:81
+msgid "Background Color"
+msgstr ""
+
+#: app/moduls/mb-custom_login/view/index.php:120
+#: app/moduls/mb-maintenance_mode/view/index.php:61
+msgid "Set background as full screen"
+msgstr ""
+
+#: app/moduls/mb-custom_login/view/index.php:150
+#: app/moduls/mb-maintenance_mode/view/index.php:117
+msgid "Background Position"
+msgstr ""
+
+#: app/moduls/mb-custom_login/view/index.php:168
+#: app/moduls/mb-maintenance_mode/view/index.php:135
+msgid "Background Repeat"
+msgstr ""
+
+#: app/moduls/mb-custom_login/view/index.php:179
+msgid "Change Buttons"
+msgstr ""
+
+#: app/moduls/mb-custom_login/view/index.php:187
+msgid "You can change the colors of the member login form"
+msgstr ""
+
+#: app/moduls/mb-custom_login/view/index.php:201
+msgid "Form Background Color"
+msgstr ""
+
+#: app/moduls/mb-custom_login/view/index.php:212
+msgid "Form Label Color"
+msgstr ""
+
+#: app/moduls/mb-custom_login/view/index.php:223
+msgid "Form Border Radius"
+msgstr ""
+
+#: app/moduls/mb-custom_login/view/index.php:234
+msgid "Form Button Color"
+msgstr ""
+
+#: app/moduls/mb-custom_login/view/index.php:245
+msgid "Form Button Hover Color"
+msgstr ""
+
+#: app/moduls/mb-custom_login/view/index.php:256
+msgid "Form Button Text Color"
+msgstr ""
+
+#: app/moduls/mb-custom_login/view/index.php:268
+msgid "Form Button Text Hover Color"
+msgstr ""
+
+#: app/moduls/mb-custom_login/view/index.php:279
+msgid "Back / Register Link Hover Color"
+msgstr ""
+
+#: app/moduls/mb-custom_login/view/index.php:290
+msgid "Privacy Policy Link Color"
+msgstr ""
+
+#: app/moduls/mb-custom_login/view/index.php:302
+msgid "Login Page Hide Elements"
+msgstr ""
+
+#: app/moduls/mb-custom_login/view/index.php:310
+msgid "You can hide elements in login form"
+msgstr ""
+
+#: app/moduls/mb-custom_login/view/index.php:322
+msgid "Hide register and lost urls"
+msgstr ""
+
+#: app/moduls/mb-custom_login/view/index.php:331
+msgid "Hide back url"
+msgstr ""
+
+#: app/moduls/mb-custom_login/view/index.php:340
+msgid "Hide privacy url"
+msgstr ""
+
+#: app/moduls/mb-custom_login/view/index.php:349
+msgid "Hide 'Remember Me' option"
+msgstr ""
+
+#: app/moduls/mb-custom_redirects/index.php:76
+#: app/moduls/mb-duplicate_manager/index.php:80
+#: app/moduls/mb-error_redirects/index.php:76
+#: app/moduls/mb-user_permissions/view/index.php:430
+msgid "Deleted"
+msgstr ""
+
+#: app/moduls/mb-custom_redirects/view/index.php:24
+#: app/moduls/mb-error_redirects/view/index.php:26
+msgid "Setting"
+msgstr ""
+
+#: app/moduls/mb-custom_redirects/view/index.php:32
+msgid ""
+"Custom Redirects helps you manage and create 301, 302, 307 redirects for "
+"your WordPress site to improve SEO and visitor experience"
+msgstr ""
+
+#: app/moduls/mb-custom_redirects/view/index.php:33
+msgid "With a user-friendly interface, 301 Redirects is easy to use"
+msgstr ""
+
+#: app/moduls/mb-custom_redirects/view/index.php:34
+msgid ""
+"Use the Error Page Manager to identify problematic links and make "
+"redirection easy"
+msgstr ""
+
+#: app/moduls/mb-custom_redirects/view/index.php:35
+msgid ""
+"Perfect for new sites or repairing links after reorganizing your existing "
+"WordPress content, or when your site has content that expires and you wish "
+"to avoid sending visitors to a 404 error page"
+msgstr ""
+
+#: app/moduls/mb-custom_redirects/view/index.php:43
+msgid "Status must be active for the redirects you added below to work"
+msgstr ""
+
+#: app/moduls/mb-custom_redirects/view/index.php:73
+msgid "Custom Redirects"
+msgstr ""
+
+#: app/moduls/mb-custom_redirects/view/index.php:80
+msgid "Link"
+msgstr ""
+
+#: app/moduls/mb-custom_redirects/view/index.php:81
+#: app/moduls/mb-error_redirects/view/index.php:66
+#: app/moduls/mb-site_redirects/view/index.php:4
+msgid "Redirects"
+msgstr ""
+
+#: app/moduls/mb-custom_redirects/view/index.php:82
+#: app/moduls/mb-error_redirects/view/index.php:67
+msgid "Determine"
+msgstr ""
+
+#: app/moduls/mb-custom_redirects/view/index.php:83
+#: app/moduls/mb-database_repair/view/index.php:23
+#: app/moduls/mb-error_redirects/view/index.php:68
+msgid "Action"
+msgstr ""
+
+#: app/moduls/mb-custom_redirects/view/index.php:128
+#: app/moduls/mb-custom_redirects/view/index.php:238
+#: app/moduls/mb-error_redirects/view/index.php:113
+msgid "URL"
+msgstr ""
+
+#: app/moduls/mb-custom_redirects/view/index.php:141
+#: app/moduls/mb-duplicate_manager/view/index.php:54
+#: app/moduls/mb-error_redirects/view/index.php:125
+#: app/moduls/mb-form_builder/view/formList.php:33
+#: app/moduls/mb-user_permissions/view/index.php:428
+msgid "Delete"
+msgstr ""
+
+#: app/moduls/mb-database_repair/view/index.php:4
+msgid "Repair Tables"
+msgstr ""
+
+#: app/moduls/mb-database_repair/view/index.php:12
+msgid ""
+"Repair table fixes any corrupted table. Repairing corrupted tables will make "
+"your database work better. Periodically repair your tables for performance "
+"and database health"
+msgstr ""
+
+#: app/moduls/mb-database_repair/view/index.php:21
+msgid "Table Name"
+msgstr ""
+
+#: app/moduls/mb-database_repair/view/index.php:42
+msgid "Repair Now"
+msgstr ""
+
+#: app/moduls/mb-database_repair/view/index.php:50
+msgid "Repair selected"
+msgstr ""
+
+#: app/moduls/mb-database_repair/view/index.php:51
+msgid "Repair All"
+msgstr ""
+
+#: app/moduls/mb-database_repair/view/index.php:65
+msgid "Database repaired"
+msgstr ""
+
+#: app/moduls/mb-database_repair/view/index.php:68
+msgid "Database not repaired"
+msgstr ""
+
+#: app/moduls/mb-disqus_comment/view/index.php:3
+msgid "Before comments"
+msgstr ""
+
+#: app/moduls/mb-disqus_comment/view/index.php:4
+msgid "Aftere comments"
+msgstr ""
+
+#: app/moduls/mb-disqus_comment/view/index.php:8
+#: app/moduls/mb-popup/view/index.php:122
+msgid "Center"
+msgstr ""
+
+#: app/moduls/mb-disqus_comment/view/index.php:9
+#: app/moduls/mb-popup/view/index.php:193
+msgid "Left"
+msgstr ""
+
+#: app/moduls/mb-disqus_comment/view/index.php:10
+#: app/moduls/mb-popup/view/index.php:179
+msgid "Right"
+msgstr ""
+
+#: app/moduls/mb-disqus_comment/view/index.php:17
+msgid "Disqus Comment"
+msgstr ""
+
+#: app/moduls/mb-disqus_comment/view/index.php:25
+msgid ""
+"You can add the Disqus comment system to your website. By making content "
+"comments through disqus, you reduce the density on your database and you "
+"will not lose performance."
+msgstr ""
+
+#: app/moduls/mb-disqus_comment/view/index.php:51
+msgid "Disqus Comment Setting"
+msgstr ""
+
+#: app/moduls/mb-disqus_comment/view/index.php:60
+#: app/moduls/mb-disqus_comment/view/index.php:61
+msgid "Disqus Shortname"
+msgstr ""
+
+#: app/moduls/mb-disqus_comment/view/index.php:61
+msgid "Put your shortname taken from disqus.com"
+msgstr ""
+
+#: app/moduls/mb-disqus_comment/view/index.php:75
+msgid "Box Area"
+msgstr ""
+
+#: app/moduls/mb-disqus_comment/view/index.php:82
+#: app/moduls/mb-image_upload_optimiser/view/index.php:38
+msgid "Max Width"
+msgstr ""
+
+#: app/moduls/mb-duplicate_manager/index.php:82
+msgid "Deleted and redirect to original post"
+msgstr ""
+
+#: app/moduls/mb-duplicate_manager/view/index.php:7
+msgid "Duplicated Contents"
+msgstr ""
+
+#: app/moduls/mb-duplicate_manager/view/index.php:16
+msgid ""
+"You can automatically find and delete your published pages, posts and "
+"products with the same name and same content"
+msgstr ""
+
+#: app/moduls/mb-duplicate_manager/view/index.php:24
+msgid "Duplicated Post"
+msgstr ""
+
+#: app/moduls/mb-duplicate_manager/view/index.php:25
+msgid "Original Post"
+msgstr ""
+
+#: app/moduls/mb-duplicate_manager/view/index.php:55
+msgid "Delete & Redirect to Original"
+msgstr ""
+
+#: app/moduls/mb-error_logs/view/index.php:4
+msgid "Error Logs"
+msgstr ""
+
+#: app/moduls/mb-error_logs/view/index.php:35
+msgid "Clear error logs when update"
+msgstr ""
+
+#: app/moduls/mb-error_logs/view/index.php:47
+msgid "Delete Error Logs"
+msgstr ""
+
+#: app/moduls/mb-error_page_manager/view/index.php:4
+msgid "Error Page Manager"
+msgstr ""
+
+#: app/moduls/mb-error_page_manager/view/index.php:12
+msgid "If you active this option 404 pages will show look like content"
+msgstr ""
+
+#: app/moduls/mb-error_page_manager/view/index.php:38
+msgid "Show in Same Page"
+msgstr ""
+
+#: app/moduls/mb-error_page_manager/view/index.php:39
+#: app/moduls/mb-site_redirects/view/index.php:97
+#: app/moduls/mb-visit_limitation/view/index.php:179
+msgid "Redirect"
+msgstr ""
+
+#: app/moduls/mb-error_page_manager/view/index.php:48
+#: app/moduls/mb-form_builder/view/contacts.php:19
+#: app/moduls/mb-form_builder/view/formList.php:20
+msgid "Process"
+msgstr ""
+
+#: app/moduls/mb-error_redirects/index.php:93
+msgid "There is no data"
+msgstr ""
+
+#: app/moduls/mb-error_redirects/index.php:167
+#: app/moduls/mb-error_redirects/index.php:168
+msgid "Broken Links"
+msgstr ""
+
+#: app/moduls/mb-error_redirects/view/index.php:57
+msgid "Error Redirects"
+msgstr ""
+
+#: app/moduls/mb-error_redirects/view/index.php:65
+msgid "Broken Link"
+msgstr ""
+
+#: app/moduls/mb-fancybox/view/index.php:13
+msgid "Fancybox"
+msgstr ""
+
+#: app/moduls/mb-fancybox/view/index.php:21
+#: app/moduls/mb-fancybox/view/index.php:56
+#: app/moduls/mb-fancybox/view/index.php:90
+#: app/moduls/mb-fancybox/view/index.php:198
+msgid ""
+"FancyBox for WordPress websites gives you a flexible and aesthetic chic box "
+"solution for just about all media links on your website"
+msgstr ""
+
+#: app/moduls/mb-fancybox/view/index.php:48
+msgid "Choose Assets"
+msgstr ""
+
+#: app/moduls/mb-fancybox/view/index.php:82
+msgid "Fancybox Settings"
+msgstr ""
+
+#: app/moduls/mb-fancybox/view/index.php:107
+msgid "Show Title"
+msgstr ""
+
+#: app/moduls/mb-fancybox/view/index.php:121
+msgid "Auto Scale"
+msgstr ""
+
+#: app/moduls/mb-fancybox/view/index.php:136
+msgid "Transition In"
+msgstr ""
+
+#: app/moduls/mb-fancybox/view/index.php:151
+msgid "Transition Out"
+msgstr ""
+
+#: app/moduls/mb-fancybox/view/index.php:158
+#: app/moduls/mb-form_builder/view/index.php:165
+msgid "Width"
+msgstr ""
+
+#: app/moduls/mb-fancybox/view/index.php:165
+msgid "Height"
+msgstr ""
+
+#: app/moduls/mb-fancybox/view/index.php:172
+msgid "Overlay Color"
+msgstr ""
+
+#: app/moduls/mb-fancybox/view/index.php:172
+msgid "Pick"
+msgstr ""
+
+#: app/moduls/mb-fancybox/view/index.php:180
+msgid "Overlay Opacity"
+msgstr ""
+
+#: app/moduls/mb-form_builder/index.php:316
+msgid "Send"
+msgstr ""
+
+#: app/moduls/mb-form_builder/index.php:445
+#: app/moduls/mb-form_builder/index.php:446
+msgid "Magicbox New FormBuilder Message"
+msgstr ""
+
+#: app/moduls/mb-form_builder/index.php:460
+msgid "<div class=\"card-body\"><div class=\"success\">"
+msgstr ""
+
+#: app/moduls/mb-form_builder/index.php:468
+msgid "<div class=\"card-body\"><div class=\"fail\">"
+msgstr ""
+
+#: app/moduls/mb-form_builder/view/contacts.php:6
+msgid "Contacts"
+msgstr ""
+
+#: app/moduls/mb-form_builder/view/contacts.php:16
+#: app/moduls/mb-form_builder/view/view.php:42
+msgid "IP"
+msgstr ""
+
+#: app/moduls/mb-form_builder/view/contacts.php:18
+msgid "Form"
+msgstr ""
+
+#: app/moduls/mb-form_builder/view/formList.php:7
+msgid "Form List"
+msgstr ""
+
+#: app/moduls/mb-form_builder/view/formList.php:8
+#: app/moduls/mb-form_builder/view/index.php:8
+msgid "Add New Form"
+msgstr ""
+
+#: app/moduls/mb-form_builder/view/formList.php:19
+msgid "Shortcode"
+msgstr ""
+
+#: app/moduls/mb-form_builder/view/formList.php:32
+msgid "Edit"
+msgstr ""
+
+#: app/moduls/mb-form_builder/view/index.php:23
+msgid "Label"
+msgstr ""
+
+#: app/moduls/mb-form_builder/view/index.php:31
+msgid "Button Name"
+msgstr ""
+
+#: app/moduls/mb-form_builder/view/index.php:39
+#: app/moduls/mb-form_builder/view/index.php:40
+msgid "Notification Mail"
+msgstr ""
+
+#: app/moduls/mb-form_builder/view/index.php:40
+#: app/moduls/mb-preloader/view/index.php:148
+msgid ""
+"If you put your mail here, when someone contact with you, same message will "
+"sent this mail address"
+msgstr ""
+
+#: app/moduls/mb-form_builder/view/index.php:49
+msgid "Success Result Text"
+msgstr ""
+
+#: app/moduls/mb-form_builder/view/index.php:56
+msgid "Fail Result Text"
+msgstr ""
+
+#: app/moduls/mb-form_builder/view/index.php:60
+#: app/moduls/mb-form_builder/view/index.php:65
+msgid "Form Elements"
+msgstr ""
+
+#: app/moduls/mb-form_builder/view/index.php:71
+msgid "Text Input"
+msgstr ""
+
+#: app/moduls/mb-form_builder/view/index.php:72
+msgid "Number Input"
+msgstr ""
+
+#: app/moduls/mb-form_builder/view/index.php:73
+msgid "Email Input"
+msgstr ""
+
+#: app/moduls/mb-form_builder/view/index.php:74
+#: app/moduls/mb-post_authentication/index.php:186 system/ext/wp-login.php:1309
+msgid "Password"
+msgstr ""
+
+#: app/moduls/mb-form_builder/view/index.php:75
+msgid "Date Selector"
+msgstr ""
+
+#: app/moduls/mb-form_builder/view/index.php:76
+msgid "Time Selector"
+msgstr ""
+
+#: app/moduls/mb-form_builder/view/index.php:77
+msgid "Number Slider"
+msgstr ""
+
+#: app/moduls/mb-form_builder/view/index.php:78
+msgid "Color Picker"
+msgstr ""
+
+#: app/moduls/mb-form_builder/view/index.php:79
+msgid "Website / Url"
+msgstr ""
+
+#: app/moduls/mb-form_builder/view/index.php:81
+msgid "File Upload"
+msgstr ""
+
+#: app/moduls/mb-form_builder/view/index.php:82
+msgid "Multiple Choice"
+msgstr ""
+
+#: app/moduls/mb-form_builder/view/index.php:83
+msgid "Radio Choice"
+msgstr ""
+
+#: app/moduls/mb-form_builder/view/index.php:84
+msgid "Text Area"
+msgstr ""
+
+#: app/moduls/mb-form_builder/view/index.php:85
+msgid "Select Box"
+msgstr ""
+
+#: app/moduls/mb-form_builder/view/index.php:86
+msgid "Select Box (Multiple)"
+msgstr ""
+
+#: app/moduls/mb-form_builder/view/index.php:87
+msgid "Html Area"
+msgstr ""
+
+#: app/moduls/mb-form_builder/view/index.php:102
+msgid "Label Name"
+msgstr ""
+
+#: app/moduls/mb-form_builder/view/index.php:107
+msgid "Placeholder"
+msgstr ""
+
+#: app/moduls/mb-form_builder/view/index.php:117
+msgid "Options"
+msgstr ""
+
+#: app/moduls/mb-form_builder/view/index.php:125
+msgid "Min"
+msgstr ""
+
+#: app/moduls/mb-form_builder/view/index.php:131
+msgid "Max"
+msgstr ""
+
+#: app/moduls/mb-form_builder/view/index.php:137
+msgid "Step"
+msgstr ""
+
+#: app/moduls/mb-form_builder/view/index.php:145
+msgid "Additional Class"
+msgstr ""
+
+#: app/moduls/mb-form_builder/view/index.php:151
+#: app/moduls/mb-site_redirects/view/index.php:98 system/core.php:60
+msgid "No"
+msgstr ""
+
+#: app/moduls/mb-form_builder/view/index.php:152 system/core.php:59
+msgid "Yes"
+msgstr ""
+
+#: app/moduls/mb-form_builder/view/index.php:154
+msgid "Is Required?"
+msgstr ""
+
+#: app/moduls/mb-form_builder/view/index.php:161
+msgid "Long Quarter"
+msgstr ""
+
+#: app/moduls/mb-form_builder/view/index.php:162
+msgid "Half"
+msgstr ""
+
+#: app/moduls/mb-form_builder/view/index.php:163
+msgid "Quarter"
+msgstr ""
+
+#: app/moduls/mb-form_builder/view/index.php:197
+msgid "Add Element"
+msgstr ""
+
+#: app/moduls/mb-form_builder/view/index.php:741
+#: app/moduls/mb-form_builder/view/index.php:742
+msgid "Option 1"
+msgstr ""
+
+#: app/moduls/mb-form_builder/view/index.php:741
+#: app/moduls/mb-form_builder/view/index.php:742
+msgid "Option 2"
+msgstr ""
+
+#: app/moduls/mb-form_builder/view/view.php:4
+msgid "Contact Page Settings"
+msgstr ""
+
+#: app/moduls/mb-form_builder/view/view.php:27
+msgid "Unread"
+msgstr ""
+
+#: app/moduls/mb-form_builder/view/view.php:27
+msgid "Read"
+msgstr ""
+
+#: app/moduls/mb-google_authenticator/index.php:109
+msgid "Google Authenticator Security"
+msgstr ""
+
+#: app/moduls/mb-google_authenticator/index.php:113
+msgid "Deactive"
+msgstr ""
+
+#: app/moduls/mb-google_authenticator/index.php:117
+msgid "Set Google Authenticator"
+msgstr ""
+
+#: app/moduls/mb-google_authenticator/index.php:117
+msgid "Regenerate Google Authenticator"
+msgstr ""
+
+#: app/moduls/mb-google_authenticator/index.php:124
+#: app/moduls/mb-smtp/view/index.php:163
+msgid "Cancel"
+msgstr ""
+
+#: app/moduls/mb-google_authenticator/index.php:309
+msgid "Invalid Google Authenticator Code"
+msgstr ""
+
+#: app/moduls/mb-google_authenticator/index.php:363
+msgid "Google Auth Code"
+msgstr ""
+
+#: app/moduls/mb-google_authenticator/view/index.php:4
+msgid "Google Authenticator"
+msgstr ""
+
+#: app/moduls/mb-gutenberg_editor/view/index.php:4
+msgid "Gutenberg Editor"
+msgstr ""
+
+#: app/moduls/mb-gutenberg_editor/view/index.php:12
+msgid "If you want to use classic wordpress editor, set as passive the status"
+msgstr ""
+
+#: app/moduls/mb-head_code_manager/index.php:27
+msgid "Custom Code"
+msgstr ""
+
+#: app/moduls/mb-head_code_manager/index.php:28
+msgid "Webmaster Tools Code"
+msgstr ""
+
+#: app/moduls/mb-head_code_manager/index.php:29
+msgid "Google Analytics"
+msgstr ""
+
+#: app/moduls/mb-head_code_manager/index.php:30
+msgid "Google Search Console"
+msgstr ""
+
+#: app/moduls/mb-head_code_manager/index.php:31
+msgid "Yandex Metrica"
+msgstr ""
+
+#: app/moduls/mb-head_code_manager/index.php:32
+msgid "Microsoft Clarity"
+msgstr ""
+
+#: app/moduls/mb-head_code_manager/index.php:33
+msgid "Facebook Pixel"
+msgstr ""
+
+#: app/moduls/mb-head_code_manager/index.php:34
+msgid "Google Tag Manager"
+msgstr ""
+
+#: app/moduls/mb-head_code_manager/index.php:35
+msgid "OneSignal Code"
+msgstr ""
+
+#: app/moduls/mb-head_code_manager/view/index.php:4
+msgid "Head Code"
+msgstr ""
+
+#: app/moduls/mb-htaccess_editor/view/index.php:4
+msgid "Htaccess Editor"
+msgstr ""
+
+#: app/moduls/mb-htaccess_editor/view/index.php:12
+msgid "Simple editor htaccess file without using FTP client"
+msgstr ""
+
+#: app/moduls/mb-htaccess_editor/view/index.php:20
+msgid "This plugin should be used only by experienced users"
+msgstr ""
+
+#: app/moduls/mb-htaccess_editor/view/index.php:31
+msgid "Accept Htaccess Changes"
+msgstr ""
+
+#: app/moduls/mb-image_upload_optimiser/view/index.php:4
+msgid "Image Upload Optimiser"
+msgstr ""
+
+#: app/moduls/mb-image_upload_optimiser/view/index.php:12
+msgid ""
+"Optimiser will optimize your image uploads. This feature resize image on "
+"your own browser and upload. It's faster and safe"
+msgstr ""
+
+#: app/moduls/mb-image_upload_optimiser/view/index.php:47
+msgid "Max Height"
+msgstr ""
+
+#: app/moduls/mb-image_upload_optimiser/view/index.php:65
+msgid "Max File Size ( Megabayt )"
+msgstr ""
+
+#: app/moduls/mb-keyword_suggestion/view/index.php:4
+msgid "Keyword Suggestion"
+msgstr ""
+
+#: app/moduls/mb-keyword_suggestion/view/index.php:12
+msgid ""
+"You will receive keyword suggestions on your post, page and product pages "
+"after activating this feature"
+msgstr ""
+
+#: app/moduls/mb-lazyload/view/index.php:4
+msgid "Lazy Load"
+msgstr ""
+
+#: app/moduls/mb-lazyload/view/index.php:12
+msgid ""
+"You can use the Lazy load feature to speed up your website and increase the "
+"user experience. Content that the visitor does not see will not be loaded "
+"automatically, so the page will open much faster"
+msgstr ""
+
+#: app/moduls/mb-lazyload/view/index.php:62
+msgid "Choose Types"
+msgstr ""
+
+#: app/moduls/mb-live_search/view/index.php:4
+msgid "Live Search"
+msgstr ""
+
+#: app/moduls/mb-live_search/view/index.php:12
+#: app/moduls/mb-live_search/view/index.php:46
+msgid ""
+"This plugins delivers a smooth interactive experience with immediate results "
+"for your site's visitors, making it easier and more efficient to find the "
+"right results"
+msgstr ""
+
+#: app/moduls/mb-live_search/view/index.php:38
+msgid "Live Search Settings"
+msgstr ""
+
+#: app/moduls/mb-live_search/view/index.php:79
+msgid "Show Image"
+msgstr ""
+
+#: app/moduls/mb-live_search/view/index.php:91
+msgid "Cut Title"
+msgstr ""
+
+#: app/moduls/mb-live_search/view/index.php:98
+msgid "Cut Description"
+msgstr ""
+
+#: app/moduls/mb-live_search/view/index.php:109
+msgid "List Limit"
+msgstr ""
+
+#: app/moduls/mb-login_logs/view/index.php:5
+#: app/moduls/mb-login_logs/view/index.php:48
+msgid "Login Logs"
+msgstr ""
+
+#: app/moduls/mb-login_logs/view/index.php:13
+msgid ""
+"You can review the users who login or make an incorrect password attempt"
+msgstr ""
+
+#: app/moduls/mb-login_logs/view/index.php:38
+msgid "Update and Flush"
+msgstr ""
+
+#: app/moduls/mb-login_logs/view/index.php:57
+msgid "Ip"
+msgstr ""
+
+#: app/moduls/mb-login_logs/view/index.php:59
+msgid "Browser"
+msgstr ""
+
+#: app/moduls/mb-login_url/view/index.php:4
+msgid "New login url"
+msgstr ""
+
+#: app/moduls/mb-login_url/view/index.php:12
+msgid ""
+"You can change your admin panel login address. So you can prevent unwanted "
+"admin login attempts"
+msgstr ""
+
+#: app/moduls/mb-login_url/view/index.php:20
+msgid "Change wp-admin"
+msgstr ""
+
+#: app/moduls/mb-login_url/view/index.php:21
+msgid ""
+"Please do not forget the address you changed. You will make your next entry "
+"through the new address"
+msgstr ""
+
+#: app/moduls/mb-login_url/view/index.php:29
+msgid ""
+"If you want take back this change, clear the input and update or set status "
+"as passive"
+msgstr ""
+
+#: app/moduls/mb-maintenance_mode/view/index.php:11
+#: app/moduls/mb-maintenance_mode/view/index.php:44
+msgid ""
+"Add a maintenance page to your web site that lets visitors know your blog is "
+"down for maintenance"
+msgstr ""
+
+#: app/moduls/mb-maintenance_mode/view/index.php:37
+msgid "Sayfa İçeriğini Düzenleyiniz"
+msgstr ""
+
+#: app/moduls/mb-maintenance_mode/view/index.php:69
+msgid "Set as middle of page"
+msgstr ""
+
+#: app/moduls/mb-php_information/view/index.php:3
+msgid "Php Information"
+msgstr ""
+
+#: app/moduls/mb-php_information/view/index.php:10
+msgid ""
+"You can review detailed information about the software and server of your "
+"Wordpress website"
+msgstr ""
+
+#: app/moduls/mb-php_information/view/index.php:54
+msgid "Global"
+msgstr ""
+
+#: app/moduls/mb-php_information/view/index.php:55
+msgid "Local"
+msgstr ""
+
+#: app/moduls/mb-php_information/view/index.php:100
+#: app/moduls/mb-php_information/view/index.php:142
+#: app/moduls/mb-php_information/view/index.php:192
+#: app/moduls/mb-php_information/view/index.php:241
+msgid "Value"
+msgstr ""
+
+#: app/moduls/mb-popup/view/index.php:4
+msgid "Popup"
+msgstr ""
+
+#: app/moduls/mb-popup/view/index.php:12 app/moduls/mb-popup/view/index.php:47
+#: app/moduls/mb-popup/view/index.php:69 app/moduls/mb-popup/view/index.php:235
+#: app/moduls/mb-popup/view/index.php:274
+msgid "You can add automatic popups to your website"
+msgstr ""
+
+#: app/moduls/mb-popup/view/index.php:39
+msgid "Popup Content"
+msgstr ""
+
+#: app/moduls/mb-popup/view/index.php:61
+msgid "Popup Options"
+msgstr ""
+
+#: app/moduls/mb-popup/view/index.php:78
+msgid "Just width close button"
+msgstr ""
+
+#: app/moduls/mb-popup/view/index.php:79
+msgid "Close button & Focusout popup"
+msgstr ""
+
+#: app/moduls/mb-popup/view/index.php:88 app/moduls/mb-popup/view/index.php:106
+msgid "Repeat"
+msgstr ""
+
+#: app/moduls/mb-popup/view/index.php:96
+msgid "One Time"
+msgstr ""
+
+#: app/moduls/mb-popup/view/index.php:97
+msgid "Everytime"
+msgstr ""
+
+#: app/moduls/mb-popup/view/index.php:114
+#: app/moduls/mb-preloader/view/index.php:112
+msgid "Z-index"
+msgstr ""
+
+#: app/moduls/mb-popup/view/index.php:123
+msgid "Top Center"
+msgstr ""
+
+#: app/moduls/mb-popup/view/index.php:124
+msgid "Left Top"
+msgstr ""
+
+#: app/moduls/mb-popup/view/index.php:125
+msgid "Right Top"
+msgstr ""
+
+#: app/moduls/mb-popup/view/index.php:126
+msgid "Left Bottom"
+msgstr ""
+
+#: app/moduls/mb-popup/view/index.php:127
+msgid "Right Bottom"
+msgstr ""
+
+#: app/moduls/mb-popup/view/index.php:147
+msgid "Transparent Background"
+msgstr ""
+
+#: app/moduls/mb-popup/view/index.php:155
+#: app/moduls/mb-popup/view/index.php:156
+msgid "Min Width"
+msgstr ""
+
+#: app/moduls/mb-popup/view/index.php:156
+msgid "Min width content area"
+msgstr ""
+
+#: app/moduls/mb-popup/view/index.php:163
+#: app/moduls/mb-popup/view/index.php:164
+msgid "Min Height"
+msgstr ""
+
+#: app/moduls/mb-popup/view/index.php:164
+msgid "Min height content area"
+msgstr ""
+
+#: app/moduls/mb-popup/view/index.php:201
+#: app/moduls/mb-popup/view/index.php:202
+msgid "Wait Second For Open Popup"
+msgstr ""
+
+#: app/moduls/mb-popup/view/index.php:202
+msgid "Delay time for open popup"
+msgstr ""
+
+#: app/moduls/mb-popup/view/index.php:209
+#: app/moduls/mb-popup/view/index.php:210
+msgid "Wait Second For Close Button"
+msgstr ""
+
+#: app/moduls/mb-popup/view/index.php:210
+msgid "Delay time for close button"
+msgstr ""
+
+#: app/moduls/mb-popup/view/index.php:217
+#: app/moduls/mb-popup/view/index.php:218
+msgid "Auto Close Second"
+msgstr ""
+
+#: app/moduls/mb-popup/view/index.php:218
+msgid "Delay time for auto close. It's never close if you set as zero ( 0 )"
+msgstr ""
+
+#: app/moduls/mb-popup/view/index.php:227
+msgid "Javascript Hooks"
+msgstr ""
+
+#: app/moduls/mb-popup/view/index.php:243
+msgid "When open popup"
+msgstr ""
+
+#: app/moduls/mb-popup/view/index.php:243
+#: app/moduls/mb-popup/view/index.php:250
+#: app/moduls/mb-popup/view/index.php:257
+msgid "Without &lt;script&gt; tag"
+msgstr ""
+
+#: app/moduls/mb-popup/view/index.php:250
+msgid "When close popup"
+msgstr ""
+
+#: app/moduls/mb-popup/view/index.php:257
+msgid "Custom JS"
+msgstr ""
+
+#: app/moduls/mb-post_authentication/index.php:103
+msgid "Post"
+msgstr ""
+
+#: app/moduls/mb-post_authentication/index.php:106
+msgid "Password is wrong"
+msgstr ""
+
+#: app/moduls/mb-post_authentication/index.php:173
+msgid "User Type"
+msgstr ""
+
+#: app/moduls/mb-post_authentication/view/index.php:4
+msgid "Post Authentication"
+msgstr ""
+
+#: app/moduls/mb-preloader/view/index.php:4
+msgid "Preloader"
+msgstr ""
+
+#: app/moduls/mb-preloader/view/index.php:12
+#: app/moduls/mb-preloader/view/index.php:46
+#: app/moduls/mb-preloader/view/index.php:85
+#: app/moduls/mb-preloader/view/index.php:174
+msgid "You can add automatic preloaders to your website"
+msgstr ""
+
+#: app/moduls/mb-preloader/view/index.php:38
+msgid "Select Preloader"
+msgstr ""
+
+#: app/moduls/mb-preloader/view/index.php:77
+msgid "Preloader Settings"
+msgstr ""
+
+#: app/moduls/mb-preloader/view/index.php:104
+msgid "Max GIF Width"
+msgstr ""
+
+#: app/moduls/mb-preloader/view/index.php:120
+msgid "Fade Out"
+msgstr ""
+
+#: app/moduls/mb-preloader/view/index.php:121
+msgid "Slide Down"
+msgstr ""
+
+#: app/moduls/mb-preloader/view/index.php:122
+msgid "Hiding"
+msgstr ""
+
+#: app/moduls/mb-preloader/view/index.php:123
+msgid "Toggle"
+msgstr ""
+
+#: app/moduls/mb-preloader/view/index.php:132
+msgid "Effect"
+msgstr ""
+
+#: app/moduls/mb-preloader/view/index.php:139
+#: app/moduls/mb-preloader/view/index.php:140
+msgid "Effect Speed Millisecond"
+msgstr ""
+
+#: app/moduls/mb-preloader/view/index.php:140
+#: app/moduls/mb-preloader/view/index.php:157
+msgid "1000 millisecond is 1 second"
+msgstr ""
+
+#: app/moduls/mb-preloader/view/index.php:147
+#: app/moduls/mb-preloader/view/index.php:148
+msgid "Minumum Wait Millisecond"
+msgstr ""
+
+#: app/moduls/mb-preloader/view/index.php:156
+#: app/moduls/mb-preloader/view/index.php:157
+msgid "Maximum Wait Millisecond"
+msgstr ""
+
+#: app/moduls/mb-robot_txt_editor/view/index.php:4
+msgid "Edit Robots.txt"
+msgstr ""
+
+#: app/moduls/mb-robot_txt_editor/view/index.php:13
+msgid ""
+"The plugin allows you to create and edit the robots.txt file on your site. "
+"More information on creating a robot.txt file can be found at <a "
+"href='https://developers.google.com/search/docs/advanced/robots/create-"
+"robots-txt' target='_blank'>https://developers.google.com/search/docs/"
+"advanced/robots/create-robots-txt</a>"
+msgstr ""
+
+#: app/moduls/mb-robot_txt_editor/view/index.php:24
+msgid "Accept Robotos.txt Changes"
+msgstr ""
+
+#: app/moduls/mb-seo_image/view/index.php:4
+msgid "Seo Image"
+msgstr ""
+
+#: app/moduls/mb-seo_image/view/index.php:12
+msgid ""
+"It is important for SEO that the images you add to your site have alt and "
+"title tags. If there are pictures that you did not enter these tags and you "
+"want them to be added automatically, activate this feature"
+msgstr ""
+
+#: app/moduls/mb-seo_image/view/index.php:20
+msgid ""
+"If you active this options it will change all content image tags ( alt and "
+"title )"
+msgstr ""
+
+#: app/moduls/mb-site_redirects/view/index.php:12
+msgid ""
+"This plugin helps you redirect insecure HTTP traffic to secure HTTPS one "
+"without touching any code. Just activate plugin and everything will be "
+"configured for you and SSL enabled. The entire site will move to HTTPS using "
+"your SSL certificate. It works with any SSL certificate also you can "
+"redirect your website other website"
+msgstr ""
+
+#: app/moduls/mb-site_redirects/view/index.php:20
+msgid "Don't change this options many times. It's important for seo"
+msgstr ""
+
+#: app/moduls/mb-site_redirects/view/index.php:45 system/core.php:131
+msgid "Settings"
+msgstr ""
+
+#: app/moduls/mb-site_redirects/view/index.php:55
+msgid "Redirect to HTTPS"
+msgstr ""
+
+#: app/moduls/mb-site_redirects/view/index.php:56
+msgid "Redirect HTTP"
+msgstr ""
+
+#: app/moduls/mb-site_redirects/view/index.php:60
+#: app/moduls/mb-site_redirects/view/index.php:81
+msgid "Don't Touch"
+msgstr ""
+
+#: app/moduls/mb-site_redirects/view/index.php:68
+msgid "Force SSL"
+msgstr ""
+
+#: app/moduls/mb-site_redirects/view/index.php:76
+msgid "Redirect to WWW"
+msgstr ""
+
+#: app/moduls/mb-site_redirects/view/index.php:77
+msgid "Redirect NON-WWWW"
+msgstr ""
+
+#: app/moduls/mb-site_redirects/view/index.php:89
+msgid "Force WWW"
+msgstr ""
+
+#: app/moduls/mb-site_redirects/view/index.php:99
+msgid "Redirect Full Path"
+msgstr ""
+
+#: app/moduls/mb-site_redirects/view/index.php:110
+msgid "Redirect Another Website"
+msgstr ""
+
+#: app/moduls/mb-site_redirects/view/index.php:117
+msgid "Redirect Url"
+msgstr ""
+
+#: app/moduls/mb-sitemap/view/index.php:5
+msgid "Sitemap"
+msgstr ""
+
+#: app/moduls/mb-sitemap/view/index.php:13
+msgid ""
+"Use this plugin to greatly improve SEO to create special XML sitemaps which "
+"will help search engines like Google, Bing, Yandex, Yahoo and Ask.com to "
+"better index your site"
+msgstr ""
+
+#: app/moduls/mb-sitemap/view/index.php:24
+#: app/moduls/mb-sitemap/view/index.php:111
+#: app/moduls/mb-sitemap/view/index.php:158
+#: app/moduls/mb-sitemap/view/index.php:206
+msgid "Sitemap Manager"
+msgstr ""
+
+#: app/moduls/mb-sitemap/view/index.php:55
+#: app/moduls/mb-sitemap/view/index.php:140
+#: app/moduls/mb-sitemap/view/index.php:188
+#: app/moduls/mb-sitemap/view/index.php:236
+msgid "Limit"
+msgstr ""
+
+#: app/moduls/mb-sitemap/view/index.php:63
+msgid "Add attached images"
+msgstr ""
+
+#: app/moduls/mb-sitemap/view/index.php:81
+msgid "Add post content images"
+msgstr ""
+
+#: app/moduls/mb-smtp/index.php:104
+msgid "Please login as admin"
+msgstr ""
+
+#: app/moduls/mb-smtp/index.php:128
+msgid "Invalid mail options"
+msgstr ""
+
+#: app/moduls/mb-smtp/index.php:135
+msgid "Invalid email address"
+msgstr ""
+
+#: app/moduls/mb-smtp/view/index.php:5
+msgid "SMTP Settings"
+msgstr ""
+
+#: app/moduls/mb-smtp/view/index.php:13 app/moduls/mb-smtp/view/index.php:47
+msgid ""
+"SMTP is about your mail configuration, if you don't fill inputs right you "
+"can trouble with mailling"
+msgstr ""
+
+#: app/moduls/mb-smtp/view/index.php:39
+msgid "Add Your SMTP Settings"
+msgstr ""
+
+#: app/moduls/mb-smtp/view/index.php:57
+msgid "Mail Host"
+msgstr ""
+
+#: app/moduls/mb-smtp/view/index.php:64
+msgid "Mail Username"
+msgstr ""
+
+#: app/moduls/mb-smtp/view/index.php:71
+msgid "Mail Password"
+msgstr ""
+
+#: app/moduls/mb-smtp/view/index.php:85
+msgid "Smtp Secure"
+msgstr ""
+
+#: app/moduls/mb-smtp/view/index.php:91
+msgid "Smtp Port"
+msgstr ""
+
+#: app/moduls/mb-smtp/view/index.php:104
+msgid "Reply Mail"
+msgstr ""
+
+#: app/moduls/mb-smtp/view/index.php:118
+msgid "Test Mail"
+msgstr ""
+
+#: app/moduls/mb-smtp/view/index.php:138
+msgid "Wait for response or stop older test"
+msgstr ""
+
+#: app/moduls/mb-smtp/view/index.php:141
+msgid "Stop Test"
+msgstr ""
+
+#: app/moduls/mb-smtp/view/index.php:142
+msgid "Wait Response"
+msgstr ""
+
+#: app/moduls/mb-smtp/view/index.php:149 app/moduls/mb-smtp/view/index.php:170
+msgid "Wait for response"
+msgstr ""
+
+#: app/moduls/mb-smtp/view/index.php:160
+msgid "Test your mail settings"
+msgstr ""
+
+#: app/moduls/mb-smtp/view/index.php:162
+msgid "Test Now"
+msgstr ""
+
+#: app/moduls/mb-smtp/view/index.php:196
+msgid "testmail@yourmail.com"
+msgstr ""
+
+#: app/moduls/mb-url_replacement/view/index.php:4
+msgid "Url Replacement"
+msgstr ""
+
+#: app/moduls/mb-url_replacement/view/index.php:12
+msgid ""
+"If you have changed the address of your website or if you have links on your "
+"site that you want to change the address of, you can easily do ​with this "
+"plugin"
+msgstr ""
+
+#: app/moduls/mb-url_replacement/view/index.php:20
+msgid ""
+"You have to change with every protocols ( like : https://olddomain, https://"
+"www.olddomain, http://olddomain, http://www.olddomain )"
+msgstr ""
+
+#: app/moduls/mb-url_replacement/view/index.php:29
+msgid "All Options"
+msgstr ""
+
+#: app/moduls/mb-url_replacement/view/index.php:47
+msgid "Old Url"
+msgstr ""
+
+#: app/moduls/mb-url_replacement/view/index.php:54
+msgid "New Url"
+msgstr ""
+
+#: app/moduls/mb-url_replacement/view/index.php:61
+msgid "Change"
+msgstr ""
+
+#: app/moduls/mb-user_permissions/view/index.php:5
+msgid "User Permissions"
+msgstr ""
+
+#: app/moduls/mb-user_permissions/view/index.php:13
+#: app/moduls/mb-user_permissions/view/index.php:48
+msgid "You can add new user permissions"
+msgstr ""
+
+#: app/moduls/mb-user_permissions/view/index.php:14
+msgid "You can delete user permission which you want"
+msgstr ""
+
+#: app/moduls/mb-user_permissions/view/index.php:15
+msgid ""
+"When user login the website you can redirect specific user role "
+"automatically another page"
+msgstr ""
+
+#: app/moduls/mb-user_permissions/view/index.php:40
+msgid "User Permissions Setting"
+msgstr ""
+
+#: app/moduls/mb-user_permissions/view/index.php:96
+#: app/moduls/mb-user_permissions/view/index.php:292
+msgid "Role Name"
+msgstr ""
+
+#: app/moduls/mb-user_permissions/view/index.php:102
+#: app/moduls/mb-user_permissions/view/index.php:298
+msgid "Role Redirect Page After Login"
+msgstr ""
+
+#: app/moduls/mb-user_permissions/view/index.php:106
+#: app/moduls/mb-user_permissions/view/index.php:241
+msgid "Delete Role : "
+msgstr ""
+
+#: app/moduls/mb-user_permissions/view/index.php:211
+#: app/moduls/mb-user_permissions/view/index.php:398
+msgid "Others"
+msgstr ""
+
+#: app/moduls/mb-user_permissions/view/index.php:270
+#: app/moduls/mb-user_permissions/view/index.php:291
+msgid "New Name"
+msgstr ""
+
+#: app/moduls/mb-user_permissions/view/index.php:433
+msgid "Not Deleted"
+msgstr ""
+
+#: app/moduls/mb-user_switch/index.php:95
+msgid "Switch User"
+msgstr ""
+
+#: app/moduls/mb-user_switch/index.php:144
+msgid "Switch To Back"
+msgstr ""
+
+#: app/moduls/mb-user_switch/view/index.php:4
+msgid "User Swicth"
+msgstr ""
+
+#: app/moduls/mb-user_switch/view/index.php:12
+#: app/moduls/mb-user_switch/view/index.php:22
+#: app/moduls/mb-user_switch/view/index.php:30
+msgid ""
+"Once activated, you need to go to the Users page in your WordPress admin. On "
+"users page, you will see a ‘Switch’ link next to each user account"
+msgstr ""
+
+#: app/moduls/mb-user_switch/view/index.php:13
+msgid ""
+"User switching is only available for users with an administrator user role. "
+"Once you have switched to a new user account, you can continue testing your "
+"website logged in as that user"
+msgstr ""
+
+#: app/moduls/mb-user_switch/view/index.php:14
+msgid ""
+"Once you are done, you can switch back to your own user account by clicking "
+"on the notification displayed on the screen"
+msgstr ""
+
+#: app/moduls/mb-user_switch/view/index.php:56
+msgid "Select User Roles For Switching"
+msgstr ""
+
+#: app/moduls/mb-userini_editor/view/index.php:4
+msgid "User.ini Editor"
+msgstr ""
+
+#: app/moduls/mb-userini_editor/view/index.php:12
+msgid ""
+"You can edit the User.ini file with the following editor without the need "
+"for FTP program"
+msgstr ""
+
+#: app/moduls/mb-userini_editor/view/index.php:20
+msgid "Please backup the file before making changes"
+msgstr ""
+
+#: app/moduls/mb-userini_editor/view/index.php:31
+msgid "Accept User.ini Changes"
+msgstr ""
+
+#: app/moduls/mb-visit_limitation/view/index.php:4
+#: app/moduls/mb-visit_limitation/view/index.php:38
+msgid "Visit Limitation"
+msgstr ""
+
+#: app/moduls/mb-visit_limitation/view/index.php:12
+msgid ""
+"You can limit some website process (Visit, Search ad Comment) for your "
+"security"
+msgstr ""
+
+#: app/moduls/mb-visit_limitation/view/index.php:46
+msgid "Choose user roles for bypass visit limitation"
+msgstr ""
+
+#: app/moduls/mb-visit_limitation/view/index.php:61
+msgid "Unregistered Site User"
+msgstr ""
+
+#: app/moduls/mb-visit_limitation/view/index.php:70
+msgid "Max Page Visit"
+msgstr ""
+
+#: app/moduls/mb-visit_limitation/view/index.php:76
+msgid "Max Search"
+msgstr ""
+
+#: app/moduls/mb-visit_limitation/view/index.php:83
+msgid "Max Comment"
+msgstr ""
+
+#: app/moduls/mb-visit_limitation/view/index.php:93
+msgid "This options important for search engine indexes"
+msgstr ""
+
+#: app/moduls/mb-visit_limitation/view/index.php:103
+msgid "Exclude search engine motors"
+msgstr ""
+
+#: app/moduls/mb-visit_limitation/view/index.php:114
+msgid "Please select this option"
+msgstr ""
+
+#: app/moduls/mb-visit_limitation/view/index.php:120
+msgid "Block spam bot and crawlers"
+msgstr ""
+
+#: app/moduls/mb-visit_limitation/view/index.php:129
+msgid "Select this options if you don't provide API"
+msgstr ""
+
+#: app/moduls/mb-visit_limitation/view/index.php:137
+msgid "Determine how the rules you set will be stored in your system"
+msgstr ""
+
+#: app/moduls/mb-visit_limitation/view/index.php:143
+msgid "Storage"
+msgstr ""
+
+#: app/moduls/mb-visit_limitation/view/index.php:168
+msgid ""
+"Determine which page will be shown to visitors who exceed the limits you set"
+msgstr ""
+
+#: app/moduls/mb-visit_limitation/view/index.php:178
+msgid "Default 404 Page"
+msgstr ""
+
+#: app/moduls/mb-visit_limitation/view/index.php:189
+msgid "Error Type"
+msgstr ""
+
+#: app/moduls/mb-visit_limitation/view/index.php:196
+msgid "Error Redirect"
+msgstr ""
+
+#: app/moduls/mb-white_label/index.php:133
+#, php-format
+msgid "%1s %2$s"
+msgstr ""
+
+#: app/moduls/mb-white_label/view/index.php:4
+msgid "White Label"
+msgstr ""
+
+#: app/moduls/mb-white_label/view/index.php:12
+#: app/moduls/mb-white_label/view/index.php:46
+#: app/moduls/mb-white_label/view/index.php:153
+#: app/moduls/mb-white_label/view/index.php:183
+#: app/moduls/mb-white_label/view/index.php:238
+msgid "You can hide the content you don't want in the Admin Panel"
+msgstr ""
+
+#: app/moduls/mb-white_label/view/index.php:13
+msgid "You can change the admin bar logo and title"
+msgstr ""
+
+#: app/moduls/mb-white_label/view/index.php:38
+msgid "Gizlenmesini İstediğiniz İçerikleri Seçiniz"
+msgstr ""
+
+#: app/moduls/mb-white_label/view/index.php:55
+msgid "Hide front-end admin bar"
+msgstr ""
+
+#: app/moduls/mb-white_label/view/index.php:70
+msgid "Hide Help Box"
+msgstr ""
+
+#: app/moduls/mb-white_label/view/index.php:85
+msgid "Hide Screen Options"
+msgstr ""
+
+#: app/moduls/mb-white_label/view/index.php:100
+msgid "Hide Nag Update Messages"
+msgstr ""
+
+#: app/moduls/mb-white_label/view/index.php:115
+msgid "Hide WordPress Logos and Links"
+msgstr ""
+
+#: app/moduls/mb-white_label/view/index.php:130
+msgid "Disable WordPress Version Check"
+msgstr ""
+
+#: app/moduls/mb-white_label/view/index.php:145
+msgid "Change Admin Panel Title"
+msgstr ""
+
+#: app/moduls/mb-white_label/view/index.php:165
+msgid "Custom Title"
+msgstr ""
+
+#: app/moduls/mb-white_label/view/index.php:175
+msgid "Change Wordpress Logo"
+msgstr ""
+
+#: app/moduls/mb-white_label/view/index.php:201
+msgid "Logo Url"
+msgstr ""
+
+#: app/moduls/mb-white_label/view/index.php:211
+msgid "Logo Alt Text"
+msgstr ""
+
+#: app/moduls/mb-white_label/view/index.php:221
+msgid "Howdy Text"
+msgstr ""
+
+#: app/moduls/mb-white_label/view/index.php:230
+msgid "Select Roles"
+msgstr ""
+
+#: model/magicbox.php:253
+msgid "Invalid Process"
+msgstr ""
+
+#: model/magicboxStaff.php:157 model/magicboxStaff.php:165
+#: model/magicboxStaff.php:172
+msgid "Unzip problems please upgrade your plugin manually"
+msgstr ""
+
+#: model/magicboxStaff.php:169
+msgid "Already Updated"
+msgstr ""
+
+#: model/magicboxStaff.php:508
+msgid "Homepage"
+msgstr ""
+
+#: system/core.php:55
+msgid "Passive"
+msgstr ""
+
+#: system/core.php:82
+msgid "Admin Panel"
+msgstr ""
+
+#: system/core.php:96
+msgid "Code Manager"
+msgstr ""
+
+#: system/core.php:105
+msgid "Security"
+msgstr ""
+
+#: system/core.php:114
+msgid "Seo"
+msgstr ""
+
+#: system/core.php:141
+msgid "Information"
+msgstr ""
+
+#: system/core.php:149
+msgid "Design"
+msgstr ""
+
+#: system/core.php:160
+msgid "Speed"
+msgstr ""
+
+#: system/core.php:169
+msgid "Marketing"
+msgstr ""
+
+#: system/core.php:176
+msgid "Contact"
+msgstr ""
+
+#: system/core.php:185
+msgid "Faq"
+msgstr ""
+
+#: system/core.php:188
+msgid "Documentation"
+msgstr ""
+
+#. translators: Login screen title. 1: Login screen name, 2: Network or site name.
+#: system/ext/wp-login.php:72
+#, php-format
+msgid "%1$s &lsaquo; %2$s &#8212; WordPress"
+msgstr ""
+
+#. translators: %s: Login screen title.
+#: system/ext/wp-login.php:76
+#, php-format
+msgid "Recovery Mode &#8212; %s"
+msgstr ""
+
+#: system/ext/wp-login.php:123
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: system/ext/wp-login.php:149
+msgid ""
+"Usage of the title attribute on the login logo is not recommended for "
+"accessibility reasons. Use the link text instead."
+msgstr ""
+
+#: system/ext/wp-login.php:152
+msgid "Powered by WordPress"
+msgstr ""
+
+#. translators: %s: Site title.
+#: system/ext/wp-login.php:292
+#, php-format
+msgctxt "site"
+msgid "&larr; Go to %s"
+msgstr ""
+
+#: system/ext/wp-login.php:529
+msgid "Confirm your administration email"
+msgstr ""
+
+#: system/ext/wp-login.php:558
+msgid "Administration email verification"
+msgstr ""
+
+#: system/ext/wp-login.php:561
+msgid ""
+"Please verify that the <strong>administration email</strong> for this "
+"website is still correct."
+msgstr ""
+
+#. translators: URL to the WordPress help section about admin email.
+#: system/ext/wp-login.php:565
+msgid ""
+"https://wordpress.org/support/article/settings-general-screen/#email-address"
+msgstr ""
+
+#. translators: Accessibility text.
+#: system/ext/wp-login.php:568
+msgid "(opens in a new tab)"
+msgstr ""
+
+#: system/ext/wp-login.php:573
+msgid "Why is this important?"
+msgstr ""
+
+#. translators: %s: Admin email address.
+#: system/ext/wp-login.php:584
+#, php-format
+msgid "Current administration email: %s"
+msgstr ""
+
+#: system/ext/wp-login.php:591
+msgid "This email may be different from your personal email address."
+msgstr ""
+
+#: system/ext/wp-login.php:603
+msgid "The email is correct"
+msgstr ""
+
+#: system/ext/wp-login.php:619
+msgid "Remind me later"
+msgstr ""
+
+#: system/ext/wp-login.php:713
+msgid ""
+"Your password reset link appears to be invalid. Please request a new link "
+"below."
+msgstr ""
+
+#: system/ext/wp-login.php:715
+msgid "Your password reset link has expired. Please request a new link below."
+msgstr ""
+
+#: system/ext/wp-login.php:740
+msgid ""
+"Please enter your username or email address. You will receive an email "
+"message with instructions on how to reset your password."
+msgstr ""
+
+#: system/ext/wp-login.php:752 system/ext/wp-login.php:1304
+msgid "Username or Email Address"
+msgstr ""
+
+#: system/ext/wp-login.php:767
+msgid "Get New Password"
+msgstr ""
+
+#: system/ext/wp-login.php:772 system/ext/wp-login.php:847
+#: system/ext/wp-login.php:908 system/ext/wp-login.php:1010
+msgid "Log in"
+msgstr ""
+
+#: system/ext/wp-login.php:831
+msgid "The passwords do not match."
+msgstr ""
+
+#: system/ext/wp-login.php:847
+msgid "Password Reset"
+msgstr ""
+
+#: system/ext/wp-login.php:847
+msgid "Your password has been reset."
+msgstr ""
+
+#: system/ext/wp-login.php:855
+msgid "Reset Password"
+msgstr ""
+
+#: system/ext/wp-login.php:855
+msgid "Enter your new password below or generate one."
+msgstr ""
+
+#: system/ext/wp-login.php:863
+msgid "New password"
+msgstr ""
+
+#: system/ext/wp-login.php:869
+msgid "Hide password"
+msgstr ""
+
+#: system/ext/wp-login.php:872
+msgid "Strength indicator"
+msgstr ""
+
+#: system/ext/wp-login.php:876
+msgid "Confirm use of weak password"
+msgstr ""
+
+#: system/ext/wp-login.php:881
+msgid "Confirm new password"
+msgstr ""
+
+#: system/ext/wp-login.php:902
+msgid "Generate Password"
+msgstr ""
+
+#: system/ext/wp-login.php:903
+msgid "Save Password"
+msgstr ""
+
+#: system/ext/wp-login.php:977
+msgid "Registration Form"
+msgstr ""
+
+#: system/ext/wp-login.php:977
+msgid "Register For This Site"
+msgstr ""
+
+#: system/ext/wp-login.php:986
+msgid "Email"
+msgstr ""
+
+#: system/ext/wp-login.php:1000
+msgid "Registration confirmation will be emailed to you."
+msgstr ""
+
+#: system/ext/wp-login.php:1012 system/ext/wp-login.php:1370
+msgid "Lost your password?"
+msgstr ""
+
+#. translators: %s: Link to the login page.
+#: system/ext/wp-login.php:1028
+#, php-format
+msgid ""
+"Check your email for the confirmation link, then visit the <a href=\"%s"
+"\">login page</a>."
+msgstr ""
+
+#. translators: %s: Link to the login page.
+#: system/ext/wp-login.php:1038
+#, php-format
+msgid ""
+"Registration complete. Please check your email, then visit the <a href=\"%s"
+"\">login page</a>."
+msgstr ""
+
+#: system/ext/wp-login.php:1048
+msgid "Check your email"
+msgstr ""
+
+#: system/ext/wp-login.php:1054
+msgid "Missing request ID."
+msgstr ""
+
+#: system/ext/wp-login.php:1058
+msgid "Missing confirm key."
+msgstr ""
+
+#: system/ext/wp-login.php:1086
+msgid "User action confirmed."
+msgstr ""
+
+#. translators: 1: Browser cookie documentation URL, 2: Support forums URL.
+#: system/ext/wp-login.php:1136
+#, php-format
+msgid ""
+"<strong>Error</strong>: Cookies are blocked due to unexpected output. For "
+"help, please see <a href=\"%1$s\">this documentation</a> or try the <a href="
+"\"%2$s\">support forums</a>."
+msgstr ""
+
+#: system/ext/wp-login.php:1137
+msgid "https://wordpress.org/support/article/cookies/"
+msgstr ""
+
+#: system/ext/wp-login.php:1138
+msgid "https://wordpress.org/support/forums/"
+msgstr ""
+
+#. translators: %s: Browser cookie documentation URL.
+#: system/ext/wp-login.php:1147
+#, php-format
+msgid ""
+"<strong>Error</strong>: Cookies are blocked or not supported by your "
+"browser. You must <a href=\"%s\">enable cookies</a> to use WordPress."
+msgstr ""
+
+#: system/ext/wp-login.php:1148
+msgid ""
+"https://wordpress.org/support/article/cookies/#enable-cookies-in-your-browser"
+msgstr ""
+
+#: system/ext/wp-login.php:1168
+msgid "You have logged in successfully."
+msgstr ""
+
+#: system/ext/wp-login.php:1242
+msgid "Your session has expired. Please log in to continue where you left off."
+msgstr ""
+
+#: system/ext/wp-login.php:1247
+msgid "You are now logged out."
+msgstr ""
+
+#: system/ext/wp-login.php:1249
+msgid "User registration is currently not allowed."
+msgstr ""
+
+#: system/ext/wp-login.php:1251
+msgid ""
+"<strong>You have successfully updated WordPress!</strong> Please log back in "
+"to see what&#8217;s new."
+msgstr ""
+
+#: system/ext/wp-login.php:1253
+msgid "Recovery Mode Initialized. Please log in to continue."
+msgstr ""
+
+#: system/ext/wp-login.php:1285 system/ext/wp-login.php:1329
+msgid "Log In"
+msgstr ""
+
+#: system/ext/wp-login.php:1312
+msgid "Show password"
+msgstr ""
+
+#: system/ext/wp-login.php:1327
+msgid "Remember Me"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://wpmagicbox.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Magic Box - Everything for wordpress"
+msgstr ""
