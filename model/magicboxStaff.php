@@ -74,15 +74,8 @@ if (!class_exists('MagicboxStaff')){
 
                     if ($ret){
 
-                        $exs = explode("plugins",$GLOBALS{'_mb_dir_'});
-                        array_pop($exs);
-                        $newPath ="";
-                        foreach($exs as $it) {
-                            $newPath .=$it."plugins";
-                        }
-
                         WP_Filesystem();
-                        $rett = unzip_file($path, $newPath);
+                        $rett = unzip_file($path, $GLOBALS{'_mb_dir_'});
 
                         $isWpError = is_wp_error($rett);
 
