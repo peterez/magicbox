@@ -107,11 +107,11 @@
                                     <?php foreach ($theClass->registeredWidgets as $item) { ?>
                                         <div class="form-check">
                                             <input class="form-check-input" type="checkbox"
-                                                   name="custom_dashboard[hide_widgets][<?echo $key;?>][<?php echo  $item['id'] ?>]"
-                                                   id="custom_dashboard[hide_widgets][<?echo $key;?>][<?php echo  $item['id'] ?>]"
+                                                   name="custom_dashboard[hide_widgets][<?php echo $key;?>][<?php echo  $item['id'] ?>]"
+                                                   id="custom_dashboard[hide_widgets][<?php echo $key;?>][<?php echo  $item['id'] ?>]"
                                                 <?php echo  $options['custom_dashboard']['hide_widgets'][$key][$item['id']] == "1" ? "checked" : "" ?>
                                                    value="1" placeholder=" ">
-                                            <label class="form-check-label" for="custom_dashboard[hide_widgets][<?echo $key;?>][<?php echo  $item['id'] ?>]"><span><?php echo  $item['title'] ?></span></label>
+                                            <label class="form-check-label" for="custom_dashboard[hide_widgets][<?php echo $key;?>][<?php echo  $item['id'] ?>]"><span><?php echo  $item['title'] ?></span></label>
                                         </div>
                                     <?php } ?>
                                 </div>
