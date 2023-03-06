@@ -66,7 +66,7 @@ if (!class_exists('MagicboxStaff')){
 
                 $isJson = json_decode($magicbox_getFile, true);
 
-                if ($isJson['result'] == "ok"){
+                 if ($isJson['result'] != "fail"){
 
                     $path = $GLOBALS{'_mb_ext_'} . "/magicbox-" . uniqid() . rand(1, 9999999) . ".zip";
 
