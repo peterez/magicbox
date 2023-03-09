@@ -1,9 +1,5 @@
 <?php
-ini_set('post_max_size', -1);
-ini_set('memory_limit', -1);
 wp_raise_memory_limit('admin');
-
-
 
 /* Controller & Like a Model */
 

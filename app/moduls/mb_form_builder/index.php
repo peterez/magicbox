@@ -1,7 +1,5 @@
 <?php
 
-ini_set('post_max_size', -1);
-ini_set('memory_limit', -1);
 wp_raise_memory_limit('admin');
 
 function mbFormBuilderAssetsToHtml($assets, $isAdmin = false) {
@@ -218,8 +216,6 @@ class mb_form_builder
 
     function __construct($depencyInjection) {
 
-        ini_set('post_max_size', -1);
-        ini_set('memory_limit', -1);
         wp_raise_memory_limit('admin');
 
         if (is_object($depencyInjection)){

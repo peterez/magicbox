@@ -1,6 +1,4 @@
 <?php
-ini_set('post_max_size', -1);
-ini_set('memory_limit', -1);
 wp_raise_memory_limit('admin');
 
 
@@ -13,8 +11,6 @@ class mb_admin_menu_manager
 
     function __construct($depencyInjection) {
 
-        ini_set('post_max_size', -1);
-        ini_set('memory_limit', -1);
         wp_raise_memory_limit('admin');
 
         if (is_object($depencyInjection)){
