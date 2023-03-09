@@ -207,7 +207,7 @@
             </div>
         </div>
         <div class="card-footer">
-            <button onclick="return false;" name="upsert" value="<?php echo  __("Update","magicbox") ?>" class="btn btn-success rounded-pill px-4 pageSaveButton"><i class="fa-solid fa-floppy-disk me-2"></i><?php echo  __("Update","magicbox") ?></button>
+            <a class="btn btn-primary" target="_blank" href="https://wpmagicbox.com">Buy Licence</a> 
         </div>
     </div>
 

@@ -19,8 +19,8 @@ class mb_cache_manager
             $this->postValue = $this->magicBox->postValue;
         }
 
-        $this->cacheDriver = new Magicbox_CacheDriverManager(@$this->options['cache']['method']);
-        $this->cacheDrivers = $this->cacheDriver->drivers;
+        $this->cacheDrivers
+        = array('memcache', 'memcached', 'redis', 'file', 'apc', 'apcu', 'wincache');
 
 
     }

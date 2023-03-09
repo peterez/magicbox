@@ -113,11 +113,7 @@
         </div>
 
         <div class="card-footer">
-            <button onclick="return false;" name="upsert" value="<?php echo  __("Update","magicbox") ?>" class="btn btn-success rounded-pill mb-3 mb-md-0 px-4 pageSaveButton">
-                <i class="fa-solid fa-floppy-disk me-2"></i><?php echo  __("Update","magicbox") ?></button>
-
-            <button type="submit" value="<?php echo  __("Update","magicbox") ?>" onclick="return false;" class="btn testMail btn-success rounded-pill px-4">
-                <i class="fa-solid fa-floppy-disk me-2"></i><?php echo  __("Test Mail","magicbox") ?></button>
+          <a class="btn btn-primary" target="_blank" href="https://wpmagicbox.com"><?php echo __("Buy Licence", "magicbox") ?></a>
 
         </div>
 

@@ -40,20 +40,6 @@ class mb_admin_menu_manager
         return array();
     }
 
-    private function findMenuDetailFromArray($array, $key) {
-
-        $return = array();
-        if (is_array($array)){
-            foreach ($array as $item) {
-                if ($item[2] == $key){
-                    $return = $item;
-                }
-            }
-        }
-
-        return $return;
-
-    }
 
 
     function adminMenus() {
