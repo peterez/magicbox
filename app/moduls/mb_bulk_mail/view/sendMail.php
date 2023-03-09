@@ -1,7 +1,7 @@
 <?php 
  $targets = array("1" => __("Users","magicbox"), "2" => __("Manuel","magicbox"));
 ?>
-<form method="post" class="theForm theForm-<?php echo sanitize_text_field($_REQUEST['sub'])?>-<?php echo sanitize_text_field($_REQUEST['method'])==""?"index":sanitize_text_field($_REQUEST['method'])?>">
+<form method="post" class="theForm theForm-<?php echo esc_attr($_REQUEST['sub'])?>-<?php echo esc_attr($_REQUEST['method'])==""?"index":esc_attr($_REQUEST['method'])?>">
     <div class="card bg-light">
 
         <div class="card-header">

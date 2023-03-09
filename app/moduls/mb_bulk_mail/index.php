@@ -22,7 +22,7 @@ class mb_bulk_mail
             $this->postValue = $this->magicBox->postValue;
         }
 
-        $this->pureUrl = $pureUrl = "admin.php?page=" . @sanitize_text_field($_REQUEST['page']) . "&sub=" . @sanitize_text_field($_REQUEST['sub']);
+        $this->pureUrl = $pureUrl = "admin.php?page=" . @sanitize_text_field($_REQUEST['page']) . "&sub=" . @esc_attr($_REQUEST['sub']);
         $this->subMenu = array(array("link" => $pureUrl, "title" => __("Settings","magicbox")), array("link" => $pureUrl, "title" => __("Campaigns","magicbox"), "method" => "campaigns"), array("link" => $pureUrl, "title" => __("Send Mail","magicbox"), "method" => "sendMail"),);
 
     }

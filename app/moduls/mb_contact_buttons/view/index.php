@@ -23,7 +23,7 @@ $hoverEffects = array("1" => __("Zoom Icon", "magicbox"), /* imaj büyültme */
 
 
 ?>
-<form method="post" class="theForm theForm-<?php echo sanitize_text_field($_REQUEST['sub'])?>-<?php echo $_REQUEST['method']==""?"index":sanitize_text_field($_REQUEST['method'])?>">
+<form method="post" class="theForm theForm-<?php echo esc_attr($_REQUEST['sub'])?>-<?php echo $_REQUEST['method']==""?"index":esc_attr($_REQUEST['method'])?>">
 <div class="card bg-light">
 
     <div class="card-header">

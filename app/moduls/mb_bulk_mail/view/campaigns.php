@@ -3,9 +3,9 @@
     "1" => __("Users","magicbox"),
     "2" => __("Manuel","magicbox")
 );
-$detailUrl = "admin.php?page=".sanitize_text_field($_REQUEST['page'])."&sub=".sanitize_text_field($_REQUEST['sub'])."&method=sendMail";
+$detailUrl = "admin.php?page=".sanitize_text_field($_REQUEST['page'])."&sub=".esc_attr($_REQUEST['sub'])."&method=sendMail";
 ?>
-<form method="post" class="theForm theForm-<?php echo sanitize_text_field($_REQUEST['sub'])?>-<?php echo $_REQUEST['method']==""?"index":sanitize_text_field($_REQUEST['method'])?>">
+<form method="post" class="theForm theForm-<?php echo esc_attr($_REQUEST['sub'])?>-<?php echo $_REQUEST['method']==""?"index":esc_attr($_REQUEST['method'])?>">
     <div class="card bg-light">
         <div class="card-header">
             <h6 class="my-0"><?php echo  __("Campaigns","magicbox") ?></h6>
@@ -75,7 +75,7 @@ $detailUrl = "admin.php?page=".sanitize_text_field($_REQUEST['page'])."&sub=".sa
         </div>
         <div class="card-footer">
             <?php 
-             $pureUrl = "admin.php?page=".sanitize_text_field($_REQUEST['page'])."&sub=".sanitize_text_field($_REQUEST['sub'])."&method=campaigns";
+             $pureUrl = "admin.php?page=".sanitize_text_field($_REQUEST['page'])."&sub=".esc_attr($_REQUEST['sub'])."&method=campaigns";
             $oldPn = intval(sanitize_text_field($_REQUEST['pn']))-1;
             $newPn = intval(sanitize_text_field($_REQUEST['pn']))+1;
             ?>
@@ -98,7 +98,7 @@ $detailUrl = "admin.php?page=".sanitize_text_field($_REQUEST['page'])."&sub=".sa
 
 
 
-<?php $sendUrl = "admin.php?page=".sanitize_text_field($_REQUEST['page'])."&sub=".sanitize_text_field($_REQUEST['sub'])."&method=sendMail&campaign_id="; ?>
+<?php $sendUrl = "admin.php?page=".sanitize_text_field($_REQUEST['page'])."&sub=".esc_attr($_REQUEST['sub'])."&method=sendMail&campaign_id="; ?>
 <script>
     jQuery(document).on('click', '.sendNow', function () {
         theId = jQuery(this).data('id');

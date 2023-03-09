@@ -1,5 +1,5 @@
-<?php $readUrl = "admin.php?page=".sanitize_text_field($_REQUEST['page'])."&sub=".sanitize_text_field($_REQUEST['sub']);?>
-<form method="post" class="theForm theForm-<?php echo sanitize_text_field($_REQUEST['sub'])?>-<?php echo $_REQUEST['method']==""?"index":sanitize_text_field($_REQUEST['method'])?>">
+<?php $readUrl = "admin.php?page=".sanitize_text_field($_REQUEST['page'])."&sub=".esc_attr($_REQUEST['sub']);?>
+<form method="post" class="theForm theForm-<?php echo esc_attr($_REQUEST['sub'])?>-<?php echo $_REQUEST['method']==""?"index":esc_attr($_REQUEST['method'])?>">
     <div class="card bg-light">
 
         <div class="card-header">
@@ -48,7 +48,7 @@
                 </table>
         </div>
         <?php 
-         $pureUrl = "admin.php?page=".sanitize_text_field($_REQUEST['page'])."&sub=".sanitize_text_field($_REQUEST['sub'])."&method=".sanitize_text_field($_REQUEST['method']);
+         $pureUrl = "admin.php?page=".sanitize_text_field($_REQUEST['page'])."&sub=".esc_attr($_REQUEST['sub'])."&method=".esc_attr($_REQUEST['method']);
          $oldPn = intval(sanitize_text_field($_REQUEST['pn']))-1;
          $newPn = intval(sanitize_text_field($_REQUEST['pn']))+1;
         ?>

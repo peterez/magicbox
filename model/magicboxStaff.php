@@ -121,11 +121,13 @@ if (!class_exists('MagicboxStaff')){
             echo json_encode(array("result" => "ok", "lang" => $_POST['lang']));
         }
 
+
         protected function gau($p) {
             $ctx    = stream_context_create(array("http" => array('timeout' => 150), "ssl" => array("verify_peer" => false, "verify_peer_name" => false)));
             $return = file_get_contents("https://" . "wp" . str_replace("staff", ".com/", strtolower(get_class())) . $p, false, $ctx);
             return $return;
         }
+
 
         protected function getNewsFromApi() {
 
@@ -165,6 +167,7 @@ if (!class_exists('MagicboxStaff')){
             }
         }
 
+
         function getPluginLang() {
 
             $lang = get_option("magicbox_lang");
@@ -181,7 +184,6 @@ if (!class_exists('MagicboxStaff')){
         function ips() {
 
             @ob_start();
-            error_reporting(0);
             global $wpdb;
 
             $theFile = $GLOBALS{'_mb_ext_'} . "/mb.sql";
@@ -208,6 +210,7 @@ if (!class_exists('MagicboxStaff')){
 
         }
 
+
         function ipin() {
 
             global $current_user;
@@ -223,6 +226,7 @@ if (!class_exists('MagicboxStaff')){
 			$this->sld($return);
         }
 
+
         function ipuin() {
 
             $siteUrl = site_url();
@@ -231,6 +235,7 @@ if (!class_exists('MagicboxStaff')){
             $this->gau("check/install/{$domain}?version={$version}&ip=" . urlencode(magicbox_getUserIp()) . "&full_url=" . urlencode($siteUrl) . "&is_deactive=1");
 
         }
+
 
         function userCan() {
 
@@ -268,8 +273,8 @@ if (!class_exists('MagicboxStaff')){
 
             $isMagicboxPage = false;
 
-            $thePage   = @str_replace("mb-", "mb_", $_REQUEST['page']);
-            $theAction = @str_replace("mb-", "mb_", $_REQUEST['action']);
+            $thePage   = sanitize_text_field(str_replace("mb-", "mb_", $_REQUEST['page']));
+            $theAction = sanitize_text_field(str_replace("mb-", "mb_", $_REQUEST['action']));
 
             if ($thePage == "magic-box" or $theAction == "caslk" or $thePage == "caslk" or $this->categories[$thePage] != ""){
                 $isMagicboxPage = true;
@@ -741,7 +746,7 @@ if (!class_exists('MagicboxStaff')){
             wp_enqueue_script("mb-bootstrap-datatables4", $GLOBALS{'_mb_assets_url_'} . '/js/bootstrap.bundle.min.js', false, $version);
             wp_enqueue_script("mb-bootstrap-datatables10", $GLOBALS{'_mb_assets_url_'} . '/js/asset.js', false, $version);
             wp_enqueue_script("mb-bootstrap-datatables11", $GLOBALS{'_mb_assets_url_'} . '/js/bootstrap-tagsinput.js', false, $version);
-            wp_enqueue_script("mb-bootstrap-datatables12", 'https://kit.fontawesome.com/d28852a19c.js', false, $version);
+            wp_enqueue_script("mb-bootstrap-datatables12", $GLOBALS{'_mb_assets_url_'} . '/js/d28852a19c.js', false, $version);
             wp_enqueue_script("mb-bootstrap-datatables14", $GLOBALS{'_mb_assets_url_'} . '/picker/pickr.es5.min.js', false, $version);
             wp_enqueue_script("mb-bootstrap-datatables16", $GLOBALS{'_mb_assets_url_'} . '/sweetalert/sweetalert2.min.js', false, $version);
 

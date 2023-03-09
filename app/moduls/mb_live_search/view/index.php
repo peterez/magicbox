@@ -1,4 +1,4 @@
-<form method="post" class="theForm theForm-<?php echo sanitize_text_field($_REQUEST['sub'])?>-<?php echo $_REQUEST['method']==""?"index":sanitize_text_field($_REQUEST['method'])?>">
+<form method="post" class="theForm theForm-<?php echo esc_attr($_REQUEST['sub'])?>-<?php echo $_REQUEST['method']==""?"index":esc_attr($_REQUEST['method'])?>">
     <div class="card bg-light">
         <div class="card-header">
             <h6 class="my-0"><?php echo  __("Live Search","magicbox") ?></h6>
@@ -43,30 +43,15 @@
         <div class="card-body">
             <div class="container-mb">
                 <div class="row fixedRow">
-                    <?/*?>
-                    <div class="clearfix"></div>
-                    <div class="col-12 col-md-6">
-                        <div class="input-group">
-                            <select class="form-select" name="live_search[full_width]" id="live_search[full_width]">
-                                <?php foreach ($yesNo as $key => $value) { ?>
-                                    <option
-                                            value="<?php echo  $key ?>"<?php if ($key == $options['live_search']['full_width'] or $options['live_search']['full_width'] == "" and $key == 2) {
-                                        echo "selected";
-                                    } ?>><?php echo  $value ?></option>
-                                <?php } ?>
-                            </select>
-                            <label class="form-label" for="live_search[full_width]"><?php echo  __("Full Width","magicbox") ?></label>
-                        </div>
-                    </div>
-                    <?*/?>
+
                     <div class="col-12 col-md-6">
                         <div class="input-group">
                             <select class="form-select" name="live_search[show_img]" id="live_search[show_img]">
                                 <?php foreach ($yesNo as $key => $value) { ?>
                                     <option
-                                            value="<?php echo  $key ?>"<?php if ($key == $options['live_search']['show_img'] or $options['live_search']['show_img'] == "" and $key == 2) {
+                                            value="<?php echo  esc_attr($key) ?>"<?php if (esc_attr($key) == $options['live_search']['show_img'] or $options['live_search']['show_img'] == "" and esc_attr($key) == 2) {
                                         echo "selected";
-                                    } ?>><?php echo  $value ?></option>
+                                    } ?>><?php echo  esc_attr($value) ?></option>
                                 <?php } ?>
                             </select>
                             <label class="form-label" for="live_search[show_img]"><?php echo  __("Show Image","magicbox") ?></label>

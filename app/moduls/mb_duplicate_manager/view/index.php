@@ -1,5 +1,5 @@
 <?php 
- $pureUrl = "admin.php?page=" . sanitize_text_field($_REQUEST['page']) . "&sub=" . sanitize_text_field($_REQUEST['sub']);
+ $pureUrl = "admin.php?page=" . sanitize_text_field($_REQUEST['page']) . "&sub=" . esc_attr($_REQUEST['sub']);
 ?>
 <div class="card bg-light">
 
@@ -56,7 +56,7 @@
             <div class="col-md-4">
                 <div class="d-flex justify-content-end">
                     <?php 
-                     $pureUrl = "admin.php?page=" . sanitize_text_field($_REQUEST['page']) . "&sub=" . sanitize_text_field($_REQUEST['sub']);
+                     $pureUrl = "admin.php?page=" . sanitize_text_field($_REQUEST['page']) . "&sub=" . esc_attr($_REQUEST['sub']);
                     $oldPn = intval(sanitize_text_field($_REQUEST['pn']))-50;
                     $newPn = intval(sanitize_text_field($_REQUEST['pn']))+50;
                     ?>

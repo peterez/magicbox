@@ -198,7 +198,7 @@ class MagicBox extends
         }
 
         /* For Master Page */
-        $methodName = $_REQUEST['method'] == ""? "index" : magicbox_justTextNumber(sanitize_text_field($_REQUEST['method']), "_");
+        $methodName = $_REQUEST['method'] == ""? "index" : magicbox_justTextNumber(esc_attr($_REQUEST['method']), "_");
         $canRun     = $this->checkCanRunModul($modul, $subModul);
         $canRun == false & $_REQUEST['is_ajax'] == "true"? die : "";
 
@@ -239,7 +239,7 @@ class MagicBox extends
         $modul = str_replace("-", "_", $modul);
         $modul = strtolower($modul)=="magicbox"?"MagicBox\MagicBox":$modul;
 
-        $methodName = $_REQUEST['method'] == ""? "index" : magicbox_justTextNumber(sanitize_text_field($_REQUEST['method']), "_");
+        $methodName = $_REQUEST['method'] == ""? "index" : magicbox_justTextNumber(esc_attr($_REQUEST['method']), "_");
         $canRun = $this->checkCanRunModul("", $modul);
 
         if ($canRun == false or method_exists($modul, $methodName) == false){

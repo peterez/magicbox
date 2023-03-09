@@ -7,11 +7,11 @@ foreach ($customPostTypes as $item) {
     $postTypes[$item['name']] = $item['label'];
 }
 
-$pureUrl = "admin.php?page=" . sanitize_text_field($_REQUEST['page']) . "&sub=" . sanitize_text_field($_REQUEST['sub']);
+$pureUrl = "admin.php?page=" . sanitize_text_field($_REQUEST['page']) . "&sub=" . esc_attr($_REQUEST['sub']);
 
 ?>
 
-<form method="post" class="theForm theForm-<?php echo sanitize_text_field($_REQUEST['sub']) ?>-<?php echo $_REQUEST['method'] == ""? "index" : sanitize_text_field($_REQUEST['method']) ?>">
+<form method="post" class="theForm theForm-<?php echo esc_attr($_REQUEST['sub']) ?>-<?php echo $_REQUEST['method'] == ""? "index" : esc_attr($_REQUEST['method']) ?>">
     <div class="card bg-light">
         <div class="card-header">
             <h6 class="my-0"><?php echo __("Setting", "magicbox") ?></h6>
@@ -238,7 +238,7 @@ $pureUrl = "admin.php?page=" . sanitize_text_field($_REQUEST['page']) . "&sub=" 
 
 
 <?php
-$pureUrl = "admin.php?page=" . sanitize_text_field($_REQUEST['page']) . "&sub=" . sanitize_text_field($_REQUEST['sub']);
+$pureUrl = "admin.php?page=" . sanitize_text_field($_REQUEST['page']) . "&sub=" . esc_attr($_REQUEST['sub']);
 $oldPn = intval(sanitize_text_field($_REQUEST['pn']))-1;
 $newPn = intval(sanitize_text_field($_REQUEST['pn']))+1;
 ?>

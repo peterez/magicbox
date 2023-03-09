@@ -1,8 +1,8 @@
 <?php global $menuIcons;
 $magicBoxLink = "admin.php?page=magic-box";
-$_REQUEST['page'] = sanitize_text_field($_REQUEST['page']);
-$_REQUEST['sub'] = sanitize_text_field($_REQUEST['sub']);
-$_REQUEST['method'] = sanitize_text_field($_REQUEST['method']);
+$_REQUEST['page'] = esc_attr($_REQUEST['page']);
+$_REQUEST['sub'] = esc_attr($_REQUEST['sub']);
+$_REQUEST['method'] = esc_attr($_REQUEST['method']);
 ?>
 <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap shadow-sm p-0 mb-4">
     <a class="navbar-brand" href="#">WP MagicBox</a>
@@ -46,7 +46,7 @@ $_REQUEST['method'] = sanitize_text_field($_REQUEST['method']);
                         $icon            = $menuIcons[$key];
                         $menuUrls[$key]  = $menuUrl;
                         $menuNames[$key] = $item['title'];
-                        if (@$item['subs'][sanitize_text_field($_REQUEST['sub'])]){
+                        if (@$item['subs'][esc_attr($_REQUEST['sub'])]){
                             $selectedClass = ' selected';
                         } else {
                             $selectedClass = '';
@@ -126,12 +126,12 @@ $_REQUEST['method'] = sanitize_text_field($_REQUEST['method']);
                         <a href="<?php echo $magicBoxLink ?>"><?php _e("Home", "magicbox") ?></a></li>
                     <?php if ($_REQUEST['page'] != "" and $_REQUEST['page'] != "magic-box"){ ?>
                         <li class="breadcrumb-item <?php echo $_REQUEST['sub'] == ""? "active" : "" ?>"><a
-                                href="<?php echo $menuUrls[$_REQUEST['page']] ?>"><?php echo $menuNames[$_REQUEST['page']] ?></a>
+                                href="<?php echo esc_attr($menuUrls[$_REQUEST['page']]) ?>"><?php echo esc_attr($menuNames[$_REQUEST['page']]) ?></a>
                         </li>
                     <?php } ?>
                     <?php if ($_REQUEST['sub'] != ""){ ?>
                         <li class="breadcrumb-item active"><a
-                                href="<?php echo $menuUrls[$_REQUEST['sub']] ?>"><?php echo $menuNames[$_REQUEST['sub']] ?></a>
+                                href="<?php echo esc_attr($menuUrls[$_REQUEST['sub']]) ?>"><?php echo esc_attr($menuNames[$_REQUEST['sub']]) ?></a>
                         </li>
                     <?php } ?>
                     <?php if (@$theClass->subMenu){ ?>

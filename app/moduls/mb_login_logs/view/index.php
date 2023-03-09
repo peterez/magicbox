@@ -1,5 +1,5 @@
-<?php $pureUrl = "admin.php?page=" . sanitize_text_field($_REQUEST['page']) . "&sub=" . sanitize_text_field($_REQUEST['sub']); ?>
-<form method="post" class="theForm theForm-<?php echo sanitize_text_field($_REQUEST['sub'])?>-<?php echo $_REQUEST['method']==""?"index":sanitize_text_field($_REQUEST['method'])?>">
+<?php $pureUrl = "admin.php?page=" . sanitize_text_field($_REQUEST['page']) . "&sub=" . esc_attr($_REQUEST['sub']); ?>
+<form method="post" class="theForm theForm-<?php echo esc_attr($_REQUEST['sub'])?>-<?php echo $_REQUEST['method']==""?"index":esc_attr($_REQUEST['method'])?>">
     <div class="card bg-light">
         <div class="card-header">
             <h6 class="my-0"><?php echo  __("Login Logs","magicbox") ?></h6>
@@ -83,7 +83,7 @@
                 Swal.showLoading()
                 jQuery(this).magicRequest(
                     {'action': 'mb_login_logs', 'method' : 'index','upsertAndFlush':'true'},
-                    {'element':'.theForm-<?php echo sanitize_text_field($_REQUEST['sub'])?>-<?php echo $_REQUEST['method']==""?"index":sanitize_text_field($_REQUEST['method'])?>'},
+                    {'element':'.theForm-<?php echo esc_attr($_REQUEST['sub'])?>-<?php echo $_REQUEST['method']==""?"index":esc_attr($_REQUEST['method'])?>'},
                     function(response) {
                         response = JSON.parse(response);
                         Swal.close()
