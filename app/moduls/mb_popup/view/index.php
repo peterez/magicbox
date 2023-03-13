@@ -29,9 +29,9 @@
                             <select class="form-select" name="popup[status]" id="popup[status]">
                                 <?php foreach ($activePassive as $key => $value) { ?>
                                     <option
-                                            value="<?php echo  $key ?>"<?php if ($key == $options['popup']['status'] or $options['popup']['status'] == "" and $key == 2) {
+                                            value="<?php echo  esc_attr($key) ?>"<?php if ($key == $options['popup']['status'] or $options['popup']['status'] == "" and $key == 2) {
                                         echo "selected";
-                                    } ?>><?php echo  $value ?></option>
+                                    } ?>><?php echo  esc_attr($value) ?></option>
                                 <?php } ?>
                             </select>
                             <label class="input-group-text" for="popup[status]"><?php echo  __("Status","magicbox") ?></label>
@@ -90,7 +90,7 @@
                         <select name="popup[close_type]" class="form-control" id="popup[close_type]">
                             <?php foreach ($closes as $key => $value) { ?>
                                 <option <?php echo  $options['popup']['close_type'] == $key ? "selected" : "" ?>
-                                        value="<?php echo  $key ?>"><?php echo  $value ?></option>
+                                        value="<?php echo  esc_attr($key) ?>"><?php echo  esc_attr($value) ?></option>
                             <?php } ?>
                         </select>
                         <label class="form-label" for="popup[close_type]"><?php echo  __("Repeat","magicbox") ?></label>
@@ -108,7 +108,7 @@
                         <select name="popup[repeat]" class="form-control" id="popup[repeat]">
                             <?php foreach ($repeats as $key => $value) { ?>
                                 <option <?php echo  $options['popup']['repeat'] == $key ? "selected" : "" ?>
-                                        value="<?php echo  $key ?>"><?php echo  $value ?></option>
+                                        value="<?php echo  esc_attr($key) ?>"><?php echo  esc_attr($value) ?></option>
                             <?php } ?>
                         </select>
                         <label class="form-label" for="popup[repeat]"><?php echo  __("Repeat","magicbox") ?></label>
@@ -138,7 +138,7 @@
                         <select name="popup[position]" class="form-control" id="popup[position]">
                             <?php foreach ($posisions as $key => $value) { ?>
                                 <option <?php echo  $options['popup']['position'] == $key ? "selected" : "" ?>
-                                        value="<?php echo  $key ?>"><?php echo  $value ?></option>
+                                        value="<?php echo  esc_attr($key) ?>"><?php echo  esc_attr($value) ?></option>
                             <?php } ?>
                         </select>
                         <label class="form-label" for="popup[position]"><?php echo  __("Position","magicbox") ?></label>
@@ -149,7 +149,7 @@
                         <select name="popup[transparent_background]" class="form-control" id="popup[transparent_background]">
                             <?php foreach ($yesNo as $key => $value) { ?>
                                 <option <?php echo  $options['popup']['transparent_background'] == $key ? "selected" : "" ?>
-                                        value="<?php echo  $key ?>"><?php echo  $value ?></option>
+                                        value="<?php echo  esc_attr($key) ?>"><?php echo  esc_attr($value) ?></option>
                             <?php } ?>
                         </select>
                         <label class="form-label" for="popup[transparent_background]"><?php echo  __("Transparent Background","magicbox") ?></label>
@@ -292,9 +292,9 @@
                             foreach ($postTypes as $key => $value) {
                                 ?>
                                 <div class="form-check">
-                                    <input class="form-check-input" <?php echo $options['popup']['type'][$value['name']] == "1"?"checked":""?> type="checkbox" name="popup[type][<?php echo $value['name']?>]" value="1" id="_<?php echo $value['name']?>">
-                                    <label class="form-check-label" for="_<?php echo $value['name']?>">
-                                        <span><?php echo  $value['label'] ?></span>
+                                    <input class="form-check-input" <?php echo $options['popup']['type'][$value['name']] == "1"?"checked":""?> type="checkbox" name="popup[type][<?php echo  esc_attr($value['name'])?>]" value="1" id="_<?php echo  esc_attr($value['name'])?>">
+                                    <label class="form-check-label" for="_<?php echo  esc_attr($value['name'])?>">
+                                        <span><?php echo  esc_attr($value['label']) ?></span>
                                     </label>
                                 </div>
                             <?php } ?>

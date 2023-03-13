@@ -47,9 +47,9 @@ $positions = array("head-top_html" => __("Head Top","magicbox"), "head-bottom_ht
                         <select class="form-select" name="code_inserter[status]" id="code_inserter[status]">
                             <?php foreach ($activePassive as $key => $value) { ?>
                                 <option
-                                    value="<?php echo  $key ?>"<?php if ($key == $options['code_inserter']['status'] or $options['code_inserter']['status'] == "" and $key == 2){
+                                    value="<?php echo  esc_attr($key) ?>"<?php if ($key == $options['code_inserter']['status'] or $options['code_inserter']['status'] == "" and $key == 2){
                                     echo "selected";
-                                } ?>><?php echo  $value ?></option>
+                                } ?>><?php echo  esc_attr($value) ?></option>
                             <?php } ?>
                         </select>
                         <label class="form-label" for="code_inserter[status]"><?php echo  __("Status","magicbox") ?></label>
@@ -83,7 +83,7 @@ $positions = array("head-top_html" => __("Head Top","magicbox"), "head-bottom_ht
                     <div class="form-group">
                         <select name="page_type" id="pageType" class="pageType form-control">
                             <?php foreach ($pageTypes as $key => $value) { ?>
-                                <option value="<?php echo  $key ?>"><?php echo  $value ?></option>
+                                <option value="<?php echo  esc_attr($key) ?>"><?php echo  esc_attr($value) ?></option>
                             <?php } ?>
                         </select>
                         <label class="form-label" for="pageType"><?php echo  __("Page","magicbox") ?></label>
@@ -94,7 +94,7 @@ $positions = array("head-top_html" => __("Head Top","magicbox"), "head-bottom_ht
                     <div class="form-group">
                         <select name="device" id="device" class="device form-control">
                             <?php foreach ($devices as $key => $value) { ?>
-                                <option value="<?php echo  $key ?>"><?php echo  $value ?></option>
+                                <option value="<?php echo  esc_attr($key) ?>"><?php echo  esc_attr($value) ?></option>
                             <?php } ?>
                         </select>
                         <label class="form-label" for="device"><?php echo  __("Device","magicbox") ?></label>
@@ -105,7 +105,7 @@ $positions = array("head-top_html" => __("Head Top","magicbox"), "head-bottom_ht
                     <div class="form-group">
                         <select name="position" id="position" class="position form-control">
                             <?php foreach ($positions as $key => $value) { ?>
-                                <option value="<?php echo  $key ?>"><?php echo  $value ?></option>
+                                <option value="<?php echo  esc_attr($key) ?>"><?php echo  esc_attr($value) ?></option>
                             <?php } ?>
                         </select>
                         <label class="form-label" for="position"><?php echo  __("Position","magicbox") ?></label>
@@ -143,7 +143,7 @@ $positions = array("head-top_html" => __("Head Top","magicbox"), "head-bottom_ht
 
                         <?php foreach ($pageTypes as $key => $v) { ?>
 
-                            <div id="ci_<?php echo  $key ?>">
+                            <div id="ci_<?php echo  esc_attr($key) ?>">
 
                                 <?php foreach ($devices as $dk => $d) { ?>
 
@@ -153,23 +153,23 @@ $positions = array("head-top_html" => __("Head Top","magicbox"), "head-bottom_ht
 
                                             $ex = explode("__", $value['key']);
                                             ?>
-                                            <div class="row fixedRow align-items-center <?php echo  $value['key'] ?>">
+                                            <div class="row fixedRow align-items-center <?php echo  esc_attr($value['key']) ?>">
                                                 <div class="col-12">
-                                                    <div class="checkAndshowHide" key="<?php echo  $value['key'] ?>" style="cursor:pointer">
+                                                    <div class="checkAndshowHide" key="<?php echo  esc_attr($value['key']) ?>" style="cursor:pointer">
                                                         <h3 class="innerTitle"><?php echo  $v ?> > <?php echo  $d ?> > <?php echo  $positions[$ex[2]] ?></h3>
                                                     </div>
                                                 </div>
                                                 <div class="clearfix"></div>
-                                                <div class="row" id="<?php echo  $value['key'] ?>" style="visibility:hidden; position:absolute;">
+                                                <div class="row" id="<?php echo  esc_attr($value['key']) ?>" style="visibility:hidden; position:absolute;">
 
                                                     <div class="col-10">
                                                         <div class="form-group">
-                                                            <textarea id="__<?php echo  $value['key'] ?>" name="code_inserter[<?php echo  $value['key'] ?>]" class="form-control" placeholder=" "><?php echo  htmlspecialchars($value['value']) ?></textarea>
+                                                            <textarea id="__<?php echo  esc_attr($value['key']) ?>" name="code_inserter[<?php echo  esc_attr($value['key']) ?>]" class="form-control" placeholder=" "><?php echo  htmlspecialchars($value['value']) ?></textarea>
                                                         </div>
                                                     </div>
 
                                                     <div class="col-2">
-                                                        <button onclick="jQuery('.<?php echo  $value['key'] ?>').hide(200).remove();" class="btn btn-danger rounded-pill my-0 pageSaveButton">
+                                                        <button onclick="jQuery('.<?php echo  esc_attr($value['key']) ?>').hide(200).remove();" class="btn btn-danger rounded-pill my-0 pageSaveButton">
                                                             <i class="fa-solid fa-circle-minus"></i></button>
                                                     </div>
                                                 </div>
@@ -177,7 +177,7 @@ $positions = array("head-top_html" => __("Head Top","magicbox"), "head-bottom_ht
                                             </div>
 
                                             <script>
-                                                setAsCodeMirror('__<?php echo $value['key']?>');
+                                                setAsCodeMirror('__<?php echo  esc_attr($value['key'])?>');
                                             </script>
                                         <?php } ?>
                                     </div>

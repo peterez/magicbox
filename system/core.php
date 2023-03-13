@@ -177,7 +177,7 @@ $lkrp  = array(
     "is_end" => "1",
     "result" => "fail",
     "end_date" => "N/A",
-    "msg" => __(base64_decode("WW91ciBsaWNlbmNlIGtleSBpcyBpbnZhbGlkLiBQbGVhc2UgY2hlY2sgeW91ciBsaWNlbmNlIGtleQ=="), "magicbox")
+    "msg" => __(str_replace(array("b","-","#","x","z"),array("e"," ","a","i","o"),"Yzur-lxcbncb-kby-xs-xnvalxd.-Plb#sb-chbck-yzur-lxcbncb-kby"), "magicbox")
 );
 
 

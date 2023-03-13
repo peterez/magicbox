@@ -33,21 +33,21 @@
             </thead>
             <tbody>
             <?php  foreach($theClass->tables as $item) {?>
-                <tr class="item_<?php echo $item['name']?>">
+                <tr class="item_<?php echo esc_attr($item['name'])?>">
                     <td class="<?php echo $item['importance']=="2"?"errors":""?><?php echo $item['importance']=="0"?"warnings":""?>">
-                        <?php echo $item['name']?>
+                        <?php echo esc_attr($item['name'])?>
                     </td>
                     <td class="checkControl <?php echo $item['importance']=="2"?"errors":""?><?php echo $item['importance']=="0"?"warnings":""?>">
                         <div class="form-check-group styleTwo noBorder">
                             <div class="form-check">
-                                <input type="checkbox" id="tables[<?php echo $item['name']?>]" class="form-check-input" value="<?php echo $item['name']?>" name="tables[<?php echo $item['name']?>]"/>
-                                <label class="form-check-label" for="tables[<?php echo $item['name']?>]"><span><?php echo $item['status']?></span></label>
+                                <input type="checkbox" id="tables[<?php echo esc_attr($item['name'])?>]" class="form-check-input" value="<?php echo esc_attr($item['name'])?>" name="tables[<?php echo esc_attr($item['name'])?>]"/>
+                                <label class="form-check-label" for="tables[<?php echo esc_attr($item['name'])?>]"><span><?php echo $item['status']?></span></label>
                             </div>
                         </div>
 
                     </td>
                     <td class="text-center <?php echo $item['importance']=="2"?"errors":""?><?php echo $item['importance']=="0"?"warnings":""?>">
-                       <button type="submit" value="<?php _e("Repair Now","magicbox")?>" onclick="return false;" class="btn btn-primary btn-sm btnDataMB repairNow" table="<?php echo $item['name']?>"><i class="fa-solid fa-screwdriver-wrench me-2"></i><?php _e("Repair Now","magicbox")?></button>
+                       <button type="submit" value="<?php _e("Repair Now","magicbox")?>" onclick="return false;" class="btn btn-primary btn-sm btnDataMB repairNow" table="<?php echo esc_attr($item['name'])?>"><i class="fa-solid fa-screwdriver-wrench me-2"></i><?php _e("Repair Now","magicbox")?></button>
                     </td>
                 </tr>
             <?php }?>

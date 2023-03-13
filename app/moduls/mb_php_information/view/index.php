@@ -63,7 +63,7 @@
                                     ?>
                                     <tr class="item">
                                         <td>
-                                            <?php echo $keyName?>
+                                            <?php echo esc_attr($keyName)?>
                                         </td>
                                         <td>
                                             <?php echo $item['global_value']?>
@@ -150,7 +150,7 @@
                                 ?>
                                 <tr class="item">
                                     <td>
-                                        <?php echo $keyName?>
+                                        <?php echo esc_attr($keyName)?>
                                     </td>
                                     <td>
                                         <?php if(is_array($item)) {
@@ -201,7 +201,7 @@
                                 ?>
                                 <tr class="item">
                                     <td>
-                                        <?php echo $keyName?>
+                                        <?php echo esc_attr($keyName)?>
                                     </td>
                                     <td>
                                         <?php if(is_array($item)) {
@@ -250,7 +250,7 @@
                                 ?>
                                 <tr class="item">
                                     <td>
-                                        <?php echo $keyName?>
+                                        <?php echo esc_attr($keyName)?>
                                     </td>
                                     <td>
                                         <?php if(is_array($item)) {

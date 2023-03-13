@@ -28,21 +28,21 @@
             </thead>
             <tbody>
             <?php foreach($theClass->duplicates as $item) { ?>
-                <tr class="item_<?php echo $item['ID']?>">
+                <tr class="item_<?php echo esc_attr($item['id'])?>">
                     <td>
                         <div class="form-check-group noBorder">
                             <div class="form-check p-0">
-                                <input type="checkbox" name="duplicates[<?php echo $item['ID']?>][status]" value="1"/>
+                                <input type="checkbox" name="duplicates[<?php echo esc_attr($item['ID'])?>][status]" value="1"/>
                             </div>
                         </div>
-                        <input type="hidden" name="duplicates[<?php echo $item['ID']?>][id]" value="<?php echo $item['ID']?>" />
-                        <input type="hidden" name="duplicates[<?php echo $item['ID']?>][target_guid]" value="<?php echo $item['target_guid']?>" />
+                        <input type="hidden" name="duplicates[<?php echo esc_attr($item['ID'])?>][id]" value="<?php echo esc_attr($item['ID'])?>" />
+                        <input type="hidden" name="duplicates[<?php echo esc_attr($item['ID'])?>][target_guid]" value="<?php echo esc_attr($item['target_guid'])?>" />
                     </td>
                     <td>
-                        <a target="_blank" href="<?php echo $item['guid']?>"><?php echo $item['post_title']?> <div alt="f504" class="dashicons dashicons-external"></div></a>
+                        <a target="_blank" href="<?php echo esc_attr($item['guid'])?>"><?php echo esc_attr($item['post_title'])?> <div alt="f504" class="dashicons dashicons-external"></div></a>
                     </td>
                     <td>
-                        <a target="_blank" href="<?php echo $item['target_guid']?>"><?php echo $item['target_title']?> <div alt="f504" class="dashicons dashicons-external"></div></a>
+                        <a target="_blank" href="<?php echo esc_attr($item['target_guid'])?>"><?php echo $item['target_title']?> <div alt="f504" class="dashicons dashicons-external"></div></a>
                     </td>
                 </tr>
             <?php }?>

@@ -23,9 +23,9 @@
                             <select class="form-select" name="preloader[status]" id="preloader[status]">
                                 <?php foreach ($activePassive as $key => $value) { ?>
                                     <option
-                                            value="<?php echo  $key ?>"<?php if ($key == $options['preloader']['status'] or $options['preloader']['status'] == "" and $key == 2) {
+                                            value="<?php echo  esc_attr($key) ?>"<?php if ($key == $options['preloader']['status'] or $options['preloader']['status'] == "" and $key == 2) {
                                         echo "selected";
-                                    } ?>><?php echo  $value ?></option>
+                                    } ?>><?php echo  esc_attr($value) ?></option>
                                 <?php } ?>
                             </select>
                             <label class="input-group-text" for="preloader[status]"><?php echo  __("Status","magicbox") ?></label>
@@ -128,7 +128,7 @@
                         <select name="preloader[effect]" class="form-control" id="preloader[effect]">
                             <?php foreach ($closes as $key => $value) { ?>
                                 <option <?php echo  $options['preloader']['effect'] == $key ? "selected" : "" ?>
-                                        value="<?php echo  $key ?>"><?php echo  $value ?></option>
+                                        value="<?php echo  esc_attr($key) ?>"><?php echo  esc_attr($value) ?></option>
                             <?php } ?>
                         </select>
                         <label class="form-label" for="preloader[effect]"><?php echo  __("Effect","magicbox") ?></label>
@@ -185,9 +185,9 @@
                         foreach ($postTypes as $key => $value) {
                             ?>
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" <?php echo $options['preloader']['type'][$value['name']] == "1"?"checked":""?> type="checkbox" name="preloader[type][<?php echo $value['name']?>]" value="1" id="_<?php echo $value['name']?>">
-                                <label class="form-check-label" for="_<?php echo $value['name']?>">
-                                    <span><?php echo  $value['label'] ?></span>
+                                <input class="form-check-input" <?php echo $options['preloader']['type'][$value['name']] == "1"?"checked":""?> type="checkbox" name="preloader[type][<?php echo  esc_attr($value['name'])?>]" value="1" id="_<?php echo  esc_attr($value['name'])?>">
+                                <label class="form-check-label" for="_<?php echo  esc_attr($value['name'])?>">
+                                    <span><?php echo  esc_attr($value['label']) ?></span>
                                 </label>
                             </div>
                         <?php } ?>

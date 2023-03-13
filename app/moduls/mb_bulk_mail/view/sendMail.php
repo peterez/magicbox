@@ -26,9 +26,9 @@
                             <select class="form-select mailTarget" name="bulk_mail[target]" id="bulk_mail[target]">
                                 <?php foreach ($targets as $key => $value) { ?>
                                     <option
-                                            value="<?php echo  $key ?>"<?php if ($key == $theClass->options['bulk_mail']['target']){
+                                            value="<?php echo  esc_attr($key) ?>"<?php if ($key == $theClass->options['bulk_mail']['target']){
                                         echo "selected";
-                                    } ?>><?php echo  $value ?></option>
+                                    } ?>><?php echo  esc_attr($value) ?></option>
                                 <?php } ?>
                             </select>
                             <label class="form-label" for="bulk_mail[target]"><?php echo  __("Target","magicbox") ?></label>
@@ -41,7 +41,7 @@
                 <?php foreach ($theClass->userRoles as $role => $item) { ?>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" name="bulk_mail[role][<?php echo $role; ?>]" type="checkbox" <?php echo $theClass->options['bulk_mail']['role'][$role] == "1"? "checked" : "" ?> id="role_<?php echo $role; ?>" value="1">
-                        <label class="form-check-label" for="role_<?php echo $role; ?>"><span><?php echo $item['name']; ?></span></label>
+                        <label class="form-check-label" for="role_<?php echo $role; ?>"><span><?php echo esc_attr($item['name']); ?></span></label>
                     </div>
                 <?php } ?>
             </div>

@@ -22,9 +22,9 @@
                             <select class="form-select" name="keyword_suggestion[status]" id="keyword_suggestionStatus">
                                 <?php foreach ($activePassive as $key => $value) { ?>
                                     <option
-                                            value="<?php echo  $key ?>"<?php if ($key == $options['keyword_suggestion']['status'] or $options['keyword_suggestion']['status'] == "" and $key == 2) {
+                                            value="<?php echo  esc_attr($key) ?>"<?php if ($key == $options['keyword_suggestion']['status'] or $options['keyword_suggestion']['status'] == "" and $key == 2) {
                                         echo "selected";
-                                    } ?>><?php echo  $value ?></option>
+                                    } ?>><?php echo  esc_attr($value) ?></option>
                                 <?php } ?>
                             </select>
                             <label class="input-group-text" for="keyword_suggestionStatus"><?php echo  __("Status","magicbox") ?></label>

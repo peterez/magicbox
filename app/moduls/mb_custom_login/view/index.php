@@ -25,9 +25,9 @@
                             <select class="form-select" name="custom_login[status]" id="custom_login[status]">
                                 <?php foreach ($activePassive as $key => $value) { ?>
                                     <option
-                                            value="<?php echo  $key ?>"<?php if ($key == $options['custom_login']['status'] or $options['custom_login']['status'] == "" and $key == 2) {
+                                            value="<?php echo  esc_attr($key) ?>"<?php if ($key == $options['custom_login']['status'] or $options['custom_login']['status'] == "" and $key == 2) {
                                         echo "selected";
-                                    } ?>><?php echo  $value ?></option>
+                                    } ?>><?php echo  esc_attr($value) ?></option>
                                 <?php } ?>
                             </select>
                             <label class="form-label" for="custom_login[status]"><?php echo  __("Status","magicbox") ?></label>
@@ -152,7 +152,7 @@
                         <div class="form-group">
                             <select name="custom_login[background_position]" id="custom_login[background_position]" class="form-control">
                                 <?php foreach($bgPositions as $value) {?>
-                                    <option <?php echo $options['custom_login']['background_position'] ==$value?"selected":""?> value="<?php echo $value?>"><?php echo magicbox_strUpDown($value,"capitalize")?></option>
+                                    <option <?php echo $options['custom_login']['background_position'] ==$value?"selected":""?> value="<?php echo  esc_attr($value)?>"><?php echo magicbox_strUpDown($value,"capitalize")?></option>
                                 <?php }?>
                             </select>
                             <label class="form-label" for="custom_login[background_position]"><?php echo __("Background Position","magicbox")?></label>
@@ -171,7 +171,7 @@
                         <div class="form-group">
                             <select name="custom_login[background_repeat]" id="custom_login[background_repeat]" class="form-control">
                                 <?php foreach($bgRepeats as $value) {?>
-                                    <option <?php echo $options['custom_login']['background_repeat'] ==$value?"selected":""?> value="<?php echo $value?>"><?php echo magicbox_strUpDown($value,"capitalize")?></option>
+                                    <option <?php echo $options['custom_login']['background_repeat'] ==$value?"selected":""?> value="<?php echo  esc_attr($value)?>"><?php echo magicbox_strUpDown($value,"capitalize")?></option>
                                 <?php }?>
                             </select>
                             <label class="form-label" for="custom_login[background_repeat]"><?php echo __("Background Repeat","magicbox")?></label>

@@ -37,9 +37,9 @@
                             <div class="selectOptions" style="float:left; width: auto;">
                                 <?php foreach ($theClass->types as $key => $value) { ?>
                                     <div class="form-check">
-                                        <input type="checkbox" class="form-check-input" name="types[]" value="<?php echo  $value ?>"
-                                               id="accept_<?php echo  $value ?>">
-                                        <label class="form-check-label" for="accept_<?php echo  $value ?>"><span><?php echo  magicbox_strUpDown($value,"capitalize") ?></span></label>
+                                        <input type="checkbox" class="form-check-input" name="types[]" value="<?php echo  esc_attr($value) ?>"
+                                               id="accept_<?php echo  esc_attr($value) ?>">
+                                        <label class="form-check-label" for="accept_<?php echo  esc_attr($value) ?>"><span><?php echo  magicbox_strUpDown($value,"capitalize") ?></span></label>
                                     </div>
                                 <?php } ?>
                             </div>
@@ -100,8 +100,8 @@
                         }
                         ?>
                         <?php if($item['name'] !="") {?>
-                            <a target="_blank" href="<?php echo $downloadLink?>" class="btn btnDataMB <?php echo $item['status'] =="1"?"btn-primary":"btn-secondary"?>">
-                                <i class="fa-solid fa-download me-1"></i><?php echo $item['name']?>
+                            <a target="_blank" href="<?php echo esc_attr($downloadLink)?>" class="btn btnDataMB <?php echo $item['status'] =="1"?"btn-primary":"btn-secondary"?>">
+                                <i class="fa-solid fa-download me-1"></i><?php echo esc_attr($item['name'])?>
                             </a>
                         <?php }?>
                     </td>
@@ -116,8 +116,8 @@
                         }
                         ?>
                         <?php if($item['name'] !="") {?>
-                            <a target="_blank" href="<?php echo $downloadLink?>" class="btn btnDataMB <?php echo $item['status'] =="1"?"btn-primary":"btn-secondary"?>">
-                                <i class="fa-solid fa-download me-1"></i><?php echo $item['name']?>
+                            <a target="_blank" href="<?php echo esc_attr($downloadLink)?>" class="btn btnDataMB <?php echo $item['status'] =="1"?"btn-primary":"btn-secondary"?>">
+                                <i class="fa-solid fa-download me-1"></i><?php echo esc_attr($item['name'])?>
                             </a>
                         <?php }?>
                     </td>
@@ -133,8 +133,8 @@
                         }
                         ?>
                         <?php if($item['name'] !="") {?>
-                            <a target="_blank" href="<?php echo $downloadLink?>" class="btn <?php echo $item['status'] =="1"?"btn-primary":"btn-secondary"?>">
-                                <?php echo $item['name']?>
+                            <a target="_blank" href="<?php echo esc_attr($downloadLink)?>" class="btn <?php echo $item['status'] =="1"?"btn-primary":"btn-secondary"?>">
+                                <?php echo esc_attr($item['name'])?>
                             </a>
                         <?php }?>
                     </td>
@@ -150,8 +150,8 @@
                         }
                         ?>
                         <?php if($item['name'] !="") {?>
-                        <a target="_blank" href="<?php echo $downloadLink?>" class="btn <?php echo $item['status'] =="1"?"btn-primary":"btn-secondary"?>">
-                            <?php echo $item['name']?>
+                        <a target="_blank" href="<?php echo esc_attr($downloadLink)?>" class="btn <?php echo $item['status'] =="1"?"btn-primary":"btn-secondary"?>">
+                            <?php echo esc_attr($item['name'])?>
                         </a>
                         <?php }?>
                     </td>
@@ -167,8 +167,8 @@
                         }
                         ?>
                         <?php if($item['name'] !="") {?>
-                            <a target="_blank" href="<?php echo $downloadLink?>" class="btn <?php echo $item['status'] =="1"?"btn-primary":"btn-secondary"?>">
-                                <?php echo $item['name']?>
+                            <a target="_blank" href="<?php echo esc_attr($downloadLink)?>" class="btn <?php echo $item['status'] =="1"?"btn-primary":"btn-secondary"?>">
+                                <?php echo esc_attr($item['name'])?>
                             </a>
                         <?php }?>
                     </td>

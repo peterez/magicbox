@@ -13,7 +13,7 @@
                             $item['link'] = $item['link']."&method=".$item['method'];
                         }
                         ?>
-                        <li class="nav-item" role="presentation" ><a class="nav-link <?php echo $_REQUEST['method']==$item['method']?"active":""?>" href="<?php echo  $item['link'] ?>"><?php echo  $item['title'] ?></a></li>
+                        <li class="nav-item" role="presentation" ><a class="nav-link <?php echo $_REQUEST['method']==$item['method']?"active":""?>" href="<?php echo esc_attr($item['link']) ?>"><?php echo  $item['title'] ?></a></li>
                     <?php }?>
                 </ul>
             </nav>
@@ -54,10 +54,10 @@
                     <?php if ($theNames != "" or $value != "") { ?>
                         <div class="col-md-4">
                             <div class="form-group">
-                                <label class="form-control"><?php echo  $theClass->result['data'][$key] ?></label>
-                                <label class="form-label"><?php echo  $value['labelName'] ?></label>
+                                <label class="form-control"><?php echo esc_attr($theClass->result['data'][$key]) ?></label>
+                                <label class="form-label"><?php echo  esc_attr($value)['labelName'] ?></label>
                             </div>
-                            <?php echo $value['type']=="html"?"<br>":""?>
+                            <?php echo  esc_attr($value)['type']=="html"?"<br>":""?>
                         </div>
                         <div class="clearfix"></div>
                     <?php } ?>

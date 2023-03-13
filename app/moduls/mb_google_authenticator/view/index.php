@@ -22,9 +22,9 @@
                             <select class="form-select" name="google_authenticator[status]" id="google_authenticator[status]">
                                 <?php foreach ($activePassive as $key => $value) { ?>
                                     <option
-                                            value="<?php echo  $key ?>"<?php if ($key == $options['google_authenticator']['status'] or $options['google_authenticator']['status'] == "" and $key == 2) {
+                                            value="<?php echo  esc_attr($key) ?>"<?php if ($key == $options['google_authenticator']['status'] or $options['google_authenticator']['status'] == "" and $key == 2) {
                                         echo "selected";
-                                    } ?>><?php echo  $value ?></option>
+                                    } ?>><?php echo  esc_attr($value) ?></option>
                                 <?php } ?>
                             </select>
                             <label class="input-group-text" for="google_authenticator[status]"><?php echo  __("Status","magicbox") ?></label>

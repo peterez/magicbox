@@ -171,9 +171,9 @@
                         <select class="form-select menuManagerStatus" name="admin_menu_manager[status]" id="menuManagerStatus">
                             <?php foreach ($activePassive as $key => $value) { ?>
                                 <option
-                                        value="<?php echo  $key ?>"<?php if ($key == $options['admin_menu_manager']['status'] or $options['admin_menu_manager']['status'] == "" and $key == 2) {
+                                        value="<?php echo  esc_attr($key) ?>"<?php if ($key == $options['admin_menu_manager']['status'] or $options['admin_menu_manager']['status'] == "" and $key == 2) {
                                     echo "selected";
-                                } ?>><?php echo  $value ?></option>
+                                } ?>><?php echo  esc_attr($value) ?></option>
                             <?php } ?>
                         </select>
                         <label class="input-group-text" for="menuManagerStatus"><?php echo  __("Status","magicbox") ?></label>
@@ -208,9 +208,9 @@
                     <?php 
                      foreach ($theClass->userRoles as $key => $value) {
                         ?>
-                        <li class="nav-item" key="<?php echo  $key ?>">
-                            <a class="nav-link  <?php echo  $key == "administrator" ? "active" : "" ?>" key="<?php echo  $key ?>"
-                               href="javascript:;"><?php echo  $value['name'] ?></a>
+                        <li class="nav-item" key="<?php echo  esc_attr($key) ?>">
+                            <a class="nav-link  <?php echo  esc_attr($key) == "administrator" ? "active" : "" ?>" key="<?php echo  esc_attr($key) ?>"
+                               href="javascript:;"><?php echo  esc_attr($value['name']) ?></a>
                         </li>
                     <?php } ?>
                 </ul>
@@ -229,12 +229,12 @@
                             $item[0] = strip_tags(preg_replace('#<span (.*?)</span>#is', '', $item[0]));
                             $item[0] = $item[0] == "" ? "__" . __("Separator","magicbox") . "__" : $item[0];
                             ?>
-                            <li class="sortingItem" key="<?php echo  $mainKey ?>" capability="<?php echo  $item[1] ?>" name="<?php echo  $item[0] ?>" type="main" main="0" icon="<?php echo  $item[4] ?>">
+                            <li class="sortingItem" key="<?php echo  esc_attr($mainKey) ?>" capability="<?php echo  $item[1] ?>" name="<?php echo  esc_attr($item[0]) ?>" type="main" main="0" icon="<?php echo  esc_attr($item[4]) ?>">
                                 <span class="sortingIcon"><i class="fa-solid fa-grip-vertical"></i></span>
 
                                     <input type="hidden" class="<?php echo $mainKey?>_name"
-                                           name="admin_menu_manager[list][<?php echo  $pureKey ?>][name]"
-                                           value="<?php echo $item[0]?>"/>
+                                           name="admin_menu_manager[list][<?php echo  esc_attr($pureKey) ?>][name]"
+                                           value="<?php echo  esc_attr($item[0])?>"/>
 
                                 <?php foreach ($theClass->userRoles as $roleKey => $roleValue) {
 
@@ -255,13 +255,13 @@
                                     }
                                     ?>
 
-                                    <input style="display:none" type="checkbox" role="<?php echo $roleKey?>" class="checkboxes roleKeyChecks"
-                                           name="admin_menu_manager[list][<?php echo  $pureKey ?>][checked][<?php echo $roleKey?>]"
+                                    <input style="display:none" type="checkbox" role="<?php echo  esc_attr($roleKey)?>" class="checkboxes roleKeyChecks"
+                                           name="admin_menu_manager[list][<?php echo  esc_attr($pureKey) ?>][checked][<?php echo  esc_attr($roleKey)?>]"
                                            <?php echo $isChecked==true?"checked":""?>
                                            value="1"/>
                                 <?php } ?>
 
-                                <?php echo $item[0]?>
+                                <?php echo  esc_attr($item[0])?>
                             </li>
                             <?php $i++;
                         } ?>
@@ -281,7 +281,7 @@
                                 makeDragable("mbSortMenu", "subkey_<?php echo $mainKey?>");
                             </script>
 
-                            <div class="menuManagerDetail subkey_<?php echo  $mainKey ?> subkeys" style="display:none">
+                            <div class="menuManagerDetail subkey_<?php echo  esc_attr($mainKey) ?> subkeys" style="display:none">
                                 <div class="menuManagerDetailTitle">
                                     <i class="fa-solid fa-arrow-turn-down me-2"></i><?php echo  $items[0]; ?>
                                 </div>
@@ -294,12 +294,12 @@
                                         $item[0] = strip_tags(preg_replace('#<span (.*?)</span>#is', '', $item[0]));
                                         $item[0] = $item[0] == "" ? "__" . __("Separator","magicbox") . "__" : $item[0];
                                         ?>
-                                        <li class="sortingItemUnder" key="<?php echo  $mainKey ?>" name="<?php echo  $item[0] ?>" type="sub" main="<?php echo  $pureKey ?>">
+                                        <li class="sortingItemUnder" key="<?php echo  esc_attr($mainKey) ?>" name="<?php echo  esc_attr($item[0]) ?>" type="sub" main="<?php echo  esc_attr($pureKey) ?>">
                                             <span class="sortingIcon"><i class="fa-solid fa-grip-vertical"></i></span>
 
                                             <input type="hidden" class="<?php echo $mainKey?>_name"
-                                                   name="admin_menu_manager[list][<?php echo  $pureKey ?>][sub][<?php echo $key?>][name]"
-                                                   value="<?php echo $item[0]?>"/>
+                                                   name="admin_menu_manager[list][<?php echo  esc_attr($pureKey) ?>][sub][<?php echo $key?>][name]"
+                                                   value="<?php echo  esc_attr($item[0])?>"/>
 
                                             <?php foreach ($theClass->userRoles as $roleKey => $roleValue) {
 
@@ -319,13 +319,13 @@
                                                     }
                                                 }
                                                 ?>
-                                                <input style="display:none" type="checkbox" role="<?php echo $roleKey?>" class="checkboxes roleKeyChecks"
-                                                       name="admin_menu_manager[list][<?php echo  $pureKey ?>][sub][<?php echo $key?>][checked][<?php echo $roleKey?>]"
+                                                <input style="display:none" type="checkbox" role="<?php echo  esc_attr($roleKey)?>" class="checkboxes roleKeyChecks"
+                                                       name="admin_menu_manager[list][<?php echo  esc_attr($pureKey) ?>][sub][<?php echo $key?>][checked][<?php echo  esc_attr($roleKey)?>]"
                                                     <?php echo $isChecked==true?"checked":""?>
                                                        value="1"/>
                                             <?php } ?>
 
-                                            <?php echo  $item[0] ?>
+                                            <?php echo  esc_attr($item[0]) ?>
 
                                         </li>
                                         <?php  $i++;
@@ -356,7 +356,7 @@
                             <option value="-"><?php echo  __("Choose","magicbox") ?></option>
                             <?php foreach ($theClass->adminMenus as $key => $item) {
                                 ?>
-                                <option value="<?php echo  $item[2] ?>"><?php echo  $item[0] ?></option>
+                                <option value="<?php echo  esc_attr($item[2]) ?>"><?php echo  esc_attr($item[0]) ?></option>
                             <?php } ?>
                         </select>
                         <label class="form-label" for="main_category"><?php echo  __("Target Page","magicbox") ?></label>

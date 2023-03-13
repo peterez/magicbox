@@ -34,9 +34,9 @@
             <div class="selectOptions form-check-group noBorder fCol">
                 <?php foreach ($theClass->types as $key => $value) { ?>
                     <div class="form-check">
-                        <input type="checkbox" class="form-check-input" name="types[]" value="<?php echo  $key ?>"
-                               id="accept_<?php echo  $key ?>">
-                        <label class="form-check-label" for="accept_<?php echo  $key ?>"><span><?php echo  $value ?></span></label>
+                        <input type="checkbox" class="form-check-input" name="types[]" value="<?php echo  esc_attr($key) ?>"
+                               id="accept_<?php echo  esc_attr($key) ?>">
+                        <label class="form-check-label" for="accept_<?php echo  esc_attr($key) ?>"><span><?php echo  esc_attr($value) ?></span></label>
                     </div>
                 <?php } ?>
             </div>

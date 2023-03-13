@@ -22,9 +22,9 @@
                             <select class="form-select" name="lazyload[status]" id="lazyloadStatus">
                                 <?php foreach ($activePassive as $key => $value) { ?>
                                     <option
-                                            value="<?php echo  $key ?>"<?php if ($key == $options['lazyload']['status'] or $options['lazyload']['status'] == "" and $key == 2) {
+                                            value="<?php echo  esc_attr($key) ?>"<?php if ($key == $options['lazyload']['status'] or $options['lazyload']['status'] == "" and $key == 2) {
                                         echo "selected";
-                                    } ?>><?php echo  $value ?></option>
+                                    } ?>><?php echo  esc_attr($value) ?></option>
                                 <?php } ?>
                             </select>
                             <label class="form-label" for="lazyloadStatus"><?php echo  __("Status","magicbox") ?></label>
@@ -50,9 +50,9 @@
                             foreach ($postTypes as $key => $value) {
                                 ?>
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" <?php echo $options['lazyload']['type'][$value['name']] == "1"?"checked":""?> type="checkbox" name="lazyload[type][<?php echo $value['name']?>]" value="1" id="_<?php echo $value['label']?>">
-                                    <label class="form-check-label" for="_<?php echo $value['label']?>">
-                                        <span><?php echo  $value['label'] ?></span>
+                                    <input class="form-check-input" <?php echo $options['lazyload']['type'][$value['name']] == "1"?"checked":""?> type="checkbox" name="lazyload[type][<?php echo  esc_attr($value['name'])?>]" value="1" id="_<?php echo  esc_attr($value['label'])?>">
+                                    <label class="form-check-label" for="_<?php echo  esc_attr($value['label'])?>">
+                                        <span><?php echo  esc_attr($value['label']) ?></span>
                                     </label>
                                 </div>
                             <?php }?>
@@ -67,8 +67,8 @@
                             foreach ($lazyTypes as $key => $value) {
                                 ?>
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" <?php echo $options['lazyload']['types'][$value] == "1"?"checked":""?> type="checkbox" name="lazyload[types][<?php echo $value?>]" value="1" id="_<?php echo $value?>">
-                                    <label class="form-check-label" for="_<?php echo $value?>">
+                                    <input class="form-check-input" <?php echo $options['lazyload']['types'][$value] == "1"?"checked":""?> type="checkbox" name="lazyload[types][<?php echo  esc_attr($value)?>]" value="1" id="_<?php echo  esc_attr($value)?>">
+                                    <label class="form-check-label" for="_<?php echo  esc_attr($value)?>">
                                         <span><?php echo  ucfirst($value) ?></span>
                                     </label>
                                 </div>

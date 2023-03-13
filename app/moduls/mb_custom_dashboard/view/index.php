@@ -22,9 +22,9 @@
                             <select class="form-select" name="custom_dashboard[status]" id="custom_dashboard[status]">
                                 <?php foreach ($activePassive as $key => $value) { ?>
                                     <option
-                                            value="<?php echo  $key ?>"<?php if ($key == $options['custom_dashboard']['status'] or $options['custom_dashboard']['status'] == "" and $key == 2) {
+                                            value="<?php echo  esc_attr($key) ?>"<?php if ($key == $options['custom_dashboard']['status'] or $options['custom_dashboard']['status'] == "" and $key == 2) {
                                         echo "selected";
-                                    } ?>><?php echo  $value ?></option>
+                                    } ?>><?php echo  esc_attr($value) ?></option>
                                 <?php } ?>
                             </select>
                             <label class="input-group-text" for="custom_dashboard[status]"><?php echo  __("Status","magicbox") ?></label>
@@ -107,11 +107,11 @@
                                     <?php foreach ($theClass->registeredWidgets as $item) { ?>
                                         <div class="form-check">
                                             <input class="form-check-input" type="checkbox"
-                                                   name="custom_dashboard[hide_widgets][<?php echo $key;?>][<?php echo  $item['id'] ?>]"
-                                                   id="custom_dashboard[hide_widgets][<?php echo $key;?>][<?php echo  $item['id'] ?>]"
+                                                   name="custom_dashboard[hide_widgets][<?php echo $key;?>][<?php echo esc_attr($item['id']) ?>]"
+                                                   id="custom_dashboard[hide_widgets][<?php echo $key;?>][<?php echo esc_attr($item['id']) ?>]"
                                                 <?php echo  $options['custom_dashboard']['hide_widgets'][$key][$item['id']] == "1" ? "checked" : "" ?>
                                                    value="1" placeholder=" ">
-                                            <label class="form-check-label" for="custom_dashboard[hide_widgets][<?php echo $key;?>][<?php echo  $item['id'] ?>]"><span><?php echo  $item['title'] ?></span></label>
+                                            <label class="form-check-label" for="custom_dashboard[hide_widgets][<?php echo $key;?>][<?php echo esc_attr($item['id']) ?>]"><span><?php echo  $item['title'] ?></span></label>
                                         </div>
                                     <?php } ?>
                                 </div>
@@ -212,12 +212,12 @@
                  foreach ($theClass->magicBox->getUserRoles() as $key => $item) { ?>
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox"
-                               name="custom_dashboard[parent_message][user_roles][<?php echo  $key ?>]"
-                               id="custom_dashboard[parent_message][user_roles][<?php echo  $key ?>]"
+                               name="custom_dashboard[parent_message][user_roles][<?php echo  esc_attr($key) ?>]"
+                               id="custom_dashboard[parent_message][user_roles][<?php echo  esc_attr($key) ?>]"
                                <?php echo  $options['custom_dashboard']['parent_message']['user_roles'][$key] == "1" ? "checked" : "" ?>
                                value="1">
                         <label class="form-check-label"
-                               for="custom_dashboard[parent_message][user_roles][<?php echo  $key ?>]"><span><?php echo  $item ?></span></label>
+                               for="custom_dashboard[parent_message][user_roles][<?php echo  esc_attr($key) ?>]"><span><?php echo  $item ?></span></label>
                     </div>
                 <?php } ?>
                 </div>
@@ -318,12 +318,12 @@
                 <?php foreach ($theClass->magicBox->getUserRoles() as $key => $item) { ?>
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox"
-                               name="custom_dashboard[second_message][user_roles][<?php echo  $key ?>]"
-                               id="custom_dashboard[second_message][user_roles][<?php echo  $key ?>]"
+                               name="custom_dashboard[second_message][user_roles][<?php echo  esc_attr($key) ?>]"
+                               id="custom_dashboard[second_message][user_roles][<?php echo  esc_attr($key) ?>]"
                             <?php echo  $options['custom_dashboard']['second_message']['user_roles'][$key] == "1" ? "checked" : "" ?>
                                value="1">
                         <label class="form-check-label"
-                               for="custom_dashboard[second_message][user_roles][<?php echo  $key ?>]"><span><?php echo  $item ?></span></label>
+                               for="custom_dashboard[second_message][user_roles][<?php echo  esc_attr($key) ?>]"><span><?php echo  $item ?></span></label>
                     </div>
                 <?php } ?>
                 </div>

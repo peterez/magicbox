@@ -27,9 +27,9 @@
                             <select class="form-select" name="custom_css[status]" id="custom_css[status]">
                                 <?php foreach ($activePassive as $key => $value) { ?>
                                     <option
-                                            value="<?php echo  $key ?>"<?php if ($key == $options['custom_css']['status'] or $options['custom_css']['status'] == "" and $key == 2) {
+                                            value="<?php echo  esc_attr($key) ?>"<?php if ($key == $options['custom_css']['status'] or $options['custom_css']['status'] == "" and $key == 2) {
                                         echo "selected";
-                                    } ?>><?php echo  $value ?></option>
+                                    } ?>><?php echo  esc_attr($value) ?></option>
                                 <?php } ?>
                             </select>
                             <label class="form-label" for="custom_css[status]"><?php echo  __("Status","magicbox") ?></label>

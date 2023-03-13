@@ -30,9 +30,9 @@
                             <select class="form-select" name="clone_manager[status]" id="clone_manager[status]">
                                 <?php foreach ($activePassive as $key => $value) { ?>
                                     <option
-                                            value="<?php echo  $key ?>"<?php if ($key == $options['clone_manager']['status'] or $options['clone_manager']['status'] == "" and $key == 2){
+                                            value="<?php echo  esc_attr($key) ?>"<?php if ($key == $options['clone_manager']['status'] or $options['clone_manager']['status'] == "" and $key == 2){
                                         echo "selected";
-                                    } ?>><?php echo  $value ?></option>
+                                    } ?>><?php echo  esc_attr($value) ?></option>
                                 <?php } ?>
                             </select>
                             <label class="form-label" for="clone_manager[status]"><?php echo  __("Status","magicbox") ?></label>
@@ -71,9 +71,9 @@
                         <div class="col-lg-4">
                             <div class="form-check-switch block mb-2">
                                 <div class="form-check">
-                                    <label class="form-check-label" for="check_<?php echo  $item['name'] ?>"><?php _e("Set as active","magicbox") ?> : <?php echo  $item['label'] ?></label>
-                                    <input type="checkbox" class="form-check-input" name="clone_manager[cloner][<?php echo  $item['name'] ?>]" <?php echo  $options['clone_manager']['cloner'][$item['name']] == "1"? "checked" : "" ?> value="1"
-                                           id="check_<?php echo  $item['name'] ?>">
+                                    <label class="form-check-label" for="check_<?php echo esc_attr($item['name']) ?>"><?php _e("Set as active","magicbox") ?> : <?php echo  $item['label'] ?></label>
+                                    <input type="checkbox" class="form-check-input" name="clone_manager[cloner][<?php echo esc_attr($item['name']) ?>]" <?php echo  $options['clone_manager']['cloner'][$item['name']] == "1"? "checked" : "" ?> value="1"
+                                           id="check_<?php echo esc_attr($item['name']) ?>">
                                 </div>
                             </div>
                         </div>

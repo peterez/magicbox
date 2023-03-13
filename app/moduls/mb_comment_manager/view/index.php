@@ -31,9 +31,9 @@ foreach ($customPostTypes as $item) {
                             <select class="form-select" name="comment_manager[status]" id="comment_manager[status]">
                                 <?php foreach ($activePassive as $key => $value) { ?>
                                     <option
-                                            value="<?php echo  $key ?>"<?php if ($key == $options['comment_manager']['status'] or $options['comment_manager']['status'] == "" and $key == 2) {
+                                            value="<?php echo  esc_attr($key) ?>"<?php if ($key == $options['comment_manager']['status'] or $options['comment_manager']['status'] == "" and $key == 2) {
                                         echo "selected";
-                                    } ?>><?php echo  $value ?></option>
+                                    } ?>><?php echo  esc_attr($value) ?></option>
                                 <?php } ?>
                             </select>
                             <label class="form-label" for="comment_manager[status]"><?php echo  __("Status","magicbox") ?></label>
@@ -60,10 +60,10 @@ foreach ($customPostTypes as $item) {
                                 <div class="form-check form-check-inline">
                                     <input
                                             class="form-check-input" <?php echo  $options['comment_manager']['hidden_old_comment'][$key] == "1" ? "checked" : "" ?>
-                                            type="checkbox" name="comment_manager[hidden_old_comment][<?php echo  $key ?>]" value="1"
-                                            id="_<?php echo  $key ?>">
-                                    <label class="form-check-label" for="_<?php echo  $key ?>">
-                                        <span><?php echo  $value ?></span>
+                                            type="checkbox" name="comment_manager[hidden_old_comment][<?php echo  esc_attr($key) ?>]" value="1"
+                                            id="_<?php echo  esc_attr($key) ?>">
+                                    <label class="form-check-label" for="_<?php echo  esc_attr($key) ?>">
+                                        <span><?php echo  esc_attr($value) ?></span>
                                     </label>
                                 </div>
                             <?php } ?>
@@ -79,10 +79,10 @@ foreach ($customPostTypes as $item) {
                                 <div class="form-check form-check-inline">
                                     <input
                                             class="form-check-input" <?php echo  $options['comment_manager']['disable_new_comment'][$key] == "1" ? "checked" : "" ?>
-                                            type="checkbox" name="comment_manager[disable_new_comment][<?php echo  $key ?>]" value="1"
-                                            id="__<?php echo  $key ?>">
-                                    <label class="form-check-label" for="__<?php echo  $key ?>">
-                                        <span><?php echo  $value ?></span>
+                                            type="checkbox" name="comment_manager[disable_new_comment][<?php echo  esc_attr($key) ?>]" value="1"
+                                            id="__<?php echo  esc_attr($key) ?>">
+                                    <label class="form-check-label" for="__<?php echo  esc_attr($key) ?>">
+                                        <span><?php echo  esc_attr($value) ?></span>
                                     </label>
                                 </div>
                             <?php } ?>
@@ -92,13 +92,13 @@ foreach ($customPostTypes as $item) {
                     <div class="col-sm-6 col-lg-3">
                         <?php $url = "admin.php?page=mb_security&sub=mb_captcha";?>
                         <label class="form-label-normal mb-2"><?php echo  __("Comment Captcha","magicbox") ?></label>
-                        <a target="_blank" class="btn btn-primary btn-sm rounded-pill px-3 mb-3" href="<?php echo $url?>"><?php echo  __("Go Settings","magicbox") ?></a>
+                        <a target="_blank" class="btn btn-primary btn-sm rounded-pill px-3 mb-3" href="<?php echo esc_attr($url)?>"><?php echo  __("Go Settings","magicbox") ?></a>
                     </div>
 
                     <div class="col-sm-6 col-lg-3">
                         <?php $url = "admin.php?page=mb_security&sub=mb_visit_limitation";?>
                         <label class="form-label-normal mb-2"><?php echo  __("Comment Limitation","magicbox") ?></label>
-                        <a target="_blank" class="btn btn-primary btn-sm rounded-pill px-3 mb-3" href="<?php echo $url?>"><?php echo  __("Go Settings","magicbox") ?></a>
+                        <a target="_blank" class="btn btn-primary btn-sm rounded-pill px-3 mb-3" href="<?php echo esc_attr($url)?>"><?php echo  __("Go Settings","magicbox") ?></a>
                     </div>
                 </div>
             </div>

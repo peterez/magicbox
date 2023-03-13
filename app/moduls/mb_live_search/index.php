@@ -20,10 +20,10 @@ function mbGetPostSearch()
     $options = $magicBox->getOptionFromDb();
     $limit = 10;
     if (intval($options['live_search']['post_limit']) > 0) {
-        $limit = intval($options['live_search']['post_limit']);
+        $limit = (intval($options['live_search']['post_limit']));
     }
 
-    $the_query = new WP_Query(array('posts_per_page' => $limit, 's' => sanitize_text_field($_REQUEST['keyword']), 'post_type' => array("post", "page", "product")));
+    $the_query = new WP_Query(array('posts_per_page' => sanitize_text_field($limit), 's' => sanitize_text_field($_REQUEST['keyword']), 'post_type' => array("post", "page", "product")));
     ?>
     <ul>
         <?php 
@@ -33,12 +33,12 @@ function mbGetPostSearch()
  
                     $content = strip_shortcodes(get_the_excerpt());
                     if ($options['live_search']['show_img'] == "1") {
-                        $imgUrl = get_the_post_thumbnail(null, "post-thumbnail", "align=absmiddle");
+                        $imgUrl = esc_attr(get_the_post_thumbnail(null, "post-thumbnail", "align=absmiddle"));
                     } else {
                         $imgUrl = "";
                     }
 
-                    $title = get_the_title();
+                    $title = esc_attr(get_the_title());
                     if (intval($options['live_search']['cut_title']) > 0) {
                         $title = mb_substr(strip_tags($title), 0, $options['live_search']['cut_title'], 'UTF-8');
                     }
@@ -47,10 +47,10 @@ function mbGetPostSearch()
                         <?php if ($imgUrl != "") { ?>
                             <?php echo  $imgUrl; ?>
                         <?php } ?>
-                        <?php echo  $title ?></a>
+                        <?php echo  esc_attr($title) ?></a>
                     <?php if (intval($options['live_search']['cut_desc']) > 0) { ?>
                         <div
-                            class="desc"><?php echo  mb_substr(strip_tags(($content)), 0, $options['live_search']['cut_desc'], 'UTF-8');?></div>
+                            class="desc"><?php echo  esc_attr(mb_substr(strip_tags(($content)), 0, $options['live_search']['cut_desc'], 'UTF-8'));?></div>
                     <?php } ?>
                 </li>
             <?php endwhile;

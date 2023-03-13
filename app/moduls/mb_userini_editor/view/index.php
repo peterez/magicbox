@@ -52,5 +52,5 @@
 
 
 <script>
-    setAsCodeMirror("userini","text/x-ini");
+    setAsCodeMirror("userini","text/jsx");
 </script>

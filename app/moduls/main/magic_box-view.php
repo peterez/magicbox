@@ -9,7 +9,7 @@
                 <div class="modal-body">
                     <div class="licenceKeyForm">
 
-                        <div class="row fixedRow gx-0 align-items-center  _<?php echo $key ?>">
+                        <div class="row fixedRow gx-0 align-items-center  _<?php echo esc_attr($key) ?>">
                             <div class="col-12">
                                 <div class="d-flex">
                                     <div class="input-group my-0 d-inline-block">
@@ -49,7 +49,7 @@
                 <ul class="DashboardItemList">
                     <li>
                         <div class="infoListItem"><i class="fa-solid fa-crosshairs"></i></div>
-                        <span><strong><?php echo __("Your Version", "magicbox") ?> : </strong> <?php echo $magicBox->version ?></span>
+                        <span><strong><?php echo __("Your Version", "magicbox") ?> : </strong> <?php echo esc_attr($magicBox->version) ?></span>
                     </li>
                     <li>
                         <div class="infoListItem"><i class="fa-solid fa-circle-up"></i></div>
@@ -84,7 +84,7 @@
                     </li>
                     <li>
                         <div class="infoListItem"><i class="fa-solid fa-key"></i></div>
-                        <a href="#" class="<?php echo $magicBox->licence['result'] == "ok"? "success" : "danger text-danger" ?>"><?php echo $magicBox->licence['result'] == "ok"? __("LICENCE ACTIVE!", "magicbox") : __("LICENCE DEACTIVE!", "magicbox") ?></a>
+                        <a href="#" class="<?php echo $magicBox->licence['result'] == "ok"? "success" : "danger text-danger" ?>"><?php echo __("TRAIL LICENCE!", "magicbox")  ?></a>
                     </li>
                     <li>
                         <div class="infoListItem"><i class="fa-solid fa-hourglass-start"></i></div>
@@ -128,8 +128,9 @@
     $menuUrls = array();
     $menuNames = array();
     foreach ($categories as $key => $item) {
+        $key = esc_attr($key);
         $menuUrl         = menu_page_url($key, false);
-        $icon            = $menuIcons[$key];
+        $icon            = esc_attr($menuIcons[$key]);
         $menuUrls[$key]  = $menuUrl;
         $menuNames[$key] = $item['title'];
 
@@ -137,20 +138,21 @@
             continue;
         }
 
-        $hasModulClass = "hasModul_" . $item['has'];
+        $hasModulClass = esc_attr("hasModul_" . $item['has']);
 
         ?>
         <div class="row dashboardItemArea <?php echo $hasModulClass; ?> fixedRow _<?php echo $key ?>">
             <div class="col-12">
                 <div class="dashboardGroupTitle">
-                    <h3><?php echo $item['title'] ?></h3>
+                    <h3><?php echo esc_attr($item['title']) ?></h3>
                 </div>
             </div>
             <?php if (count($item['subs'])>0){
                 foreach ($item['subs'] as $subKey => $it) {
+                    $subKey = esc_attr($subKey);
                     $pureSubKey       = $subKey;
                     $subKey           = str_replace(array("mb_", "mb-", "_"), array("", "", "-"), $subKey);
-                    $hasSubModulClass = "hasSubModul_" . $it['has'];
+                    $hasSubModulClass = esc_attr("hasSubModul_" . $it['has']);
                     ?>
                     <div class="col-mb-3 mb-4 <?php echo $hasSubModulClass; ?>">
                         <div class="dashboardItem <?php echo $subKey ?>">
@@ -159,7 +161,7 @@
                                     <img src="<?php echo $GLOBALS{'_mb_icon_url_'} ?>/<?php echo $subKey ?>.png"/>
                                 </div>
                                 <div class="dashboardItemTitle">
-                                    <h4><?php echo $it['title'] ?></h4>
+                                    <h4><?php echo esc_attr($it['title']) ?></h4>
                                 </div>
                             </a>
                         </div>
@@ -201,7 +203,7 @@
                 response=JSON.parse(response);
                 Swal.close()
                 if (response.result == "ok") {
-                    jQuery('._<?php echo  $key ?> #lk').val(response.lk);
+                    jQuery('._<?php echo  esc_attr($key) ?> #lk').val(response.lk);
                     jQuery('#licenceKeyModal').removeClass('show');
                     jQuery('.modal-backdrop').removeClass('show');
                     jQuery('.licenceKeyAlert').hide(0);

@@ -26,9 +26,9 @@
                                 <select class="form-select showHideSubElement" name="tracking_codes[<?php echo  $slugName ?>]" id="tracking_codes[<?php echo  $slugName ?>]" subClassName="<?php echo $slugName; ?>Html">
                                     <?php foreach ($activePassive as $key => $value) { ?>
                                         <option
-                                                value="<?php echo  $key ?>"<?php if ($key == $options['tracking_codes'][$slugName] or $options['tracking_codes'][$slugName] == "" and $key == 2){
+                                                value="<?php echo  esc_attr($key) ?>"<?php if ($key == $options['tracking_codes'][$slugName] or $options['tracking_codes'][$slugName] == "" and $key == 2){
                                             echo "selected";
-                                        } ?>><?php echo  $value ?></option>
+                                        } ?>><?php echo  esc_attr($value) ?></option>
                                     <?php } ?>
                                 </select>
                                 <label class="form-label" for="tracking_codes[<?php echo  $slugName ?>]"><?php echo  $name ?></label>

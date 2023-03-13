@@ -703,26 +703,10 @@ if (!class_exists('MagicboxStaff')){
 
         function codeMirrorAssets() {
 
-            $version = intval($this->version);
-
-            wp_enqueue_style('mb-codemirror-css', $GLOBALS{'_mb_assets_url_'} . '/3rd/codemirror/lib/codemirror.css', false, $version);
-            wp_enqueue_script("mb-codemirror-js", $GLOBALS{'_mb_assets_url_'} . '/3rd/codemirror/lib/codemirror.js', false, $version);
-            /*
-            wp_enqueue_script("mb-codemirror-addon", $GLOBALS{'_mb_assets_url_'} . '/3rd/codemirror/addon/selection/selection-pointer.js', false, $version);
-             */
-            wp_enqueue_script("mb-codemirror-javascript", $GLOBALS{'_mb_assets_url_'} . '/3rd/codemirror/mode/javascript/javascript.js', false, $version);
-
-            wp_enqueue_script("mb-codemirror-javascript", $GLOBALS{'_mb_assets_url_'} . '/3rd/codemirror/mode/xml/xml.js', false, $version);
-            wp_enqueue_script("mb-codemirror-jxs", $GLOBALS{'_mb_assets_url_'} . '/3rd/codemirror/mode/jsx/jsx.js', false, $version);
-
-            wp_enqueue_script("mb-codemirror-css", $GLOBALS{'_mb_assets_url_'} . '/3rd/codemirror/mode/css/css.js', false, $version);
-            /*
-            wp_enqueue_script("mb-codemirror-vb", $GLOBALS{'_mb_assets_url_'} . '/3rd/codemirror/mode/vbscript/vbscript.js', false, $version);
-            wp_enqueue_script("mb-codemirror-htmlmixed", $GLOBALS{'_mb_assets_url_'} . '/3rd/codemirror/mode/htmlmixed/htmlmixed.js', false, $version);
-            */
-
-            wp_enqueue_script("mb-codemirror-nginxs", $GLOBALS{'_mb_assets_url_'} . '/3rd/codemirror/mode/nginx/nginx.js', false, $version);
-            wp_enqueue_script("mb-codemirror-pro", $GLOBALS{'_mb_assets_url_'} . '/3rd/codemirror/mode/properties/properties.js', false, $version);
+            $settings = wp_enqueue_code_editor( array( 'type' => 'text/css' ) );
+            wp_localize_script('jquery', 'mb_cm_settings', $settings);
+            wp_enqueue_script('wp-theme-plugin-editor');
+            wp_enqueue_style('wp-codemirror');
 
         }
 

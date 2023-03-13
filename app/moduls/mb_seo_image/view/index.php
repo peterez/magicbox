@@ -25,7 +25,7 @@
                                     <option
                                         value="<?php echo $key ?>"<?php if ($key == $options['seo_image']['status'] or $options['seo_image']['status'] == "" and $key == 2){
                                         echo "selected";
-                                    } ?>><?php echo $value ?></option>
+                                    } ?>><?php echo  esc_attr($value) ?></option>
                                 <?php } ?>
                             </select>
                             <label class="form-label" for="seo_image[status]"><?php echo __("Status", "magicbox") ?></label>
@@ -43,7 +43,7 @@
                                     <option
                                         value="<?php echo $key ?>"<?php if ($key == $options['seo_image']['replace_image_name'] or $options['seo_image']['replace_image_name'] == "" and $key == 2){
                                         echo "selected";
-                                    } ?>><?php echo $value ?></option>
+                                    } ?>><?php echo  esc_attr($value) ?></option>
                                 <?php } ?>
                             </select>
                             <label class="form-label" for="seo_image[status]"><?php echo __("Replace Images Name", "magicbox") ?></label>

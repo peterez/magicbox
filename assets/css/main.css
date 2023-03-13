@@ -449,6 +449,7 @@ a:hover {
 
 .subMenu .subMenuItem .nav-link {
     font-weight: 400;
+    padding: 0.4rem 0.8rem;
     color: #525252;
 }
 

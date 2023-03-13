@@ -30,7 +30,7 @@ jQuery.fn.serializeData=
                 } else {
 
                     if (inputs[index].className.indexOf("codemirror_area")>=0) {
-                        formData.append(inputs[index].getAttribute("name"), codeMirrorVals[inputs[index].getAttribute('id')].getDoc().getValue());
+                        formData.append(inputs[index].getAttribute("name"), codeMirrorVals[inputs[index].getAttribute('id')].codemirror.getValue());
                     } else {
                         formData.append(inputs[index].getAttribute("name"), inputs[index].value);
                     }
@@ -188,15 +188,9 @@ function setAsCodeMirror(idName,setMode) {
     if(typeof setMode =="undefined") {
         setMode = "text/html";
     }
-
     isMirrorred[idName]=1;
-    codeMirrorVals[idName]=CodeMirror.fromTextArea(document.getElementById(idName),
-        {
-            lineNumbers: true,
-            mode: setMode
-        }
-    );
-
+    mb_cm_settings.codemirror.mode = setMode;
+    codeMirrorVals[idName] = wp.codeEditor.initialize(jQuery('#'+idName), mb_cm_settings);
     jQuery('#' + idName).addClass('codemirror_area');
 
 }

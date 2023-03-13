@@ -37,22 +37,23 @@ $_REQUEST['method'] = esc_attr($_REQUEST['method']);
                     $menuUrls = array();
                     $menuNames = array();
                     foreach ($categories as $key => $item) {
+                        $key = esc_attr($key);
 
                         if ($key == "mb_faq" or $key == "mb_documentation"){
                             continue;
                         }
 
                         $menuUrl         = menu_page_url($key, false);
-                        $icon            = $menuIcons[$key];
-                        $menuUrls[$key]  = $menuUrl;
-                        $menuNames[$key] = $item['title'];
+                        $icon            = esc_attr($menuIcons[$key]);
+                        $menuUrls[$key]  = esc_attr($menuUrl);
+                        $menuNames[$key] = esc_attr($item['title']);
                         if (@$item['subs'][esc_attr($_REQUEST['sub'])]){
                             $selectedClass = ' selected';
                         } else {
                             $selectedClass = '';
                         }
 
-                        $hasModulClass = "hasModul_" . $item['has'];
+                        $hasModulClass = esc_attr("hasModul_" . $item['has']);
 
                         ?>
 
@@ -61,26 +62,22 @@ $_REQUEST['method'] = esc_attr($_REQUEST['method']);
                             <?php if (is_array($item['subs'])){ ?>
 
                                 <button class="btn btn-sm itemLink" data-bs-toggle="collapse" data-target="#menu-<?php echo $key ?>" data-bs-target="#menu-<?php echo $key ?>">
-                                    <i class="<?php echo $icon ?>"></i> &nbsp;<span><?php echo $item['title'] ?></span>
+                                    <i class="<?php echo esc_attr($icon) ?>"></i> &nbsp;<span><?php echo esc_attr($item['title']) ?></span>
                                 </button>
                                 <ul class="list-unstyled ps-3 collapse subMenu <?php echo $_REQUEST['page'] == $key? "show" : "" ?>"
                                     id="menu-<?php echo $key ?>">
-                                    <?php /*?>
-                                <li <?php if ($_REQUEST['sub'] == "") { ?><?php echo  $_REQUEST['page'] == $key ? 'class="selected"' : "" ?><?php } ?>>
-                                    <a class="nav-link" href="<?php echo  $menuUrl ?>"><b><?php echo  $item['title'] ?></b></a></li>
-                                <?*/
-                                    ?>
                                     <?php if (is_array($item['subs'])){
                                         if (count($item['subs'])>0){
                                             foreach ($item['subs'] as $subKey => $it) {
+                                                $subKey = esc_attr($subKey);
                                                 $menuUrls[$subKey]  = $menuUrl . "&sub=" . $subKey;
-                                                $menuNames[$subKey] = $it['title'];
+                                                $menuNames[$subKey] = esc_attr($it['title']);
 
-                                                $hasSubModulClass = "hasSubModul_" . $it['has'];
+                                                $hasSubModulClass = esc_attr("hasSubModul_" . $it['has']);
 
                                                 ?>
                                                 <li class="subMenuItem <?php echo $hasSubModulClass ?> <?php echo $_REQUEST['sub'] == $subKey? ' selected' : "" ?>">
-                                                    <a class="nav-link" href="<?php echo $menuUrl ?>&sub=<?php echo $subKey ?>"><i class="bi bi-chevron-compact-right me-2"></i><?php echo $it['title'] ?>
+                                                    <a class="nav-link" href="<?php echo esc_attr($menuUrl) ?>&sub=<?php echo esc_attr($subKey) ?>"><i class="bi bi-chevron-compact-right me-2"></i><?php echo esc_attr($it['title']) ?>
                                                     </a>
                                                 </li>
                                             <?php
@@ -90,8 +87,8 @@ $_REQUEST['method'] = esc_attr($_REQUEST['method']);
 
                                 </ul>
                             <?php } else { ?>
-                                <button class="btn btn-sm itemLink" onclick="window.location='<?php echo $menuUrl ?>'">
-                                    <i class="<?php echo $icon ?>"></i> &nbsp;<span><?php echo $item['title'] ?></span>
+                                <button class="btn btn-sm itemLink" onclick="window.location='<?php echo esc_attr($menuUrl) ?>'">
+                                    <i class="<?php echo esc_attr($icon) ?>"></i> &nbsp;<span><?php echo esc_attr($item['title']) ?></span>
                                 </button>
 
                             <?php } ?>
@@ -141,20 +138,7 @@ $_REQUEST['method'] = esc_attr($_REQUEST['method']);
             </nav>
         <?php } ?>
 
-        <div class="row fixedRow licenceKeyAlert" style="display:<?php echo @$magicBox->licence['result'] != "ok"? "block" : "none" ?>">
-            <div class="col-12">
-                <div class="alert alert-custom alert-light-danger " role="alert">
-                    <div class="alert-icon"><i class="fa-solid fa-circle-minus"></i></div>
-                    <div class="alert-text">
-                        <div class="w-100 d-flex flex-wrap gap-2">
-                            <?php echo __("You can't manage magixbox without licence key. Please update your licence key or buy new one") ?>.
-                            <?php echo __("For buy new licence key", "magicbox") ?>:
-                            <a target="_blank" href="https://wpmagicbox.com"><?php echo __("Buy Licence", "magicbox") ?></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+
 
         <?php
         if ($magicBox->licence['result'] == "ok"){
@@ -202,7 +186,7 @@ $_REQUEST['method'] = esc_attr($_REQUEST['method']);
                         }
                         ?>
                         <li class="nav-item" role="presentation">
-                            <a class="nav-link <?php echo $_REQUEST['method'] == $item['method']? "active" : "" ?>" href="<?php echo $item['link'] ?>"><?php echo $item['title'] ?></a>
+                            <a class="nav-link <?php echo $_REQUEST['method'] == $item['method']? "active" : "" ?>" href="<?php echo esc_attr($item['link']) ?>"><?php echo $item['title'] ?></a>
                         </li>
                     <?php } ?>
                 </ul>

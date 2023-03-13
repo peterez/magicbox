@@ -27,12 +27,12 @@
                         </div>
                          <div class="col-lg-4">
                              <div class="form-group">
-                                 <select class="form-select" name="resize[<?php echo $keyName?>][status]" id="resize[<?php echo $keyName?>][status]">
+                                 <select class="form-select" name="resize[<?php echo esc_attr($keyName)?>][status]" id="resize[<?php echo esc_attr($keyName)?>][status]">
                                      <?php foreach ($yesNo as $key => $value) { ?>
-                                         <option value="<?php echo  $key ?>" <?php echo $key==2?"selected":""?>><?php echo  $value ?></option>
+                                         <option value="<?php echo  esc_attr($key) ?>" <?php echo $key==2?"selected":""?>><?php echo  esc_attr($value) ?></option>
                                      <?php } ?>
                                  </select>
-                                 <label class="form-label" for="resize[<?php echo $keyName?>][status]"><?php echo  __("Resize Images","magicbox") ?>?</label>
+                                 <label class="form-label" for="resize[<?php echo esc_attr($keyName)?>][status]"><?php echo  __("Resize Images","magicbox") ?>?</label>
                              </div>
                          </div>
 
@@ -40,33 +40,33 @@
 
                          <div class="col-md-3">
                              <div class="form-group">
-                                 <input type="text" class="form-control" value="<?php echo $item['width']?>" name="resize[<?php echo $keyName?>][max_width]" id="resize[<?php echo $keyName?>][max_width]" placeholder=" "/>
-                                 <label class="form-label" for="resize[<?php echo $keyName?>][max_width]"><?php echo  __("Maximum Width","magicbox") ?></label>
+                                 <input type="text" class="form-control" value="<?php echo $item['width']?>" name="resize[<?php echo esc_attr($keyName)?>][max_width]" id="resize[<?php echo esc_attr($keyName)?>][max_width]" placeholder=" "/>
+                                 <label class="form-label" for="resize[<?php echo esc_attr($keyName)?>][max_width]"><?php echo  __("Maximum Width","magicbox") ?></label>
                              </div>
                          </div>
 
                          <div class="col-md-3">
                              <div class="form-group">
-                                 <input type="text" class="form-control" value="<?php echo $item['height']?>" name="resize[<?php echo $keyName?>][max_height]" id="resize[<?php echo $keyName?>][max_height]" placeholder=" "/>
-                                 <label class="form-label" for="resize[<?php echo $keyName?>][max_height]"><?php echo  __("Maximum Height","magicbox") ?></label>
+                                 <input type="text" class="form-control" value="<?php echo $item['height']?>" name="resize[<?php echo esc_attr($keyName)?>][max_height]" id="resize[<?php echo esc_attr($keyName)?>][max_height]" placeholder=" "/>
+                                 <label class="form-label" for="resize[<?php echo esc_attr($keyName)?>][max_height]"><?php echo  __("Maximum Height","magicbox") ?></label>
                              </div>
                          </div>
 
                          <div class="col-md-3">
                              <div class="form-group">
-                                 <select class="form-select" name="resize[<?php echo $keyName?>][crop]" id="">
+                                 <select class="form-select" name="resize[<?php echo esc_attr($keyName)?>][crop]" id="">
                                      <?php foreach ($yesNo as $key => $value) { ?>
-                                         <option value="<?php echo  $key ?>" <?php echo $item['crop']==1?"selected":""?> ><?php echo  $value ?></option>
+                                         <option value="<?php echo  esc_attr($key) ?>" <?php echo $item['crop']==1?"selected":""?> ><?php echo  esc_attr($value) ?></option>
                                      <?php } ?>
                                  </select>
-                                 <label class="form-label" for="resize[<?php echo $keyName?>][crop]"><?php echo  __("Crop","magicbox") ?></label>
+                                 <label class="form-label" for="resize[<?php echo esc_attr($keyName)?>][crop]"><?php echo  __("Crop","magicbox") ?></label>
                              </div>
                          </div>
 
                          <div class="col-md-3">
                              <div class="form-group">
-                                 <input type="text" class="form-control" value="90" name="resize[<?php echo $keyName?>][quality]" id="resize[<?php echo $keyName?>][quality]" placeholder=" "/>
-                                 <label class="form-label" for="resize[<?php echo $keyName?>][quality]"><?php echo  __("Quality","magicbox") ?></label>
+                                 <input type="text" class="form-control" value="90" name="resize[<?php echo esc_attr($keyName)?>][quality]" id="resize[<?php echo esc_attr($keyName)?>][quality]" placeholder=" "/>
+                                 <label class="form-label" for="resize[<?php echo esc_attr($keyName)?>][quality]"><?php echo  __("Quality","magicbox") ?></label>
                              </div>
                          </div>
                      </div>

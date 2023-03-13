@@ -31,9 +31,9 @@
                         <select class="form-select" name="user_permission[status]" id="user_permission[status]">
                             <?php foreach ($activePassive as $key => $value) { ?>
                                 <option
-                                        value="<?php echo  $key ?>"<?php if ($key == $options['user_permission']['status'] or $options['user_permission']['status'] == "" and $key == 2) {
+                                        value="<?php echo  esc_attr($key) ?>"<?php if ($key == $options['user_permission']['status'] or $options['user_permission']['status'] == "" and $key == 2) {
                                     echo "selected";
-                                } ?>><?php echo  $value ?></option>
+                                } ?>><?php echo  esc_attr($value) ?></option>
                             <?php } ?>
                         </select>
                         <label class="form-label" for=""user_permission[status]><?php echo  __("Status","magicbox") ?></label>
@@ -72,7 +72,7 @@
                             }
                             ?>
                                 <li class="nav-item" role="presentation">
-                                    <button class="nav-link <?php echo  $isFirst != true ? "active" : ""; $isFirst = true; ?>" id="nav-<?php echo  $key ?>-tab" data-bs-toggle="tab" data-bs-target="#nav-<?php echo  $key ?>" type="button" role="tab" aria-controls="nav-<?php echo  $key ?>" aria-selected="true"><?php echo  $value['name'] ?></button>
+                                    <button class="nav-link <?php echo  $isFirst != true ? "active" : ""; $isFirst = true; ?>" id="nav-<?php echo  esc_attr($key) ?>-tab" data-bs-toggle="tab" data-bs-target="#nav-<?php echo  esc_attr($key) ?>" type="button" role="tab" aria-controls="nav-<?php echo  esc_attr($key) ?>" aria-selected="true"><?php echo  esc_attr($value['name']) ?></button>
                                 </li>
                         <?php } ?>
                         <li class="nav-item addBefore">
@@ -97,13 +97,13 @@
                                 continue;
                             }
                             ?>
-                            <div class="tab-pane fade <?php echo  $isFirst != true ? "show active" : ""; $isFirst = true; ?>" id="nav-<?php echo  $key ?>" role="tabpanel" aria-labelledby="nav-<?php echo  $key ?>">
+                            <div class="tab-pane fade <?php echo  $isFirst != true ? "show active" : ""; $isFirst = true; ?>" id="nav-<?php echo  esc_attr($key) ?>" role="tabpanel" aria-labelledby="nav-<?php echo  esc_attr($key) ?>">
                                 <div class="alert alert-custom alert-light-warning " role="alert">
                                     <div class="w-100">
                                         <div class="row fixedRow align-items-center">
                                             <div class="col-md-6 col-lg-4">
                                                 <div class="form-group my-0 my-lg-3">
-                                                    <input type="text" class="form-control" id="role_name[<?php echo $key?>]" name="role_name[<?php echo $key?>]" value="<?php echo $value['name']?>" placeholder=" "/>
+                                                    <input type="text" class="form-control" id="role_name[<?php echo $key?>]" name="role_name[<?php echo $key?>]" value="<?php echo  esc_attr($value['name'])?>" placeholder=" "/>
                                                     <label class="form-label" for="role_name[<?php echo $key?>]"><?php echo __("Role Name","magicbox")?></label>
                                                     <div class="form-info" data-mb="pop" data-mb-title="" data-mb-content="<?php echo  __("Specify the name of the admin role.","magicbox") ?>"><i class="fa-solid fa-info"></i></div>
                                                 </div>
@@ -250,8 +250,8 @@
 
                                         ?>
                                         <div class="form-check form-check-inline m-1">
-                                            <input class="form-check-input"  <?php echo  $val == "1" ? "checked" : "" ?> name="caps[<?php echo $key?>][<?php echo  $capName ?>]" type="checkbox" id="<?php echo  $key.$capName ?>" value="1">
-                                            <label class="form-check-label" for="<?php echo  $key.$capName ?>"><span><?php echo $capName?></span></label>
+                                            <input class="form-check-input"  <?php echo  $val == "1" ? "checked" : "" ?> name="caps[<?php echo $key?>][<?php echo  $capName ?>]" type="checkbox" id="<?php echo  esc_attr($key).$capName ?>" value="1">
+                                            <label class="form-check-label" for="<?php echo  esc_attr($key).$capName ?>"><span><?php echo $capName?></span></label>
                                         </div>
                                     <?php } ?>
                                 </div>
@@ -263,7 +263,7 @@
                                         <div class="btn btn-danger" id="userDeleteButton" data-key="<?php echo $key?>" style="cursor:pointer;"">
                                         <i class="fa-solid fa-trash-can me-2"></i><?php echo  __("Delete Role : " . $value['name']) ?>
                                     </div>
-                                    <input type="hidden" class="deleteMe_<?php echo  $key ?>" name="delete[<?php echo  $key ?>]" value="0"/>
+                                    <input type="hidden" class="deleteMe_<?php echo  esc_attr($key) ?>" name="delete[<?php echo  esc_attr($key) ?>]" value="0"/>
                                 </div>
                                 <div class="clearfix"></div>
                             </div>

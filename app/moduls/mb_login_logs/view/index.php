@@ -24,9 +24,9 @@
                             <select class="form-select" name="login_logs[status]" id="login_logs[status]">
                                 <?php foreach ($activePassive as $key => $value) { ?>
                                     <option
-                                            value="<?php echo  $key ?>"<?php if ($key == $options['login_logs']['status'] or $options['login_logs']['status'] == "" and $key == 2) {
+                                            value="<?php echo  esc_attr($key) ?>"<?php if ($key == $options['login_logs']['status'] or $options['login_logs']['status'] == "" and $key == 2) {
                                         echo "selected";
-                                    } ?>><?php echo  $value ?></option>
+                                    } ?>><?php echo  esc_attr($value) ?></option>
                                 <?php } ?>
                             </select>
                             <label class="input-group-text" for="login_logs[status]"><?php echo  __("Status","magicbox") ?></label>

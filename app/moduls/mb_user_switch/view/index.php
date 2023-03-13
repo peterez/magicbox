@@ -39,9 +39,9 @@
                             <select class="form-select" name="switch_user[status]" id="fancyboxStatus">
                                 <?php foreach ($activePassive as $key => $value) { ?>
                                     <option
-                                        value="<?php echo  $key ?>"<?php if ($key == $options['switch_user']['status'] or $options['switch_user']['status'] == "" and $key == 2){
+                                        value="<?php echo  esc_attr($key) ?>"<?php if ($key == $options['switch_user']['status'] or $options['switch_user']['status'] == "" and $key == 2){
                                         echo "selected";
-                                    } ?>><?php echo  $value ?></option>
+                                    } ?>><?php echo  esc_attr($value) ?></option>
                                 <?php } ?>
                             </select>
                             <label class="input-group-text" for="switch_user[status]"><?php echo  __("Status","magicbox") ?></label>
@@ -70,11 +70,11 @@
                 <?php foreach ($theClass->magicBox->getUserRoles() as $key => $item) { ?>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="checkbox"
-                               name="switch_user[user_roles][<?php echo  $key ?>]"
-                               id="switch_user[user_roles][<?php echo  $key ?>]"
+                               name="switch_user[user_roles][<?php echo  esc_attr($key) ?>]"
+                               id="switch_user[user_roles][<?php echo  esc_attr($key) ?>]"
                             <?php echo  $options['switch_user']['user_roles'][$key] == "1"? "checked" : "" ?>
                                value="1">
-                        <label class="form-check-label" for="switch_user[user_roles][<?php echo  $key ?>]"><span><?php echo  $item ?></span></label>
+                        <label class="form-check-label" for="switch_user[user_roles][<?php echo  esc_attr($key) ?>]"><span><?php echo  $item ?></span></label>
                     </div>
                 <?php } ?>
             </div>

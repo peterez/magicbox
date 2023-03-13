@@ -21,9 +21,9 @@
                             <select class="form-select" name="post_authentication[status]" id="post_authenticationStatus">
                                 <?php foreach ($activePassive as $key => $value) { ?>
                                     <option
-                                            value="<?php echo  $key ?>"<?php if ($key == $options['post_authentication']['status'] or $options['post_authentication']['status'] == "" and $key == 2) {
+                                            value="<?php echo  esc_attr($key) ?>"<?php if ($key == $options['post_authentication']['status'] or $options['post_authentication']['status'] == "" and $key == 2) {
                                         echo "selected";
-                                    } ?>><?php echo  $value ?></option>
+                                    } ?>><?php echo  esc_attr($value) ?></option>
                                 <?php } ?>
                             </select>
                             <label class="input-group-text" for="post_authenticationStatus"><?php echo  __("Status","magicbox") ?></label>

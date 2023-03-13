@@ -37,7 +37,7 @@ $pureUrl = "admin.php?page=" . sanitize_text_field($_REQUEST['page']) . "&sub=" 
                                     <option
                                         value="<?php echo $key ?>"<?php if ($key == $options['custom_redirects']['status'] or $options['custom_redirects']['status'] == "" and $key == 2){
                                         echo "selected";
-                                    } ?>><?php echo $value ?></option>
+                                    } ?>><?php echo  esc_attr($value) ?></option>
                                 <?php } ?>
                             </select>
                             <label class="input-group-text" for="custom_redirects[status]"><?php echo __("Status", "magicbox") ?></label>
@@ -76,11 +76,11 @@ $pureUrl = "admin.php?page=" . sanitize_text_field($_REQUEST['page']) . "&sub=" 
                     $postLabel    = $ex[3];
 
                     ?>
-                    <tr class="item_<?php echo $item['ID'] ?>">
+                    <tr class="item_<?php echo esc_attr($item['id']) ?>">
                         <td>
                             <div class="form-group-in-table">
 
-                                <input type="text" name="broken_link" value="<?php echo $item['post_title'] ?>" class="form-control-in-table"/>
+                                <input type="text" name="broken_link" value="<?php echo esc_attr($item['post_title']) ?>" class="form-control-in-table"/>
                             </div>
 
                         </td>
@@ -90,16 +90,16 @@ $pureUrl = "admin.php?page=" . sanitize_text_field($_REQUEST['page']) . "&sub=" 
                                     <div class="form-group-in-table">
                                         <select name="redirect_type" class="form-control-in-table">
                                             <?php foreach ($redirectTypes as $key => $value) { ?>
-                                                <option value="<?php echo $key ?>" <?php echo $redirectType == $key? "selected" : "" ?>><?php echo $value ?></option>
+                                                <option value="<?php echo $key ?>" <?php echo $redirectType == $key? "selected" : "" ?>><?php echo  esc_attr($value) ?></option>
                                             <?php } ?>
                                         </select>
                                     </div>
                                 </div>
                                 <div class="col-8">
                                     <div class="form-group-in-table">
-                                        <select name="type" class="form-control-in-table chooseType" the_id="<?php echo $item['ID'] ?>">
+                                        <select name="type" class="form-control-in-table chooseType" the_id="<?php echo esc_attr($item['id']) ?>">
                                             <?php foreach ($postTypes as $key => $value) { ?>
-                                                <option value="<?php echo $key ?>" <?php echo $postType == $key? "selected" : "" ?>><?php echo $value ?></option>
+                                                <option value="<?php echo $key ?>" <?php echo $postType == $key? "selected" : "" ?>><?php echo  esc_attr($value) ?></option>
                                             <?php } ?>
                                         </select>
                                     </div>
@@ -112,15 +112,15 @@ $pureUrl = "admin.php?page=" . sanitize_text_field($_REQUEST['page']) . "&sub=" 
                             } else {
                                 echo "none";
                             } ?>">
-                                <input type="text" class="form-control-in-table redirect_url setValue" placeholder="<?php _e("URL", "magicbox") ?>" value="<?php echo $postValue ?>" name="redirect_url"/>
+                                <input type="text" class="form-control-in-table redirect_url setValue" placeholder="<?php _e("URL", "magicbox") ?>" value="<?php echo esc_attr($postValue) ?>" name="redirect_url"/>
                             </div>
                             <div class="form-group-in-table redirect_id setValue" style="display:<?php if ($postType != "" and $postType != "url" and $postType != "donttouch"){
                                 echo "block";
                             } else {
                                 echo "none";
                             } ?>">
-                                <input type="hidden" class="redirect_id_value" name="redirect_id" value="<?php echo $postValue ?>" the_id="<?php echo $item['ID'] ?>"/>
-                                <input type="text" class="form-control-in-table searchPost" name="label" value="<?php echo $postLabel ?>" the_id="<?php echo $item['ID'] ?>" placeholder="<?php echo __("Search Text", "magicbox") ?>"/>
+                                <input type="hidden" class="redirect_id_value" name="redirect_id" value="<?php echo esc_attr($postValue) ?>" the_id="<?php echo esc_attr($item['id']) ?>"/>
+                                <input type="text" class="form-control-in-table searchPost" name="label" value="<?php echo esc_attr($postLabel) ?>" the_id="<?php echo esc_attr($item['id']) ?>" placeholder="<?php echo __("Search Text", "magicbox") ?>"/>
 
                                 <div class="input-icon" data-mb="pop" data-mb-title="Determine" data-mb-content="<?php echo __("You can choose post with search", "magicbox") ?>">
                                     <i class="fa-solid fa-magnifying-glass"></i></div>
@@ -130,9 +130,9 @@ $pureUrl = "admin.php?page=" . sanitize_text_field($_REQUEST['page']) . "&sub=" 
                         </td>
 
                         <td>
-                            <button type="submit" value="<?php _e("Update", "magicbox") ?>" onclick="return false;" class="btn btn-primary btnDataMB updateRedirect mt-1" the_id="<?php echo $item['ID'] ?>">
+                            <button type="submit" value="<?php _e("Update", "magicbox") ?>" onclick="return false;" class="btn btn-primary btnDataMB updateRedirect mt-1" the_id="<?php echo esc_attr($item['id']) ?>">
                                 <i class="fa-solid fa-check"></i></button>
-                            <button type="submit" value="<?php _e("Delete", "magicbox") ?>" onclick="return false;" class="btn btn-danger btnDataMB deleteRedirect mt-1" the_id="<?php echo $item['ID'] ?>">
+                            <button type="submit" value="<?php _e("Delete", "magicbox") ?>" onclick="return false;" class="btn btn-danger btnDataMB deleteRedirect mt-1" the_id="<?php echo esc_attr($item['id']) ?>">
                                 <i class="fa-solid fa-trash-can"></i></button>
                         </td>
 
@@ -197,7 +197,7 @@ $pureUrl = "admin.php?page=" . sanitize_text_field($_REQUEST['page']) . "&sub=" 
                     <div class="form-group-in-table">
                         <select name="redirect_type" class="form-control-in-table control-form">
                             <?php foreach ($redirectTypes as $key => $value) { ?>
-                                <option value="<?php echo $key ?>"><?php echo $value ?></option>
+                                <option value="<?php echo $key ?>"><?php echo  esc_attr($value) ?></option>
                             <?php } ?>
                         </select>
                     </div>
@@ -206,7 +206,7 @@ $pureUrl = "admin.php?page=" . sanitize_text_field($_REQUEST['page']) . "&sub=" 
                     <div class="form-group-in-table">
                         <select name="type" class="form-control-in-table control-form chooseType" the_id="noid">
                             <?php foreach ($postTypes as $key => $value) { ?>
-                                <option value="<?php echo $key ?>"><?php echo $value ?></option>
+                                <option value="<?php echo $key ?>"><?php echo  esc_attr($value) ?></option>
                             <?php } ?>
                         </select>
                     </div>

@@ -51,21 +51,21 @@ $detailUrl = "admin.php?page=".sanitize_text_field($_REQUEST['page'])."&sub=".es
                                 $item['total']>$item['sended'] and $item['sended']>0 and
                                 strtotime($item['date'])+90<=strtotime($item['last_process_date'])
                             ) {?>
-                                <button type="submit" name="upsert" data-id="<?php echo $item['id']?>" value="<?php echo __("Update","magicbox")?>" onclick="return false;" class="btn btn-success btn-sm rounded-pill px-3 sendNow"><?php echo __("Force Send","magicbox")?></button>
+                                <button type="submit" name="upsert" data-id="<?php echo esc_attr($item['id'])?>" value="<?php echo __("Update","magicbox")?>" onclick="return false;" class="btn btn-success btn-sm rounded-pill px-3 sendNow"><?php echo __("Force Send","magicbox")?></button>
                             <?php }?>
 
                             <?php if($item['status'] =="1") {?>
-                                <button type="submit" name="upsert" data-id="<?php echo $item['id']?>" value="<?php echo __("Update","magicbox")?>" onclick="return false;" class="btn btn-warning btn-sm rounded-pill px-3 stopNow"><?php echo __("Stop","magicbox")?></button>
+                                <button type="submit" name="upsert" data-id="<?php echo esc_attr($item['id'])?>" value="<?php echo __("Update","magicbox")?>" onclick="return false;" class="btn btn-warning btn-sm rounded-pill px-3 stopNow"><?php echo __("Stop","magicbox")?></button>
                             <?php }?>
 
                             <?php if($item['status'] =="2") {?>
-                                <button type="submit" name="upsert" data-id="<?php echo $item['id']?>" value="<?php echo __("Update","magicbox")?>" onclick="return false;" class="btn btn-primary btn-sm rounded-pill px-3 sendNow"><?php echo __("Resume","magicbox")?></button>
+                                <button type="submit" name="upsert" data-id="<?php echo esc_attr($item['id'])?>" value="<?php echo __("Update","magicbox")?>" onclick="return false;" class="btn btn-primary btn-sm rounded-pill px-3 sendNow"><?php echo __("Resume","magicbox")?></button>
                             <?php }?>
                             <?php if($item['status'] =="3") {?>
                                 <button type="submit" value="<?php echo __("Update","magicbox")?>" onclick="return false;" class="btn btn-secondary btn-sm rounded-pill px-3"><?php echo __("Done","magicbox")?></button>
                             <?php }?>
 
-                            <a class="btn btn-success btn-sm rounded-pill px-3" href="<?php echo $detailUrl?>&id=<?php echo $item['id'];?>"><?php echo __("Show","magicbox")?></a>
+                            <a class="btn btn-success btn-sm rounded-pill px-3" href="<?php echo $detailUrl?>&id=<?php echo esc_attr($item['id']);?>"><?php echo __("Show","magicbox")?></a>
                         </div>
                     </td>
                 </tr>

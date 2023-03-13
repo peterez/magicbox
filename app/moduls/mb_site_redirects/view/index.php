@@ -30,9 +30,9 @@
                             <select class="form-select" name="redirect[status]" id="redirect[status]">
                                 <?php foreach ($activePassive as $key => $value) { ?>
                                     <option
-                                            value="<?php echo  $key ?>"<?php if ($key == $options['redirect']['status'] or $options['redirect']['status'] == "" and $key == 2) {
+                                            value="<?php echo  esc_attr($key) ?>"<?php if ($key == $options['redirect']['status'] or $options['redirect']['status'] == "" and $key == 2) {
                                         echo "selected";
-                                    } ?>><?php echo  $value ?></option>
+                                    } ?>><?php echo  esc_attr($value) ?></option>
                                 <?php } ?>
                             </select>
                             <label class="form-label" for="redirect[status]"><?php echo  __("Status","magicbox") ?></label>
@@ -62,9 +62,9 @@
                                 <option value="0"><?php echo __("Don't Touch")?></option>
                                 <?php foreach ($sslOrNonSsl as $key => $value) { ?>
                                     <option
-                                            value="<?php echo  $key ?>"<?php if ($key == $options['redirect']['ssl']) {
+                                            value="<?php echo  esc_attr($key) ?>"<?php if ($key == $options['redirect']['ssl']) {
                                         echo "selected";
-                                    } ?>><?php echo  $value ?></option>
+                                    } ?>><?php echo  esc_attr($value) ?></option>
                                 <?php } ?>
                             </select>
                             <label class="form-label" for="redirect[ssl]"><?php echo  __("Force SSL","magicbox") ?></label>
@@ -83,9 +83,9 @@
                                 <option value="0"><?php echo __("Don't Touch")?></option>
                                 <?php foreach ($wwwOrNonWww as $key => $value) { ?>
                                     <option
-                                            value="<?php echo  $key ?>"<?php if ($key == $options['redirect']['www']) {
+                                            value="<?php echo  esc_attr($key) ?>"<?php if ($key == $options['redirect']['www']) {
                                         echo "selected";
-                                    } ?>><?php echo  $value ?></option>
+                                    } ?>><?php echo  esc_attr($value) ?></option>
                                 <?php } ?>
                             </select>
                             <label class="form-label" for="redirect[www]"><?php echo  __("Force WWW","magicbox") ?></label>
@@ -104,9 +104,9 @@
                             <select class="form-select redirectAnother" name="redirect[another]" id="redirect[another]">
                                 <?php foreach ($redirectAnother as $key => $value) { ?>
                                     <option
-                                            value="<?php echo  $key ?>"<?php if ($key == $options['redirect']['another'] or $options['redirect']['another'] == "" and $key == 2) {
+                                            value="<?php echo  esc_attr($key) ?>"<?php if ($key == $options['redirect']['another'] or $options['redirect']['another'] == "" and $key == 2) {
                                         echo "selected";
-                                    } ?>><?php echo  $value ?></option>
+                                    } ?>><?php echo  esc_attr($value) ?></option>
                                 <?php } ?>
                             </select>
                             <label class="form-label" for=""redirect[another]><?php echo  __("Redirect Another Website","magicbox") ?></label>

@@ -32,10 +32,10 @@
                 <tbody>
                 <?php foreach($theClass->results as $item) { $item['label_data'] = unserialize($item['label_data']); ?>
                 <tr>
-                    <td><?php echo $item['label_data']['title']?></td>
-                    <td><?php echo $item['mail']?></td>
-                    <td><?php echo $item['date']?></td>
-                    <td><?php echo $item['ip']?></td>
+                    <td><?php echo esc_attr($item['label_data']['title'])?></td>
+                    <td><?php echo esc_attr($item['mail'])?></td>
+                    <td><?php echo esc_attr($item['date'])?></td>
+                    <td><?php echo esc_attr($item['ip'])?></td>
                     <td class="text-center">
                         <?php if($item['status']=="3") { ?>
                             <a class="btn btn-warning statusResult fs-4" href="javascript:;"><i class="fa-solid fa-envelope"></i></a>
@@ -43,10 +43,10 @@
                             <a class="btn btn-success statusResult fs-4" href="javascript:;"><i class="fa-solid fa-envelope-open-text"></i></a>
                         <?php } ?>
                     </td>
-                    <td class="text-center"><a class="btn btn-primary btnDataMB" href="<?php echo $readUrl?>&method=index&formId=<?php echo $item['form_id']?>"><i class="fa-solid fa-pen-to-square"></i></a></td>
+                    <td class="text-center"><a class="btn btn-primary btnDataMB" href="<?php echo esc_attr($readUrl)?>&method=index&formId=<?php echo esc_attr($item['form_id'])?>"><i class="fa-solid fa-pen-to-square"></i></a></td>
                     <td class="text-end">
-                        <a class="btn btn-primary btnDataMB" href="<?php echo $readUrl?>&method=view&contactId=<?php echo $item['id']?>"><i class="fa-solid fa-eye"></i></a>
-                        <a class="btn btn-danger btnDataMB" href="<?php echo $readUrl?>&method=deleteContact&contactId=<?php echo $item['id']?>"><i class="fa-solid fa-trash-can"></i></a>
+                        <a class="btn btn-primary btnDataMB" href="<?php echo esc_attr($readUrl)?>&method=view&contactId=<?php echo esc_attr($item['id'])?>"><i class="fa-solid fa-eye"></i></a>
+                        <a class="btn btn-danger btnDataMB" href="<?php echo esc_attr($readUrl)?>&method=deleteContact&contactId=<?php echo esc_attr($item['id'])?>"><i class="fa-solid fa-trash-can"></i></a>
                     </td>
                 </tr>
                 <?php }?>

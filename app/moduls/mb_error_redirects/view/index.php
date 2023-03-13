@@ -36,9 +36,9 @@ $pureUrl = "admin.php?page=" . sanitize_text_field($_REQUEST['page']) . "&sub=" 
                             <select class="form-select" name="error_redirects[status]" id="error_redirects[status]">
                                 <?php foreach ($activePassive as $key => $value) { ?>
                                     <option
-                                        value="<?php echo  $key ?>"<?php if ($key == $options['error_redirects']['status'] or $options['error_redirects']['status'] == "" and $key == 2){
+                                        value="<?php echo  esc_attr($key) ?>"<?php if ($key == $options['error_redirects']['status'] or $options['error_redirects']['status'] == "" and $key == 2){
                                         echo "selected";
-                                    } ?>><?php echo  $value ?></option>
+                                    } ?>><?php echo  esc_attr($value) ?></option>
                                 <?php } ?>
                             </select>
                             <label class="form-label" for="error_redirects[status]"><?php echo  __("Status", "magicbox") ?></label>
@@ -80,11 +80,11 @@ $pureUrl = "admin.php?page=" . sanitize_text_field($_REQUEST['page']) . "&sub=" 
                 $postLabel    = $ex[3];
 
                 ?>
-                <tr class="item_<?php echo  $item['ID'] ?>">
+                <tr class="item_<?php echo esc_attr($item['id']) ?>">
                     <td>
                         <div class="form-group-in-table">
-                            <input type="text" class="form-control-in-table" value="<?php echo  $item['post_title'] ?>"/>
-                            <input type="hidden" name="broken_link" value="<?php echo  $item['post_title'] ?>"/>
+                            <input type="text" class="form-control-in-table" value="<?php echo esc_attr($item['post_title']) ?>"/>
+                            <input type="hidden" name="broken_link" value="<?php echo esc_attr($item['post_title']) ?>"/>
                         </div>
 
                     </td>
@@ -94,16 +94,16 @@ $pureUrl = "admin.php?page=" . sanitize_text_field($_REQUEST['page']) . "&sub=" 
                                 <div class="form-group-in-table">
                                     <select name="redirect_type" class="control-form form-control-in-table">
                                         <?php foreach ($redirectTypes as $key => $value) { ?>
-                                            <option value="<?php echo  $key ?>" <?php echo  $redirectType == $key? "selected" : "" ?>><?php echo  $value ?></option>
+                                            <option value="<?php echo  esc_attr($key) ?>" <?php echo  $redirectType == $key? "selected" : "" ?>><?php echo  esc_attr($value) ?></option>
                                         <?php } ?>
                                     </select>
                                 </div>
                             </div>
                             <div class="col-8">
                                 <div class="form-group-in-table">
-                                    <select name="type" class="control-form form-control-in-table chooseType" the_id="<?php echo  $item['ID'] ?>">
+                                    <select name="type" class="control-form form-control-in-table chooseType" the_id="<?php echo esc_attr($item['id']) ?>">
                                         <?php foreach ($postTypes as $key => $value) { ?>
-                                            <option value="<?php echo  $key ?>" <?php echo  $postType == $key? "selected" : "" ?>><?php echo  $value ?></option>
+                                            <option value="<?php echo  esc_attr($key) ?>" <?php echo  $postType == $key? "selected" : "" ?>><?php echo  esc_attr($value) ?></option>
                                         <?php } ?>
                                     </select>
                                 </div>
@@ -116,15 +116,15 @@ $pureUrl = "admin.php?page=" . sanitize_text_field($_REQUEST['page']) . "&sub=" 
                         } else {
                             echo "none";
                         } ?>">
-                            <input type="text" class="redirect_url setValue form-control-in-table" placeholder="<?php _e("URL", "magicbox") ?>" value="<?php echo  $postValue ?>" name="redirect_url"/>
+                            <input type="text" class="redirect_url setValue form-control-in-table" placeholder="<?php _e("URL", "magicbox") ?>" value="<?php echo esc_attr($postValue) ?>" name="redirect_url"/>
                         </div>
                         <div class="redirect_id setValue form-group-in-table" style="display:<?php if ($postType != "" and $postType != "url" and $postType != "donttouch"){
                             echo "block";
                         } else {
                             echo "none";
                         } ?>">
-                            <input type="hidden" class="redirect_id_value" name="redirect_id" value="<?php echo  $postValue ?>" the_id="<?php echo  $item['ID'] ?>"/>
-                            <input type="text" class="searchPost form-control-in-table" name="label" value="<?php echo  $postLabel ?>" the_id="<?php echo  $item['ID'] ?>" placeholder="<?php echo  __("Search Text", "magicbox") ?>"/>
+                            <input type="hidden" class="redirect_id_value" name="redirect_id" value="<?php echo esc_attr($postValue) ?>" the_id="<?php echo esc_attr($item['id']) ?>"/>
+                            <input type="text" class="searchPost form-control-in-table" name="label" value="<?php echo esc_attr($postLabel) ?>" the_id="<?php echo esc_attr($item['id']) ?>" placeholder="<?php echo  __("Search Text", "magicbox") ?>"/>
 
                             <div class="input-icon" data-mb="pop" data-mb-title="Determine" data-mb-content="<?php echo  __("Aramak istediğiniz kelimeyi yazarak sayfayı seçebilirsiniz.", "magicbox") ?>">
                                 <i class="fa-solid fa-magnifying-glass"></i></div>

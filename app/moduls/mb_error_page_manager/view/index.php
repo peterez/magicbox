@@ -22,9 +22,9 @@
                             <select class="form-select" name="error_page_manager[status]" id="error_page_manager[status]">
                                 <?php foreach ($activePassive as $key => $value) { ?>
                                     <option
-                                            value="<?php echo  $key ?>"<?php if ($key == $options['error_page_manager']['status'] or $options['error_page_manager']['status'] == "" and $key == 2) {
+                                            value="<?php echo  esc_attr($key) ?>"<?php if ($key == $options['error_page_manager']['status'] or $options['error_page_manager']['status'] == "" and $key == 2) {
                                         echo "selected";
-                                    } ?>><?php echo  $value ?></option>
+                                    } ?>><?php echo  esc_attr($value) ?></option>
                                 <?php } ?>
                             </select>
                             <label class="input-group-text" for="error_page_manager[status]"><?php echo  __("Status","magicbox") ?></label>
@@ -41,9 +41,9 @@
                                 );
                                 foreach ($choose as $key => $value) { ?>
                                     <option
-                                            value="<?php echo  $key ?>"<?php if ($key == $options['error_page_manager']['process'] or $options['error_page_manager']['process'] == "" and $key == 2) {
+                                            value="<?php echo  esc_attr($key) ?>"<?php if ($key == $options['error_page_manager']['process'] or $options['error_page_manager']['process'] == "" and $key == 2) {
                                         echo "selected";
-                                    } ?>><?php echo  $value ?></option>
+                                    } ?>><?php echo  esc_attr($value) ?></option>
                                 <?php } ?>
                             </select>
                             <label class="input-group-text" for="error_page_manager[process]"><?php echo  __("Process","magicbox") ?></label>

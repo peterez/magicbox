@@ -23,9 +23,9 @@
                             <select class="form-select" name="image_optimiser[status]" id="image_optimiser[status]">
                                 <?php foreach ($yesNo as $key => $value) { ?>
                                     <option
-                                            value="<?php echo  $key ?>" <?php echo  $key == $options['image_optimiser']['status'] ? "selected" : "" ?> <?php if ($options['image_optimiser']['status'] == "" and $key == 2) {
+                                            value="<?php echo  esc_attr($key) ?>" <?php echo  esc_attr($key) == $options['image_optimiser']['status'] ? "selected" : "" ?> <?php if ($options['image_optimiser']['status'] == "" and $key == 2) {
                                         echo "selected";
-                                    } ?>><?php echo  $value ?></option>
+                                    } ?>><?php echo  esc_attr($value) ?></option>
                                 <?php } ?>
                             </select>
                             <label class="input-group-text" for=""image_optimiser[status]><?php echo  __("Status","magicbox") ?></label>

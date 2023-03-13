@@ -45,7 +45,7 @@
                         $currentUrl = $magicBox->getCurrentUrl();
                         $theUrl = $currentUrl."&method=clearErrorLog&redirect=".urlencode($currentUrl);
                         ?>
-                        <a href="<?php echo $theUrl?>" class="btn btn-danger rounded-pill px-4 mt-2"><i class="fa-solid fa-trash-can me-2"></i><?php echo  __("Delete Error Logs","magicbox") ?></a>
+                        <a href="<?php echo esc_attr($theUrl)?>" class="btn btn-danger rounded-pill px-4 mt-2"><i class="fa-solid fa-trash-can me-2"></i><?php echo  __("Delete Error Logs","magicbox") ?></a>
                     <?php }?>
                 </div>
             </div>

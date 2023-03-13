@@ -64,7 +64,7 @@ class mb_disqus_comment
         <script id="dsq-count-scr" src="//<?php echo $this->options['disqus_comment']['app_id']?>.disqus.com/count.js" async></script>
         <div id="disqus_thread"></div>
         <script>
-            PAGE_URL = "<?php echo $url?>";
+            PAGE_URL = "<?php echo esc_attr($url)?>";
             PAGE_IDENTIFIER = "<?php echo md5($url)?>";
              var disqus_config = function () {
              this.page.url = PAGE_URL;

@@ -24,9 +24,9 @@
                             <select class="form-select" name="white_label[status]" id="white_label[status]">
                                 <?php foreach ($activePassive as $key => $value) { ?>
                                     <option
-                                            value="<?php echo  $key ?>"<?php if ($key == $options['white_label']['status'] or $options['white_label']['status'] == "" and $key == 2) {
+                                            value="<?php echo  esc_attr($key) ?>"<?php if ($key == $options['white_label']['status'] or $options['white_label']['status'] == "" and $key == 2) {
                                         echo "selected";
-                                    } ?>><?php echo  $value ?></option>
+                                    } ?>><?php echo  esc_attr($value) ?></option>
                                 <?php } ?>
                             </select>
                             <label class="form-label" for="white_label[status]"><?php echo  __("Status","magicbox") ?></label>
@@ -253,12 +253,12 @@
                             <?php foreach ($theClass->magicBox->getUserRoles() as $key => $item) { ?>
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" type="checkbox"
-                                           name="white_label[user_roles][<?php echo  $key ?>]"
-                                           id="white_label[user_roles][<?php echo  $key ?>]"
+                                           name="white_label[user_roles][<?php echo  esc_attr($key) ?>]"
+                                           id="white_label[user_roles][<?php echo  esc_attr($key) ?>]"
                                         <?php echo  $options['white_label']['user_roles'][$key] == "1" ? "checked" : "" ?>
                                            value="1">
                                     <label class="form-check-label"
-                                           for="white_label[user_roles][<?php echo  $key ?>]"><span><?php echo  $item ?></span></label>
+                                           for="white_label[user_roles][<?php echo  esc_attr($key) ?>]"><span><?php echo  $item ?></span></label>
                                 </div>
                             <?php } ?>
                         </div>

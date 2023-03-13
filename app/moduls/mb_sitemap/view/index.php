@@ -24,7 +24,7 @@
     <?php foreach ($postTypes as $postKey => $value) { ?>
         <div class="card bg-light">
             <div class="card-header">
-                <h6 class="my-0"><?php echo  _e("Sitemap Manager","magicbox") ?> : <?php echo  $value['label'] ?></h6>
+                <h6 class="my-0"><?php echo  _e("Sitemap Manager","magicbox") ?> : <?php echo  esc_attr($value['label']) ?></h6>
             </div>
 
             <div class="card-body">
@@ -33,10 +33,10 @@
                         <div class="col-12">
                             <div class="form-check-switch">
                                 <div class="form-check">
-                                    <label class="form-check-label" for="sitemap[<?php echo  $value['name'] ?>][status]"><?php echo  __("Status","magicbox") ?></label>
+                                    <label class="form-check-label" for="sitemap[<?php echo  esc_attr($value['name']) ?>][status]"><?php echo  __("Status","magicbox") ?></label>
                                     <input class="form-check-input" type="checkbox"
-                                           name="sitemap[<?php echo  $value['name'] ?>][status]"
-                                           id="sitemap[<?php echo  $value['name'] ?>][status]"
+                                           name="sitemap[<?php echo  esc_attr($value['name']) ?>][status]"
+                                           id="sitemap[<?php echo  esc_attr($value['name']) ?>][status]"
                                         <?php echo  $options['sitemap'][$value['name']]['status'] == "1"? "checked" : "" ?>
                                            value="1">
                                 </div>
@@ -45,8 +45,8 @@
                         <div class="clearfix"></div>
                         <div class="col-lg-6">
                             <div class="form-group">
-                                <input type="text" name="sitemap[<?php echo  $value['name'] ?>][url]" id="sitemap[<?php echo  $value['name'] ?>][url]" placeholder=" " value="<?php echo  $options['sitemap'][$value['name']]['url'] ?>" class="form-control "/>
-                                <label class="form-label" for="sitemap[<?php echo  $value['name'] ?>][url]"><?php echo  trim(site_url(), "/") ?>/
+                                <input type="text" name="sitemap[<?php echo  esc_attr($value['name']) ?>][url]" id="sitemap[<?php echo  esc_attr($value['name']) ?>][url]" placeholder=" " value="<?php echo  $options['sitemap'][$value['name']]['url'] ?>" class="form-control "/>
+                                <label class="form-label" for="sitemap[<?php echo  esc_attr($value['name']) ?>][url]"><?php echo  trim(site_url(), "/") ?>/
                                     <small>(<?php echo  strtolower($value['label']) ?>.xml)</small>
                                 </label>
                                 <div class="form-info" data-mb="pop" data-mb-title="" data-mb-content="<?php echo  __("Enter the sitemap url you specified. e.g ","magicbox") ?><?php echo  trim(site_url(), "/") ?>/<?php echo  strtolower($value['label']) ?>.xml"><i class="fa-solid fa-info"></i></div>
@@ -55,8 +55,8 @@
                         <div class="clearfix"></div>
                         <div class="col-lg-6">
                             <div class="form-group">
-                                <input type="text" name="sitemap[<?php echo  $value['name'] ?>][limit]" id="sitemap[<?php echo  $value['name'] ?>][limit]" placeholder=" " value="<?php echo  $options['sitemap'][$value['name']]['limit'] ?>" class="form-control"/>
-                                <label class="input-group-text" for="sitemap[<?php echo  $value['name'] ?>][limit]"><?php echo  __("Limit","magicbox") ?>
+                                <input type="text" name="sitemap[<?php echo  esc_attr($value['name']) ?>][limit]" id="sitemap[<?php echo  esc_attr($value['name']) ?>][limit]" placeholder=" " value="<?php echo  $options['sitemap'][$value['name']]['limit'] ?>" class="form-control"/>
+                                <label class="input-group-text" for="sitemap[<?php echo  esc_attr($value['name']) ?>][limit]"><?php echo  __("Limit","magicbox") ?>
                                     <small>(1000)</small>
                                 </label>
                                 <div class="form-info" data-mb="pop" data-mb-title="" data-mb-content="<?php echo  __("Specify the number of pages that will be added to the sitemap.","magicbox") ?>"><i class="fa-solid fa-info"></i></div>
@@ -72,11 +72,11 @@
                                 <div>
                                     <?php foreach ($yesNo as $key => $val) { ?>
                                         <div class="form-check form-check-inline">
-                                            <input type="radio" class="form-check-input" name="sitemap[<?php echo  $value['name'] ?>][show_images]" value="<?php echo  $key ?>"
+                                            <input type="radio" class="form-check-input" name="sitemap[<?php echo  esc_attr($value['name']) ?>][show_images]" value="<?php echo  esc_attr($key) ?>"
                                                 <?php if ($options['sitemap'][$value['name']]['show_images'] == $key or ($options['sitemap'][$value['name']]['show_images'] != "1" and $key == 2)){
                                                     echo "checked";
-                                                } ?>  id="showimages_<?php echo  $key . $postKey ?>">
-                                            <label class="form-check-label" for="showimages_<?php echo  $key . $postKey ?>"><span><?php echo  $val ?></span></label>
+                                                } ?>  id="showimages_<?php echo  esc_attr($key) . $postKey ?>">
+                                            <label class="form-check-label" for="showimages_<?php echo  esc_attr($key) . $postKey ?>"><span><?php echo  $val ?></span></label>
                                         </div>
                                     <?php } ?>
                                 </div>
@@ -93,12 +93,12 @@
 
                                 <?php foreach ($yesNo as $key => $val) { ?>
                                     <div class="form-check form-check-inline">
-                                        <input type="radio" class="form-check-input" name="sitemap[<?php echo  $value['name'] ?>][show_text_images]"
-                                               value="<?php echo  $key ?>"
+                                        <input type="radio" class="form-check-input" name="sitemap[<?php echo  esc_attr($value['name']) ?>][show_text_images]"
+                                               value="<?php echo  esc_attr($key) ?>"
                                             <?php if ($options['sitemap'][$value['name']]['show_text_images'] == $key or ($options['sitemap'][$value['name']]['show_text_images'] != "1" and $key == 2)){
                                                 echo "checked";
-                                            } ?>  id="showtextimages_<?php echo  $key . $postKey ?>">
-                                        <label class="form-check-label" for="showtextimages_<?php echo  $key . $postKey ?>"><span><?php echo  $val ?></span></label>
+                                            } ?>  id="showtextimages_<?php echo  esc_attr($key) . $postKey ?>">
+                                        <label class="form-check-label" for="showtextimages_<?php echo  esc_attr($key) . $postKey ?>"><span><?php echo  $val ?></span></label>
                                     </div>
                                 <?php } ?>
                             </div>
@@ -118,7 +118,7 @@
 
     <div class="card bg-light">
         <div class="card-header">
-            <h6 class="my-0"><?php echo  _e("Sitemap Manager","magicbox") ?> : <?php echo  $value['label'] ?></h6>
+            <h6 class="my-0"><?php echo  _e("Sitemap Manager","magicbox") ?> : <?php echo  esc_attr($value['label']) ?></h6>
         </div>
         <div class="card-body">
             <div class="container-mb">
@@ -126,10 +126,10 @@
                     <div class="col-12">
                         <div class="form-check-switch">
                             <div class="form-check">
-                                <label class="form-check-label" for="sitemap[<?php echo  $value['name'] ?>][status]"><?php echo  __("Status","magicbox") ?></label>
+                                <label class="form-check-label" for="sitemap[<?php echo  esc_attr($value['name']) ?>][status]"><?php echo  __("Status","magicbox") ?></label>
                                 <input class="form-check-input" type="checkbox"
-                                       name="sitemap[<?php echo  $value['name'] ?>][status]"
-                                       id="sitemap[<?php echo  $value['name'] ?>][status]"
+                                       name="sitemap[<?php echo  esc_attr($value['name']) ?>][status]"
+                                       id="sitemap[<?php echo  esc_attr($value['name']) ?>][status]"
                                     <?php echo  $options['sitemap'][$value['name']]['status'] == "1"? "checked" : "" ?>
                                        value="1">
                             </div>
@@ -138,16 +138,16 @@
                     <div class="clearfix"></div>
                     <div class="col-lg-6">
                         <div class="form-group">
-                            <input type="text" name="sitemap[<?php echo  $value['name'] ?>][url]" id="sitemap[<?php echo  $value['name'] ?>][url]" placeholder=" " value="<?php echo  $options['sitemap'][$value['name']]['url'] ?>" class="form-control "/>
-                            <label class="input-group-text" for="sitemap[<?php echo  $value['name'] ?>][url]"><?php echo  trim(site_url(), "/") ?>/</label>
+                            <input type="text" name="sitemap[<?php echo  esc_attr($value['name']) ?>][url]" id="sitemap[<?php echo  esc_attr($value['name']) ?>][url]" placeholder=" " value="<?php echo  $options['sitemap'][$value['name']]['url'] ?>" class="form-control "/>
+                            <label class="input-group-text" for="sitemap[<?php echo  esc_attr($value['name']) ?>][url]"><?php echo  trim(site_url(), "/") ?>/</label>
                             <div class="form-info" data-mb="pop" data-mb-title="" data-mb-content="<?php echo  trim(site_url(), "/") ?>/sitemap.xml"><i class="fa-solid fa-info"></i></div>
                         </div>
                     </div>
                     <div class="clearfix"></div>
                     <div class="col-lg-6">
                         <div class="form-group">
-                            <input type="text" name="sitemap[<?php echo  $value['name'] ?>][limit]" id="sitemap[<?php echo  $value['name'] ?>][limit]" placeholder=" " value="<?php echo  $options['sitemap'][$value['name']]['limit'] ?>" class="form-control"/>
-                            <label class="input-group-text" for="sitemap[<?php echo  $value['name'] ?>][limit]"><?php echo  __("Limit","magicbox") ?>
+                            <input type="text" name="sitemap[<?php echo  esc_attr($value['name']) ?>][limit]" id="sitemap[<?php echo  esc_attr($value['name']) ?>][limit]" placeholder=" " value="<?php echo  $options['sitemap'][$value['name']]['limit'] ?>" class="form-control"/>
+                            <label class="input-group-text" for="sitemap[<?php echo  esc_attr($value['name']) ?>][limit]"><?php echo  __("Limit","magicbox") ?>
                                 <small>(1000)</small>
                             </label>
                         </div>
@@ -165,7 +165,7 @@
 
     <div class="card bg-light">
         <div class="card-header">
-            <h6 class="my-0"><?php echo  _e("Sitemap Manager","magicbox") ?> : <?php echo  $value['label'] ?></h6>
+            <h6 class="my-0"><?php echo  _e("Sitemap Manager","magicbox") ?> : <?php echo  esc_attr($value['label']) ?></h6>
         </div>
 
         <div class="card-body">
@@ -174,10 +174,10 @@
                     <div class="col-12">
                         <div class="form-check-switch">
                             <div class="form-check">
-                                <label class="form-check-label" for="sitemap[<?php echo  $value['name'] ?>][status]"><?php echo  __("Status","magicbox") ?></label>
+                                <label class="form-check-label" for="sitemap[<?php echo  esc_attr($value['name']) ?>][status]"><?php echo  __("Status","magicbox") ?></label>
                                 <input class="form-check-input" type="checkbox"
-                                       name="sitemap[<?php echo  $value['name'] ?>][status]"
-                                       id="sitemap[<?php echo  $value['name'] ?>][status]"
+                                       name="sitemap[<?php echo  esc_attr($value['name']) ?>][status]"
+                                       id="sitemap[<?php echo  esc_attr($value['name']) ?>][status]"
                                     <?php echo  $options['sitemap'][$value['name']]['status'] == "1"? "checked" : "" ?>
                                        value="1">
                             </div>
@@ -186,16 +186,16 @@
                     <div class="clearfix"></div>
                     <div class="col-lg-6">
                         <div class="form-group">
-                            <input type="text" name="sitemap[<?php echo  $value['name'] ?>][url]" id="sitemap[<?php echo  $value['name'] ?>][url]" placeholder=" " value="<?php echo  $options['sitemap'][$value['name']]['url'] ?>" class="form-control "/>
-                            <label class="input-group-text" for="sitemap[<?php echo  $value['name'] ?>][url]"><?php echo  trim(site_url(), "/") ?>/</label>
+                            <input type="text" name="sitemap[<?php echo  esc_attr($value['name']) ?>][url]" id="sitemap[<?php echo  esc_attr($value['name']) ?>][url]" placeholder=" " value="<?php echo  $options['sitemap'][$value['name']]['url'] ?>" class="form-control "/>
+                            <label class="input-group-text" for="sitemap[<?php echo  esc_attr($value['name']) ?>][url]"><?php echo  trim(site_url(), "/") ?>/</label>
                             <div class="form-info" data-mb="pop" data-mb-title="" data-mb-content="<?php echo  trim(site_url(), "/") ?>/sitemap.xml"><i class="fa-solid fa-info"></i></div>
                         </div>
                     </div>
                     <div class="clearfix"></div>
                     <div class="col-lg-6">
                         <div class="form-group">
-                            <input type="text" name="sitemap[<?php echo  $value['name'] ?>][limit]" id="sitemap[<?php echo  $value['name'] ?>][limit]" placeholder=" " value="<?php echo  $options['sitemap'][$value['name']]['limit'] ?>" class="form-control"/>
-                            <label class="input-group-text" for="sitemap[<?php echo  $value['name'] ?>][limit]"><?php echo  __("Limit","magicbox") ?>
+                            <input type="text" name="sitemap[<?php echo  esc_attr($value['name']) ?>][limit]" id="sitemap[<?php echo  esc_attr($value['name']) ?>][limit]" placeholder=" " value="<?php echo  $options['sitemap'][$value['name']]['limit'] ?>" class="form-control"/>
+                            <label class="input-group-text" for="sitemap[<?php echo  esc_attr($value['name']) ?>][limit]"><?php echo  __("Limit","magicbox") ?>
                                 <small>(1000)</small>
                             </label>
                         </div>
@@ -213,7 +213,7 @@
 
     <div class="card bg-light">
         <div class="card-header">
-            <h6 class="my-0"><?php echo  _e("Sitemap Manager","magicbox") ?> : <?php echo  $value['label'] ?></h6>
+            <h6 class="my-0"><?php echo  _e("Sitemap Manager","magicbox") ?> : <?php echo  esc_attr($value['label']) ?></h6>
         </div>
 
         <div class="card-body">
@@ -222,10 +222,10 @@
                     <div class="col-12">
                         <div class="form-check-switch">
                             <div class="form-check">
-                                <label class="form-check-label" for="sitemap[<?php echo  $value['name'] ?>][status]"><?php echo  __("Status","magicbox") ?></label>
+                                <label class="form-check-label" for="sitemap[<?php echo  esc_attr($value['name']) ?>][status]"><?php echo  __("Status","magicbox") ?></label>
                                 <input class="form-check-input" type="checkbox"
-                                       name="sitemap[<?php echo  $value['name'] ?>][status]"
-                                       id="sitemap[<?php echo  $value['name'] ?>][status]"
+                                       name="sitemap[<?php echo  esc_attr($value['name']) ?>][status]"
+                                       id="sitemap[<?php echo  esc_attr($value['name']) ?>][status]"
                                     <?php echo  $options['sitemap'][$value['name']]['status'] == "1"? "checked" : "" ?>
                                        value="1">
                             </div>
@@ -234,15 +234,15 @@
                     <div class="clearfix"></div>
                     <div class="col-lg-6">
                         <div class="form-group">
-                            <input type="text" name="sitemap[<?php echo  $value['name'] ?>][url]" id="sitemap[<?php echo  $value['name'] ?>][url]" placeholder=" " value="<?php echo  $options['sitemap'][$value['name']]['url'] ?>" class="form-control "/>
-                            <label class="input-group-text" for="sitemap[<?php echo  $value['name'] ?>][url]"><?php echo  trim(site_url(), "/") ?>/</label>
+                            <input type="text" name="sitemap[<?php echo  esc_attr($value['name']) ?>][url]" id="sitemap[<?php echo  esc_attr($value['name']) ?>][url]" placeholder=" " value="<?php echo  $options['sitemap'][$value['name']]['url'] ?>" class="form-control "/>
+                            <label class="input-group-text" for="sitemap[<?php echo  esc_attr($value['name']) ?>][url]"><?php echo  trim(site_url(), "/") ?>/</label>
                             <div class="form-info" data-mb="pop" data-mb-title="" data-mb-content="<?php echo  trim(site_url(), "/") ?>/sitemap.xml"><i class="fa-solid fa-info"></i></div>
                         </div>
                     </div>
                     <div class="clearfix"></div>
                     <div class="col-lg-6">
                         <div class="form-group">
-                            <input type="text" name="sitemap[<?php echo  $value['name'] ?>][limit]" id="sitemap[<?php echo  $value['name'] ?>][limit]" placeholder=" " value="<?php echo  $options['sitemap'][$value['name']]['limit'] ?>" class="form-control"/>
+                            <input type="text" name="sitemap[<?php echo  esc_attr($value['name']) ?>][limit]" id="sitemap[<?php echo  esc_attr($value['name']) ?>][limit]" placeholder=" " value="<?php echo  $options['sitemap'][$value['name']]['limit'] ?>" class="form-control"/>
                             <label class="input-group-text" for=""><?php echo  __("Limit","magicbox") ?>
                                 <small>(1000)</small>
                             </label>

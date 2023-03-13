@@ -32,9 +32,9 @@
                             <select class="form-select" name="fancybox[status]" id="fancyboxStatus">
                                 <?php foreach ($activePassive as $key => $value) { ?>
                                     <option
-                                            value="<?php echo  $key ?>"<?php if ($key == $options['fancybox']['status'] or $options['fancybox']['status'] == "" and $key == 2) {
+                                            value="<?php echo  esc_attr($key) ?>"<?php if ($key == $options['fancybox']['status'] or $options['fancybox']['status'] == "" and $key == 2) {
                                         echo "selected";
-                                    } ?>><?php echo  $value ?></option>
+                                    } ?>><?php echo  esc_attr($value) ?></option>
                                 <?php } ?>
                             </select>
                             <label class="form-label" for="fancyboxStatus"><?php echo  __("Status","magicbox") ?></label>
@@ -69,7 +69,7 @@
                                 ?>
                                 <div class="form-check">
                                     <input class="form-check-input" <?php echo $options['fancybox']['types'][$key] == "1"?"checked":""?> type="checkbox" name="fancybox[types][<?php echo $key?>]" value="1" id="_<?php echo $key?>">
-                                    <label class="form-check-label" for="_<?php echo $key?>"><span><?php echo  $value ?></span></label>
+                                    <label class="form-check-label" for="_<?php echo $key?>"><span><?php echo  esc_attr($value) ?></span></label>
                                 </div>
                             <?php } ?>
                         </div>
@@ -92,9 +92,9 @@
                             <select class="form-select" name="fancybox[settings][titleShow]" id="fancybox[settings][titleShow]">
                                 <?php foreach ($yesNo as $key => $value) { ?>
                                     <option
-                                            value="<?php echo  $key ?>"<?php if ($key == $options['fancybox']['settings']['titleShow'] or $options['fancybox']['settings']['titleShow'] == "" and $key == 2) {
+                                            value="<?php echo  esc_attr($key) ?>"<?php if ($key == $options['fancybox']['settings']['titleShow'] or $options['fancybox']['settings']['titleShow'] == "" and $key == 2) {
                                         echo "selected";
-                                    } ?>><?php echo  $value ?></option>
+                                    } ?>><?php echo  esc_attr($value) ?></option>
                                 <?php } ?>
                             </select>
                             <label class="input-group-text" for="fancybox[settings][titleShow]"><?php echo  __("Show Title","magicbox") ?></label>
@@ -106,9 +106,9 @@
                             <select class="form-select" name="fancybox[settings][autoScale]" id="fancybox[settings][autoScale]">
                                 <?php foreach ($yesNo as $key => $value) { ?>
                                     <option
-                                            value="<?php echo  $key ?>"<?php if ($key == $options['fancybox']['settings']['autoScale'] or $options['fancybox']['settings']['autoScale'] == "" and $key == 2) {
+                                            value="<?php echo  esc_attr($key) ?>"<?php if ($key == $options['fancybox']['settings']['autoScale'] or $options['fancybox']['settings']['autoScale'] == "" and $key == 2) {
                                         echo "selected";
-                                    } ?>><?php echo  $value ?></option>
+                                    } ?>><?php echo  esc_attr($value) ?></option>
                                 <?php } ?>
                             </select>
                             <label class="input-group-text" for="fancybox[settings][autoScale]"><?php echo  __("Auto Scale","magicbox") ?></label>
@@ -121,7 +121,7 @@
                             <select class="form-select" name="fancybox[settings][transitionIn]">
                                 <?php foreach (array("none","elastic","fade") as  $value) { ?>
                                     <option
-                                            value="<?php echo  $value ?>"<?php if ($value == $options['fancybox']['settings']['transitionIn']) {
+                                            value="<?php echo  esc_attr($value) ?>"<?php if ($value == $options['fancybox']['settings']['transitionIn']) {
                                         echo "selected";
                                     } ?>><?php echo  ucfirst($value) ?></option>
                                 <?php } ?>
@@ -136,7 +136,7 @@
                             <select class="form-select" name="fancybox[settings][transitionOut]" id="fancybox[settings][transitionOut]">
                                 <?php foreach (array("none","elastic","fade") as  $value) { ?>
                                     <option
-                                            value="<?php echo  $value ?>"<?php if ($value == $options['fancybox']['settings']['transitionOut']) {
+                                            value="<?php echo  esc_attr($value) ?>"<?php if ($value == $options['fancybox']['settings']['transitionOut']) {
                                         echo "selected";
                                     } ?>><?php echo  ucfirst($value) ?></option>
                                 <?php } ?>
@@ -201,8 +201,8 @@
                             foreach ($postTypes as $key => $value) {
                                 ?>
                                 <div class="form-check">
-                                    <input class="form-check-input" <?php echo $options['fancybox']['type'][$value['name']] == "1"?"checked":""?> type="checkbox" name="fancybox[type][<?php echo $value['name']?>]" value="1" id="_<?php echo $value['name']?>">
-                                    <label class="form-check-label" for="_<?php echo $value['name']?>"><span><?php echo  $value['label'] ?></span></label>
+                                    <input class="form-check-input" <?php echo $options['fancybox']['type'][$value['name']] == "1"?"checked":""?> type="checkbox" name="fancybox[type][<?php echo  esc_attr($value['name'])?>]" value="1" id="_<?php echo  esc_attr($value['name'])?>">
+                                    <label class="form-check-label" for="_<?php echo  esc_attr($value['name'])?>"><span><?php echo  esc_attr($value['label']) ?></span></label>
                                 </div>
                             <?php } ?>
                         </div>

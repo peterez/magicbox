@@ -109,7 +109,7 @@ class mb_keyword_suggestion
             function sKs(keyword) {
                 jQuery.getJSON("//suggestqueries.google.com/complete/search?callback=?",
                     {
-                        "hl":"<?php echo $lang?>",
+                        "hl":"<?php echo esc_attr($lang)?>",
                         "q":keyword,
                         "client":"firefox"
                     },function(data) {

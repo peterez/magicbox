@@ -44,7 +44,7 @@
                 $checkMethod = $theClass->$methodName();
                 ?>
                     <div class="form-check">
-                    <input class="form-check-input" <?php echo $checkMethod==false?"disabled":""?> <?php echo $value == $options['cache']['method']?"checked":""?> type="radio" name="cache[method]" value="<?php echo $value?>" id="_<?php echo $methodName?>">
+                    <input class="form-check-input" <?php echo $checkMethod==false?"disabled":""?> <?php echo  esc_attr($value) == $options['cache']['method']?"checked":""?> type="radio" name="cache[method]" value="<?php echo  esc_attr($value)?>" id="_<?php echo $methodName?>">
                     <label class="form-check-label" for="_<?php echo $methodName?>">
                         <span><?php echo  ucfirst($value) ?></span>
                     </label>

@@ -36,9 +36,9 @@ $elementPositions = array(
                             <select class="form-select" name="cookie_policy[status]" id="cookie_policy[status]">
                                 <?php foreach ($activePassive as $key => $value) { ?>
                                     <option
-                                            value="<?php echo  $key ?>"<?php if ($key == $options['cookie_policy']['status'] or $options['cookie_policy']['status'] == "" and $key == 2) {
+                                            value="<?php echo  esc_attr($key) ?>"<?php if ($key == $options['cookie_policy']['status'] or $options['cookie_policy']['status'] == "" and $key == 2) {
                                         echo "selected";
-                                    } ?>><?php echo  $value ?></option>
+                                    } ?>><?php echo  esc_attr($value) ?></option>
                                 <?php } ?>
                             </select>
                             <label class="form-label" for="cookie_policy[status]"><?php echo  __("Status","magicbox") ?></label>
@@ -105,9 +105,9 @@ $elementPositions = array(
                         <select class="form-select" id="cookie_policy[position]" name="cookie_policy[position]">
                             <?php foreach ($positions as $key => $value) { ?>
                                 <option
-                                        value="<?php echo  $key ?>"<?php if ($key == $options['cookie_policy']['position']) {
+                                        value="<?php echo  esc_attr($key) ?>"<?php if ($key == $options['cookie_policy']['position']) {
                                     echo "selected";
-                                } ?>><?php echo  $value ?></option>
+                                } ?>><?php echo  esc_attr($value) ?></option>
                             <?php } ?>
                         </select>
                         <label class="form-label" for="cookie_policy[position]"><?php echo  __("Position","magicbox") ?></label>
@@ -120,9 +120,9 @@ $elementPositions = array(
                         <select class="form-select" name="cookie_policy[element]" id="cookie_policy[element]">
                             <?php foreach ($elementPositions as $key => $value) { ?>
                                 <option
-                                        value="<?php echo  $key ?>"<?php if ($key == $options['cookie_policy']['element']) {
+                                        value="<?php echo  esc_attr($key) ?>"<?php if ($key == $options['cookie_policy']['element']) {
                                     echo "selected";
-                                } ?>><?php echo  $value ?></option>
+                                } ?>><?php echo  esc_attr($value) ?></option>
                             <?php } ?>
                         </select>
                         <label class="form-label" for="cookie_policy[element]"><?php echo  __("Element Status","magicbox") ?></label>

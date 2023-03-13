@@ -25,9 +25,9 @@
                             <select class="form-select" name="visit_limitation[status]" id="visit_limitation[status]">
                                 <?php foreach ($activePassive as $key => $value) { ?>
                                     <option
-                                            value="<?php echo  $key ?>"<?php if ($key == $options['visit_limitation']['status'] or $options['visit_limitation']['status'] == "" and $key == 2) {
+                                            value="<?php echo  esc_attr($key) ?>"<?php if ($key == $options['visit_limitation']['status'] or $options['visit_limitation']['status'] == "" and $key == 2) {
                                         echo "selected";
-                                    } ?>><?php echo  $value ?></option>
+                                    } ?>><?php echo  esc_attr($value) ?></option>
                                 <?php } ?>
                             </select>
                             <label class="input-group-text" for="visit_limitation[status]"><?php echo  __("Status","magicbox") ?></label>
@@ -56,7 +56,7 @@
                 <?php foreach ($theClass->userRoles as $key => $value) { ?>
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" <?php echo $options['visit_limitation']['roles'][$key]=="1"?"checked":""?> name="visit_limitation[roles][<?php echo $key?>]" value="1" id="_<?php echo $key?>">
-                        <label class="form-check-label" for="_<?php echo $key?>"><span><?php echo $value['name']?></span></label>
+                        <label class="form-check-label" for="_<?php echo $key?>"><span><?php echo  esc_attr($value['name'])?></span></label>
                     </div>
                 <?php }?>
 
@@ -156,7 +156,7 @@
                             $checkMethod = $theClass->$methodName();
                             ?>
                             <div class="form-check">
-                                <input class="form-check-input" <?php echo $checkMethod==false?"disabled":""?> <?php echo $value == $options['visit_limitation']['data_storage']?"checked":""?> type="radio" name="visit_limitation[data_storage]" value="<?php echo $value?>" id="_<?php echo $methodName?>">
+                                <input class="form-check-input" <?php echo $checkMethod==false?"disabled":""?> <?php echo  esc_attr($value) == $options['visit_limitation']['data_storage']?"checked":""?> type="radio" name="visit_limitation[data_storage]" value="<?php echo  esc_attr($value)?>" id="_<?php echo $methodName?>">
                                 <label class="form-check-label" for="_<?php echo $methodName?>">
                                     <span><?php echo  ucfirst($value) ?></span>
                                 </label>
@@ -186,9 +186,9 @@
                             <select class="form-select errorType" name="visit_limitation[error_type]" id="visit_limitation[error_type]">
                                 <?php foreach ($errorType as $key => $value) { ?>
                                     <option
-                                            value="<?php echo  $key ?>"<?php if ($key == $options['visit_limitation']['error_type'] or $options['visit_limitation']['error_type'] == "" and $key == 1) {
+                                            value="<?php echo  esc_attr($key) ?>"<?php if ($key == $options['visit_limitation']['error_type'] or $options['visit_limitation']['error_type'] == "" and $key == 1) {
                                         echo "selected";
-                                    } ?>><?php echo  $value ?></option>
+                                    } ?>><?php echo  esc_attr($value) ?></option>
                                 <?php } ?>
                             </select>
                             <label class="form-label" for="visit_limitation[error_type]"><?php echo  __("Error Type","magicbox") ?></label>

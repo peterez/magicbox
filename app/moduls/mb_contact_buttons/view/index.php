@@ -54,7 +54,7 @@ $hoverEffects = array("1" => __("Zoom Icon", "magicbox"), /* imaj büyültme */
                                 <option
                                     value="<?php echo $key ?>"<?php if ($key == $options['contact_buttons']['status'] or $options['contact_buttons']['status'] == "" and $key == 2){
                                     echo "selected";
-                                } ?>><?php echo $value ?></option>
+                                } ?>><?php echo  esc_attr($value) ?></option>
                             <?php } ?>
                         </select>
                         <label class="input-group-text" for="contact_buttons[status]"><?php echo __("Status", "magicbox") ?></label>
@@ -87,18 +87,18 @@ $hoverEffects = array("1" => __("Zoom Icon", "magicbox"), /* imaj büyültme */
                     <div class="addHere allButtons">
                         <?php foreach ($options['contact_buttons']['buttons'] as $uniq => $item) { ?>
 
-                            <div class="socialItem item_<?php echo $uniq ?>">
+                            <div class="socialItem item_<?php echo esc_attr($uniq) ?>">
                                 <div class="row fixedRow align-items-center">
                                     <div class="col-lg-2">
                                         <div class="form-group">
                                             <select class="form-control iconSelector"
-                                                    name="contact_buttons[buttons][<?php echo $uniq ?>][type]" id="contact_buttons[buttons][<?php echo $uniq ?>][type]" data-uniq="<?php echo $uniq ?>">
+                                                    name="contact_buttons[buttons][<?php echo esc_attr($uniq) ?>][type]" id="contact_buttons[buttons][<?php echo esc_attr($uniq) ?>][type]" data-uniq="<?php echo esc_attr($uniq) ?>">
                                                 <?php foreach ($socials as $key => $value) { ?>
                                                     <option <?php echo $item['type'] == $key? "selected" : "" ?>
-                                                        value="<?php echo $key; ?>"><?php echo $value; ?></option>
+                                                        value="<?php echo $key; ?>"><?php echo  esc_attr($value); ?></option>
                                                 <?php } ?>
                                             </select>
-                                            <label for="contact_buttons[buttons][<?php echo $uniq ?>][type]" class="form-label"><?php echo __("Icon", "magicbox") ?></label>
+                                            <label for="contact_buttons[buttons][<?php echo esc_attr($uniq) ?>][type]" class="form-label"><?php echo __("Icon", "magicbox") ?></label>
                                         </div>
                                     </div>
                                     <div class="col-lg-1 text-center icon">
@@ -106,19 +106,19 @@ $hoverEffects = array("1" => __("Zoom Icon", "magicbox"), /* imaj büyültme */
                                     </div>
                                     <div class="col-lg-5">
                                         <div class="form-group">
-                                            <input type="text" name="contact_buttons[buttons][<?php echo $uniq ?>][url]" value="<?php echo $item['url'] ?>" id="contact_buttons[buttons][<?php echo $uniq ?>][url]" placeholder=" " class="form-control url"/>
-                                            <label for="contact_buttons[buttons][<?php echo $uniq ?>][url]" class="form-label"><?php echo __("Url", "magicbox") ?> (<?php echo __("Required", "magicbox") ?>)</label>
+                                            <input type="text" name="contact_buttons[buttons][<?php echo esc_attr($uniq) ?>][url]" value="<?php echo $item['url'] ?>" id="contact_buttons[buttons][<?php echo esc_attr($uniq) ?>][url]" placeholder=" " class="form-control url"/>
+                                            <label for="contact_buttons[buttons][<?php echo esc_attr($uniq) ?>][url]" class="form-label"><?php echo __("Url", "magicbox") ?> (<?php echo __("Required", "magicbox") ?>)</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
                                         <div class="form-group">
-                                            <input type="text" name="contact_buttons[buttons][<?php echo $uniq ?>][name]" id="contact_buttons[buttons][<?php echo $uniq ?>][name]" value="<?php echo $item['name'] ?>" placeholder=" " class="form-control name"/>
-                                            <label for="contact_buttons[buttons][<?php echo $uniq ?>][name]" class="form-label"><?php echo __("Name", "magicbox") ?> (<?php echo __("Optional", "magicbox") ?>)</label>
+                                            <input type="text" name="contact_buttons[buttons][<?php echo esc_attr($uniq) ?>][name]" id="contact_buttons[buttons][<?php echo esc_attr($uniq) ?>][name]" value="<?php echo esc_attr($item['name']) ?>" placeholder=" " class="form-control name"/>
+                                            <label for="contact_buttons[buttons][<?php echo esc_attr($uniq) ?>][name]" class="form-label"><?php echo __("Name", "magicbox") ?> (<?php echo __("Optional", "magicbox") ?>)</label>
                                         </div>
 
                                     </div>
                                     <div class="col-lg-1">
-                                        <div class="remove btn btn-danger removeButton" data-uniq="<?php echo $uniq ?>">
+                                        <div class="remove btn btn-danger removeButton" data-uniq="<?php echo esc_attr($uniq) ?>">
                                             <i class="fa-solid fa-xmark"></i></div>
                                     </div>
                                 </div>
@@ -158,7 +158,7 @@ $hoverEffects = array("1" => __("Zoom Icon", "magicbox"), /* imaj büyültme */
                                 <option
                                     value="<?php echo $key ?>"<?php if ($key == $options['contact_buttons']['position']){
                                     echo "selected";
-                                } ?>><?php echo $value ?></option>
+                                } ?>><?php echo  esc_attr($value) ?></option>
                             <?php } ?>
                         </select>
                         <label class="form-label" for="contact_buttons[position]"><?php echo __("Positions", "magicbox") ?></label>
@@ -329,7 +329,7 @@ $hoverEffects = array("1" => __("Zoom Icon", "magicbox"), /* imaj büyültme */
                                 <option
                                     value="<?php echo $key ?>"<?php if ($key == $options['contact_buttons']['item_display']){
                                     echo "selected";
-                                } ?>><?php echo $value ?></option>
+                                } ?>><?php echo  esc_attr($value) ?></option>
                             <?php } ?>
                         </select>
                         <label class="form-label" for="contact_buttons[item_display]"><?php echo __("Buttons List Style", "magicbox") ?></label>
@@ -379,7 +379,7 @@ $hoverEffects = array("1" => __("Zoom Icon", "magicbox"), /* imaj büyültme */
                                 <option
                                     value="<?php echo $key ?>"<?php if ($key == $options['contact_buttons']['text_position']){
                                     echo "selected";
-                                } ?>><?php echo $value ?></option>
+                                } ?>><?php echo  esc_attr($value) ?></option>
                             <?php } ?>
                         </select>
                         <label class="form-label" for="contact_buttons[target]"><?php echo __("Text Position", "magicbox") ?></label>
@@ -395,7 +395,7 @@ $hoverEffects = array("1" => __("Zoom Icon", "magicbox"), /* imaj büyültme */
                                 <option
                                     value="<?php echo $key ?>"<?php if ($key == $options['contact_buttons']['target']){
                                     echo "selected";
-                                } ?>><?php echo $value ?></option>
+                                } ?>><?php echo  esc_attr($value) ?></option>
                             <?php } ?>
                         </select>
                         <label class="form-label" for="contact_buttons[target]"><?php echo __("Target", "magicbox") ?></label>
@@ -409,7 +409,7 @@ $hoverEffects = array("1" => __("Zoom Icon", "magicbox"), /* imaj büyültme */
                                 <option
                                     value="<?php echo $key ?>"<?php if ($key == $options['contact_buttons']['rel'] and $key == 2){
                                     echo "selected";
-                                } ?>><?php echo $value ?></option>
+                                } ?>><?php echo  esc_attr($value) ?></option>
                             <?php } ?>
                         </select>
                         <label class="form-label" for="contact_buttons[rel]"><?php echo __("Rel Tag", "magicbox") ?></label>
@@ -423,7 +423,7 @@ $hoverEffects = array("1" => __("Zoom Icon", "magicbox"), /* imaj büyültme */
                                 <option
                                     value="<?php echo $key ?>"<?php if ($key == $options['contact_buttons']['icon_set']){
                                     echo "selected";
-                                } ?>><?php echo $value ?></option>
+                                } ?>><?php echo  esc_attr($value) ?></option>
                             <?php } ?>
                         </select>
                         <label class="form-label" for="contact_buttons[icon_set]"><?php echo __("Icon Set", "magicbox") ?></label>
@@ -457,7 +457,7 @@ $hoverEffects = array("1" => __("Zoom Icon", "magicbox"), /* imaj büyültme */
                                 <option
                                     value="<?php echo $key ?>"<?php if ($key == $options['contact_buttons']['opening_effect']){
                                     echo "selected";
-                                } ?>><?php echo $value ?></option>
+                                } ?>><?php echo  esc_attr($value) ?></option>
                             <?php } ?>
                         </select>
                         <label class="form-label" for="contact_buttons[opening_effect]"><?php echo __("Opening Effects", "magicbox") ?></label>
@@ -495,7 +495,7 @@ $hoverEffects = array("1" => __("Zoom Icon", "magicbox"), /* imaj büyültme */
                                 <option
                                     value="<?php echo $key ?>"<?php if ($key == $options['contact_buttons']['hover_effect']){
                                     echo "selected";
-                                } ?>><?php echo $value ?></option>
+                                } ?>><?php echo  esc_attr($value) ?></option>
                             <?php } ?>
                         </select>
                         <label class="form-label" for="contact_buttons[hover_effect]"><?php echo __("Hover Effects", "magicbox") ?></label>
@@ -530,9 +530,9 @@ $hoverEffects = array("1" => __("Zoom Icon", "magicbox"), /* imaj büyültme */
                        foreach ($activePassive as $key => $value) {
                            ?>
                            <div class="form-check form-check-inline">
-                               <input class="form-check-input" <?php echo  $options['contact_buttons']['fab'] == $key? "checked" : "" ?> type="checkbox" name="contact_buttons[fab]" value="<?php echo $key?>" id="fab_<?php echo  $key ?>">
-                               <label class="form-check-label" for="fab_<?php echo  $key ?>">
-                                   <?php echo  $value ?>
+                               <input class="form-check-input" <?php echo  $options['contact_buttons']['fab'] == $key? "checked" : "" ?> type="checkbox" name="contact_buttons[fab]" value="<?php echo $key?>" id="fab_<?php echo  esc_attr($key) ?>">
+                               <label class="form-check-label" for="fab_<?php echo  esc_attr($key) ?>">
+                                   <?php echo  esc_attr($value) ?>
                                </label>
                            </div>
 
@@ -583,9 +583,9 @@ $hoverEffects = array("1" => __("Zoom Icon", "magicbox"), /* imaj büyültme */
             foreach ($postTypes as $key => $value) {
                 ?>
                 <div class="form-check">
-                    <input class="form-check-input" <?php echo $options['contact_buttons']['type'][$value['name']] == "1"? "checked" : "" ?> type="checkbox" name="contact_buttons[type][<?php echo $value['name'] ?>]" value="1" id="_<?php echo $value['name'] ?>">
-                    <label class="form-check-label" for="_<?php echo $value['name'] ?>">
-                        <span><?php echo $value['label'] ?></span>
+                    <input class="form-check-input" <?php echo $options['contact_buttons']['type'][$value['name']] == "1"? "checked" : "" ?> type="checkbox" name="contact_buttons[type][<?php echo  esc_attr($value['name']) ?>]" value="1" id="_<?php echo  esc_attr($value['name']) ?>">
+                    <label class="form-check-label" for="_<?php echo  esc_attr($value['name']) ?>">
+                        <span><?php echo  esc_attr($value['label']) ?></span>
                     </label>
                 </div>
 
@@ -609,7 +609,7 @@ $hoverEffects = array("1" => __("Zoom Icon", "magicbox"), /* imaj büyültme */
                     <select class="form-control iconSelector" name="contact_buttons[buttons][####][type]" id="contact_buttons[buttons][####][type]" data-uniq="####">
                         <option value=""><?php echo __("Choose", "magicbox") ?></option>
                         <?php foreach ($socials as $key => $value) { ?>
-                            <option value="<?php echo $key; ?>"><?php echo $value; ?></option>
+                            <option value="<?php echo $key; ?>"><?php echo  esc_attr($value); ?></option>
                         <?php } ?>
                     </select>
                     <label for="contact_buttons[buttons][####][type]" class="form-label"><?php echo __("Icon", "magicbox") ?></label>

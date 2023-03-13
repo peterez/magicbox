@@ -37,10 +37,10 @@
                 <tr>
                     <td><?php echo $item['label_data']['title']?></td>
                     <td><?php echo $item['mail']==""?__("None","magicbox"):$item['mail']?></td>
-                    <td>[mbForm id="<?php echo $item['id']?>"]</td>
+                    <td>[mbForm id="<?php echo esc_attr($item['id'])?>"]</td>
                     <td class="text-end">
-                        <a class="btn btn-primary btnDataMB" href="<?php echo $readUrl?>&formId=<?php echo $item['id']?>"><i class="fa-solid fa-pen-to-square me-1"></i><?php echo __("Edit","magicbox")?></a>
-                        <a class="btn btn-danger btnDataMB" href="<?php echo $readUrl?>&method=deleteForm&formId=<?php echo $item['id']?>"><i class="fa-solid fa-trash-can me-1"></i><?php echo __("Delete","magicbox")?></a>
+                        <a class="btn btn-primary btnDataMB" href="<?php echo esc_attr($readUrl)?>&formId=<?php echo esc_attr($item['id'])?>"><i class="fa-solid fa-pen-to-square me-1"></i><?php echo __("Edit","magicbox")?></a>
+                        <a class="btn btn-danger btnDataMB" href="<?php echo esc_attr($readUrl)?>&method=deleteForm&formId=<?php echo esc_attr($item['id'])?>"><i class="fa-solid fa-trash-can me-1"></i><?php echo __("Delete","magicbox")?></a>
                     </td>
                 </tr>
                 <?php }?>

@@ -6,21 +6,21 @@
         $menuUrls = array();
         $menuNames = array();
         foreach ($categories as $key => $item) {
-
+            $key = esc_attr($key);
             if ($key != sanitize_text_field($_GET['page'])){
                 continue;
             }
 
             $menuUrl         = menu_page_url($key, false);
-            $icon            = $menuIcons[$key];
+            $icon            = esc_attr($menuIcons[$key]);
             $menuUrls[$key]  = $menuUrl;
             $menuNames[$key] = $item['title'];
-            $hasModulClass = "hasModul_".$item['has'];
+            $hasModulClass = esc_attr("hasModul_".$item['has']);
             ?>
 
             <div class="<?php echo $hasModulClass;?>">
                 <div class="card-header">
-                    <h6 class="my-0"><?php echo $item['title'] ?></h6>
+                    <h6 class="my-0"><?php echo esc_attr($item['title']) ?></h6>
                 </div>
 
                 <div class="card-body">
@@ -35,9 +35,10 @@
                     <div class="row">
                         <?php if (count($item['subs'])>0){
                             foreach ($item['subs'] as $subKey => $it) {
+                                $subKey = esc_attr($subKey);
                                 $pureSubKey = $subKey;
-                                $subKey     = str_replace(array("mb-", "_"), array("", "-"), $subKey);
-                                $hasSubModulClass = "hasSubModul_".$it['has'];
+                                $subKey     = str_replace(array("mb-","mb_", "_"), array("","", "-"), $subKey);
+                                $hasSubModulClass = esc_attr("hasSubModul_".$it['has']);
                                 ?>
                                 <div class="col-mb-3 mb-4 <?php echo $hasSubModulClass;?>">
                                     <div class="dashboardItem <?php echo $subKey ?>">
@@ -46,7 +47,7 @@
                                                 <img src="<?php echo $GLOBALS{'_mb_icon_url_'} ?>/<?php echo $subKey ?>.png"/>
                                             </div>
                                             <div class="dashboardItemTitle">
-                                                <h4><?php echo $it['title'] ?></h4>
+                                                <h4><?php echo esc_attr($it['title']) ?></h4>
                                             </div>
                                         </a>
                                     </div>

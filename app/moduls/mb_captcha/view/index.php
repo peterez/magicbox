@@ -21,9 +21,9 @@
                             <select class="form-select" name="captcha[status]" id="captcha[status]">
                                 <?php foreach ($activePassive as $key => $value) { ?>
                                     <option
-                                            value="<?php echo  $key ?>"<?php if ($key == $options['captcha']['status'] or $options['captcha']['status'] == "" and $key == 2) {
+                                            value="<?php echo  esc_attr($key) ?>"<?php if ($key == $options['captcha']['status'] or $options['captcha']['status'] == "" and $key == 2) {
                                         echo "selected";
-                                    } ?>><?php echo  $value ?></option>
+                                    } ?>><?php echo  esc_attr($value) ?></option>
                                 <?php } ?>
                             </select>
                             <label class="form-label" for="captcha[status]"><?php echo  __("Status","magicbox") ?></label>
@@ -98,9 +98,9 @@
                             <select class="form-select" name="captcha[login]" id="captchaLogin">
                                 <?php foreach ($activePassive as $key => $value) { ?>
                                     <option
-                                            value="<?php echo  $key ?>"<?php if ($key == $options['captcha']['login'] or $options['captcha']['login'] == "" and $key == 2) {
+                                            value="<?php echo  esc_attr($key) ?>"<?php if ($key == $options['captcha']['login'] or $options['captcha']['login'] == "" and $key == 2) {
                                         echo "selected";
-                                    } ?>><?php echo  $value ?></option>
+                                    } ?>><?php echo  esc_attr($value) ?></option>
                                 <?php } ?>
                             </select>
                             <label class="form-label" for="captchaLogin"><?php echo  __("Enable captcha for login page.","magicbox") ?></label>
@@ -113,9 +113,9 @@
                             <select class="form-select" name="captcha[register]" id="captchaRegister">
                                 <?php foreach ($activePassive as $key => $value) { ?>
                                     <option
-                                            value="<?php echo  $key ?>"<?php if ($key == $options['captcha']['register'] or $options['captcha']['register'] == "" and $key == 2) {
+                                            value="<?php echo  esc_attr($key) ?>"<?php if ($key == $options['captcha']['register'] or $options['captcha']['register'] == "" and $key == 2) {
                                         echo "selected";
-                                    } ?>><?php echo  $value ?></option>
+                                    } ?>><?php echo  esc_attr($value) ?></option>
                                 <?php } ?>
                             </select>
                             <label class="form-label" for="captchaRegister"><?php echo  __("Register Page","magicbox") ?></label>
@@ -128,9 +128,9 @@
                             <select class="form-select" name="captcha[lostpassword]" id="captchaLostPassword">
                                 <?php foreach ($activePassive as $key => $value) { ?>
                                     <option
-                                            value="<?php echo  $key ?>"<?php if ($key == $options['captcha']['lostpassword'] or $options['captcha']['lostpassword'] == "" and $key == 2) {
+                                            value="<?php echo  esc_attr($key) ?>"<?php if ($key == $options['captcha']['lostpassword'] or $options['captcha']['lostpassword'] == "" and $key == 2) {
                                         echo "selected";
-                                    } ?>><?php echo  $value ?></option>
+                                    } ?>><?php echo  esc_attr($value) ?></option>
                                 <?php } ?>
                             </select>
                             <label class="form-label" for="captchaLostPassword"><?php echo  __("Lost Password","magicbox") ?></label>
@@ -143,9 +143,9 @@
                             <select class="form-select" name="captcha[comment]" id="captchaComment">
                                 <?php foreach ($activePassive as $key => $value) { ?>
                                     <option
-                                            value="<?php echo  $key ?>"<?php if ($key == $options['captcha']['comment'] or $options['captcha']['comment'] == "" and $key == 2) {
+                                            value="<?php echo  esc_attr($key) ?>"<?php if ($key == $options['captcha']['comment'] or $options['captcha']['comment'] == "" and $key == 2) {
                                         echo "selected";
-                                    } ?>><?php echo  $value ?></option>
+                                    } ?>><?php echo  esc_attr($value) ?></option>
                                 <?php } ?>
                             </select>
                             <label class="form-label" for="captchaComment"><?php echo  __("Comment Page","magicbox") ?></label>

@@ -24,9 +24,9 @@
                             <select class="form-select" name="smtp[status]" id="smtp[status]">
                                 <?php foreach ($activePassive as $key => $value) { ?>
                                     <option
-                                            value="<?php echo  $key ?>"<?php if ($key == $options['smtp']['status'] or $options['smtp']['status'] == "" and $key == 2){
+                                            value="<?php echo  esc_attr($key) ?>"<?php if ($key == $options['smtp']['status'] or $options['smtp']['status'] == "" and $key == 2){
                                         echo "selected";
-                                    } ?>><?php echo  $value ?></option>
+                                    } ?>><?php echo  esc_attr($value) ?></option>
                                 <?php } ?>
                             </select>
                             <label class="form-label" for="smtp[status]"><?php echo  __("Status","magicbox") ?></label>
@@ -79,9 +79,9 @@
                             <select class="form-select" id="smtp[smtp_secure]" name="smtp[smtp_secure]">
                                 <?php foreach ($smtpSecure as $key => $value) { ?>
                                     <option
-                                            value="<?php echo  $key ?>"<?php if ($key == $options['smtp']['smtp_secure']){
+                                            value="<?php echo  esc_attr($key) ?>"<?php if ($key == $options['smtp']['smtp_secure']){
                                         echo "selected";
-                                    } ?>><?php echo  $value ?></option>
+                                    } ?>><?php echo  esc_attr($value) ?></option>
                                 <?php } ?>
                             </select>
                             <label class="form-label" for="smtp[smtp_secure]"><?php echo  __("Smtp Secure","magicbox") ?></label>
