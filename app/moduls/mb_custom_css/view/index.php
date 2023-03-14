@@ -199,12 +199,12 @@
 
 
 <script>
-    setAsCodeMirror("custom_css_all","text/x-ini");
-    setAsCodeMirror("custom_css_mobile","text/x-ini");
-    setAsCodeMirror("custom_css_tablet","text/x-ini");
-    setAsCodeMirror("custom_css_all_admin","text/x-ini");
-    setAsCodeMirror("custom_css_mobile_admin","text/x-ini");
-    setAsCodeMirror("custom_css_tablet_admin","text/x-ini");
+    setAsCodeMirror("custom_css_all","text/css");
+    setAsCodeMirror("custom_css_mobile","text/css");
+    setAsCodeMirror("custom_css_tablet","text/css");
+    setAsCodeMirror("custom_css_all_admin","text/css");
+    setAsCodeMirror("custom_css_mobile_admin","text/css");
+    setAsCodeMirror("custom_css_tablet_admin","text/css");
 
 </script>
 

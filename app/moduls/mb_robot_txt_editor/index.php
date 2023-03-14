@@ -50,14 +50,14 @@ class mb_robot_txt_editor
 
         $file = ABSPATH . "robots.txt";
 
-        return magicbox_getFile($file);
+        return wp_kses_post(magicbox_getFile($file));
     }
 
     function saveRobotsTxt() {
 
         $file = ABSPATH . "robots.txt";
 
-        return @file_put_contents($file, $this->postValue['robotstxt']);
+        return @file_put_contents($file, sanitize_textarea_field($this->postValue['robotstxt']));
     }
 
 }

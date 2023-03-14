@@ -53,51 +53,51 @@ if (!class_exists('MagicboxStaff')){
 
             $l = $this->getlk();
 
-                $phpVersion = phpversion();
-                $explode    = explode(".", $phpVersion);
-                $phpVersion = (float)$explode[0] . "." . $explode[1];
+            $phpVersion = phpversion();
+            $explode    = explode(".", $phpVersion);
+            $phpVersion = (float)$explode[0] . "." . $explode[1];
 
-                if ($phpVersion<5.4){
-                    echo json_encode(array("result" => "fail", "error" => _("Magicbox not run on PHP 5.4 and older. Supported Versions ( php5.6, php7.X, php8.X )")));
-                    return false;
-                }
+            if ($phpVersion<5.4){
+                echo json_encode(array("result" => "fail", "error" => _("Magicbox not run on PHP 5.4 and older. Supported Versions ( php5.6, php7.X, php8.X )")));
 
-                $magicbox_getFile = $this->gau("update/" . $l['lk'] . "?auth=" . $l['auth']);
+                return false;
+            }
 
-                $isJson = json_decode($magicbox_getFile, true);
+            $magicbox_getFile = $this->gau("update/" . $l['lk'] . "?auth=" . $l['auth']);
 
-                 if ($isJson['result'] != "fail"){
+            $isJson = json_decode($magicbox_getFile, true);
 
-                    $path = $GLOBALS{'_mb_ext_'} . "/magicbox-" . uniqid() . rand(1, 9999999) . ".zip";
+            if ($isJson['result'] != "fail"){
 
-                    $ret = file_put_contents($path, $magicbox_getFile);
+                $path = $GLOBALS{'_mb_ext_'} . "/magicbox-" . uniqid() . rand(1, 9999999) . ".zip";
 
-                    if ($ret){
+                $ret = file_put_contents($path, $magicbox_getFile);
 
-                        WP_Filesystem();
-                        $rett = unzip_file($path, $GLOBALS{'_mb_dir_'});
+                if ($ret){
 
-                        $isWpError = is_wp_error($rett);
+                    WP_Filesystem();
+                    $rett = unzip_file($path, $GLOBALS{'_mb_dir_'});
 
-                        if ($isWpError){
-                            echo json_encode(array("result" => "fail", "error" => _("Unzip problems please upgrade your plugin manually")));
-                        } else {
+                    $isWpError = is_wp_error($rett);
 
-                            $this->ips();
-
-                            echo json_encode(array("result" => "ok"));
-                        }
-
-                        unlink($path);
-
+                    if ($isWpError){
+                        echo json_encode(array("result" => "fail", "error" => _("Unzip problems please upgrade your plugin manually")));
                     } else {
-                        echo json_encode(array("result" => "fail", "error" => _("Unzip problems please upgrade your plugin manually. It's about chmod.")));
+
+                        $this->ips();
+
+                        echo json_encode(array("result" => "ok"));
                     }
 
+                    unlink($path);
+
                 } else {
-                    echo json_encode(array("result" => "fail", "error" => _("Unzip problems please upgrade your plugin manually. ".$isJson['error'])));
+                    echo json_encode(array("result" => "fail", "error" => _("Unzip problems please upgrade your plugin manually. It's about chmod.")));
                 }
 
+            } else {
+                echo json_encode(array("result" => "fail", "error" => _("Unzip problems please upgrade your plugin manually. " . $isJson['error'])));
+            }
 
         }
 
@@ -123,8 +123,10 @@ if (!class_exists('MagicboxStaff')){
 
 
         protected function gau($p) {
+
             $ctx    = stream_context_create(array("http" => array('timeout' => 150), "ssl" => array("verify_peer" => false, "verify_peer_name" => false)));
             $return = file_get_contents("https://" . "wp" . str_replace("staff", ".com/", strtolower(get_class())) . $p, false, $ctx);
+
             return $return;
         }
 
@@ -142,6 +144,7 @@ if (!class_exists('MagicboxStaff')){
 
 
         private function sld($get) {
+
             $md5 = md5(site_url());
             update_option($md5, serialize($get));
         }
@@ -222,8 +225,8 @@ if (!class_exists('MagicboxStaff')){
             $domain  = magicbox_clearIllegalDomainKeywords($siteUrl);
             $version = $this->version;
             $this->gau("check/install/{$domain}?version={$version}&ip=" . urlencode(magicbox_getUserIp()) . "&full_url=" . urlencode($siteUrl) . "&name=" . $name . "&mail=" . $mail);
-            $return         = $this->gli("");			
-			$this->sld($return);
+            $return = $this->gli("");
+            $this->sld($return);
         }
 
 
@@ -372,19 +375,19 @@ if (!class_exists('MagicboxStaff')){
                     $newArray[$key] = $this->getOptionHtml($value, $key);
                 } else {
                     if (strstr($key, '_html')){
-                        $newArray[$key] = html_entity_decode($this->loadCode($mainKey . $key, "html"));
+                        $newArray[$key] = wp_kses_post(html_entity_decode($this->loadCode($mainKey . $key, "html")));
 
                         $newArray[$key . "_file_path"] = $this->getLoadedPath($mainKey . $key, "html");
                         $newArray[$key . "_file_url"]  = $this->getLoadedUrl($mainKey . $key, "html");
 
                     } elseif (strstr($key, '_css')) {
-                        $newArray[$key] = html_entity_decode($this->loadCode($mainKey . $key, "css"));
+                        $newArray[$key] = wp_kses_post(html_entity_decode($this->loadCode($mainKey . $key, "css")));
 
                         $newArray[$key . "_file_path"] = $this->getLoadedPath($mainKey . $key, "css");
                         $newArray[$key . "_file_url"]  = $this->getLoadedUrl($mainKey . $key, "css");
 
                     } elseif (strstr($key, '_js')) {
-                        $newArray[$key] = html_entity_decode($this->loadCode($mainKey . $key, "js"));
+                        $newArray[$key] = wp_kses_post(html_entity_decode($this->loadCode($mainKey . $key, "js")));
 
                         $newArray[$key . "_file_path"] = $this->getLoadedPath($mainKey . $key, "js");
                         $newArray[$key . "_file_url"]  = $this->getLoadedUrl($mainKey . $key, "js");
@@ -424,7 +427,14 @@ if (!class_exists('MagicboxStaff')){
 
                 return $newData;
             } else {
-                return sanitize_text_field($data);
+
+                if (magicbox_checkMail(trim($data))){
+                    return sanitize_email($data);
+                } else if (magicbox_isUrl(trim($data))){
+                    return sanitize_url($data);
+                } else {
+                    return sanitize_text_field($data);
+                }
             }
 
         }
@@ -703,7 +713,7 @@ if (!class_exists('MagicboxStaff')){
 
         function codeMirrorAssets() {
 
-            $settings = wp_enqueue_code_editor( array( 'type' => 'text/css' ) );
+            $settings = wp_enqueue_code_editor(array('type' => 'text/css'));
             wp_localize_script('jquery', 'mb_cm_settings', $settings);
             wp_enqueue_script('wp-theme-plugin-editor');
             wp_enqueue_style('wp-codemirror');

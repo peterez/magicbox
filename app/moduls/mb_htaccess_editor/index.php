@@ -48,7 +48,7 @@ class mb_htaccess_editor
     function loadHtaccess() {
 
         $file = ABSPATH . ".htaccess";
-        $file = magicbox_getFile($file);
+        $file = wp_kses_post(magicbox_getFile($file));
 
         return $file;
     }
@@ -57,7 +57,7 @@ class mb_htaccess_editor
 
         $file = ABSPATH . ".htaccess";
 
-        return @file_put_contents($file, $this->postValue['htaccess']);
+        return file_put_contents($file, sanitize_textarea_field($this->postValue['htaccess']));
     }
 
 }

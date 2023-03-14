@@ -71,13 +71,12 @@ class mb_userini_editor
 
 
     function loadUserIni() {
-
-        return magicbox_getFile($this->getUserIni());
+        return wp_kses_post(magicbox_getFile($this->getUserIni()));
     }
 
     function saveUserIni() {
 
-        return file_put_contents($this->getUserIni(), $this->postValue['userini']);
+        return file_put_contents($this->getUserIni(), sanitize_textarea_field($this->postValue['userini']));
     }
 
 }

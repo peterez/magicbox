@@ -323,9 +323,9 @@
 </style>
 <script>
 
-    setAsCodeMirror("popup_javascript_hook_open_popup","text/typescript-jsx");
-    setAsCodeMirror("popup_javascript_hook_close_popup","text/typescript-jsx");
-    setAsCodeMirror("popup_custom_js","text/typescript-jsx");
+    setAsCodeMirror("popup_javascript_hook_open_popup","text/jsx");
+    setAsCodeMirror("popup_javascript_hook_close_popup","text/jsx");
+    setAsCodeMirror("popup_custom_js","text/jsx");
 
     jQuery(document).ready(function () {
         jQuery('iframe').contents().find("#tinymce").css("background-color", "transparent");
