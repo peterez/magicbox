@@ -60,7 +60,7 @@ class MagicBox extends
         }
 
         if ($reqPage != ""){
-            if (@$categories[$reqPage] != "" or $reqPage == "magic-box" or $reqPage == "magic-box-2"){
+            if (@$categories[$reqPage] != "" or $reqPage == "magicbox" or $reqPage == "magicbox-2"){
                 add_action('admin_enqueue_scripts', array($this, 'themeAssets'));
                 add_action('admin_footer', array($this, 'themeAssetsFooter'));
             }
@@ -140,7 +140,7 @@ class MagicBox extends
 
     function checkCanRunModul($modul, $subModul = "") {
 
-        if ($modul == "magic-box" or strtolower($subModul) == "magicboxstaff" or strtolower($subModul) == "updateplugin" or strtolower($subModul) == "magicbox\magicbox"){
+        if ($modul == "magicbox" or strtolower($subModul) == "magicboxstaff" or strtolower($subModul) == "updateplugin" or strtolower($subModul) == "magicbox\magicbox"){
             return true;
         }
 
@@ -275,21 +275,21 @@ class MagicBox extends
 
         $hasMenu = false;
         foreach ($menu as $item) {
-            if ($item['2'] == "magic-box"){
+            if ($item['2'] == "magicbox"){
                 $hasMenu = true;
             }
         }
 
         if ($hasMenu == false){
             add_menu_page('MagicBox', 'MagicBox', 'manage_options', 'magicbox', array($magicBox, 'runPage'));
-            add_submenu_page('magic-box', 'MagicBox Dashboard', 'Dashboard', 'manage_options', 'magicbox', array($magicBox, 'runPage'));
+            add_submenu_page('magicbox', 'MagicBox Dashboard', 'Dashboard', 'manage_options', 'magicbox', array($magicBox, 'runPage'));
         }
 
         foreach ($this->categories as $modulSlug => $value) {
             if ($value['has'] == 1){
 
                 $hasMenu = false;
-                foreach ($submenu['magic-box'] as $item) {
+                foreach ($submenu['magicbox'] as $item) {
                     if ($item['2'] == $modulSlug){
                         $hasMenu = true;
                     }
@@ -297,7 +297,7 @@ class MagicBox extends
 
                 if ($hasMenu == false){
 
-                    add_submenu_page('magic-box', $value['title'], $value['title'], 'manage_options', $modulSlug, array($magicBox, 'runPage'));
+                    add_submenu_page('magicbox', $value['title'], $value['title'], 'manage_options', $modulSlug, array($magicBox, 'runPage'));
                 }
             }
         }

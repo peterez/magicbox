@@ -279,13 +279,13 @@ if (!class_exists('MagicboxStaff')){
             $thePage   = sanitize_text_field(str_replace("mb-", "mb_", $_REQUEST['page']));
             $theAction = sanitize_text_field(str_replace("mb-", "mb_", $_REQUEST['action']));
 
-            if ($thePage == "magic-box" or $theAction == "caslk" or $thePage == "caslk" or $this->categories[$thePage] != ""){
+            if ($thePage == "magicbox" or $theAction == "caslk" or $thePage == "caslk" or $this->categories[$thePage] != ""){
                 $isMagicboxPage = true;
             }
 
             foreach ($this->categories as $key => $value) {
 
-                if ($theAction == "magic-box" or $key == $theAction or @$value['subs'][$theAction] != ""){
+                if ($theAction == "magicbox" or $key == $theAction or @$value['subs'][$theAction] != ""){
                     $isMagicboxPage = true;
                     break;
                 }
