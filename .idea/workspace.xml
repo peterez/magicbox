@@ -112,10 +112,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="magicboxStaff.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="magicboxStaff.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/magicboxStaff.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="287" column="40" selection-start="8206" selection-end="8206" vertical-scroll-proportion="0.332533" vertical-offset="5750" max-vertical-offset="16338">
+            <state line="284" column="0" selection-start="8104" selection-end="8104" vertical-scroll-proportion="-3.8214285" vertical-offset="5750" max-vertical-offset="16338">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="masterPage.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/moduls/masterPage.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="139" column="0" selection-start="7409" selection-end="7409" vertical-scroll-proportion="-0.8067227" vertical-offset="3591" max-vertical-offset="5586">
               <folding />
             </state>
           </provider>
@@ -206,7 +215,6 @@
         <option value="$PROJECT_DIR$/app/moduls/main/mb_seo-view.php" />
         <option value="$PROJECT_DIR$/app/moduls/main/mb_settings-view.php" />
         <option value="$PROJECT_DIR$/app/moduls/main/mb_speed-view.php" />
-        <option value="$PROJECT_DIR$/app/moduls/masterPage.php" />
         <option value="$PROJECT_DIR$/app/moduls/mb_admin_menu_manager/view/index.php" />
         <option value="$PROJECT_DIR$/app/moduls/mb_duplicate_manager/view/index.php" />
         <option value="$PROJECT_DIR$/app/moduls/mb_form_builder/view/contacts.php" />
@@ -220,6 +228,7 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/model/magicbox.php" />
         <option value="$PROJECT_DIR$/model/magicboxStaff.php" />
+        <option value="$PROJECT_DIR$/app/moduls/masterPage.php" />
       </list>
     </option>
   </component>
@@ -307,6 +316,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magicbox_freemium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magicbox_freemium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magicbox_freemium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magicbox_freemium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="moduls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -357,7 +398,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -576,11 +617,6 @@
         <state line="45" column="28" selection-start="2313" selection-end="2313" vertical-scroll-proportion="-5.089286" vertical-offset="660" max-vertical-offset="1554" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/moduls/masterPage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="46" selection-start="1286" selection-end="1290" vertical-scroll-proportion="0.33333334" vertical-offset="360" max-vertical-offset="5586" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/moduls/mb_admin_menu_manager/view/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="326" column="0" selection-start="17688" selection-end="17688" vertical-scroll-proportion="-4.2941175" vertical-offset="6481" max-vertical-offset="10353" />
@@ -664,7 +700,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/model/magicboxStaff.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="287" column="40" selection-start="8206" selection-end="8206" vertical-scroll-proportion="0.332533" vertical-offset="5750" max-vertical-offset="16338">
+        <state line="284" column="0" selection-start="8104" selection-end="8104" vertical-scroll-proportion="-3.8214285" vertical-offset="5750" max-vertical-offset="16338">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/moduls/masterPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="139" column="0" selection-start="7409" selection-end="7409" vertical-scroll-proportion="-0.8067227" vertical-offset="3591" max-vertical-offset="5586">
           <folding />
         </state>
       </provider>

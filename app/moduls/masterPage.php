@@ -1,5 +1,5 @@
 <?php global $menuIcons;
-$magicBoxLink = "admin.php?page=magic-box";
+$magicBoxLink = "admin.php?page=magicbox";
 $_REQUEST['page'] = esc_attr($_REQUEST['page']);
 $_REQUEST['sub'] = esc_attr($_REQUEST['sub']);
 $_REQUEST['method'] = esc_attr($_REQUEST['method']);
@@ -28,7 +28,7 @@ $_REQUEST['method'] = esc_attr($_REQUEST['method']);
             </div>
             <div class="mb-menu card-body">
                 <ul class="list-unstyled sideBarNav">
-                    <li class="item <?php echo $_REQUEST['page'] == "magic-box"? ' selected' : "" ?>">
+                    <li class="item <?php echo $_REQUEST['page'] == "magicbox"? ' selected' : "" ?>">
                         <button class="btn btn-sm itemLink" onclick="window.location='<?php echo $magicBoxLink ?>'"><i
                                 class="bi bi-display"></i> &nbsp;<span><?php echo __("MagicBox", "magicbox") ?></span>
                         </button>
@@ -121,7 +121,7 @@ $_REQUEST['method'] = esc_attr($_REQUEST['method']);
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item">
                         <a href="<?php echo $magicBoxLink ?>"><?php _e("Home", "magicbox") ?></a></li>
-                    <?php if ($_REQUEST['page'] != "" and $_REQUEST['page'] != "magic-box"){ ?>
+                    <?php if ($_REQUEST['page'] != "" and $_REQUEST['page'] != "magicbox"){ ?>
                         <li class="breadcrumb-item <?php echo $_REQUEST['sub'] == ""? "active" : "" ?>"><a
                                 href="<?php echo esc_attr($menuUrls[$_REQUEST['page']]) ?>"><?php echo esc_attr($menuNames[$_REQUEST['page']]) ?></a>
                         </li>
