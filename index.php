@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: MagicBox Freemium
+Plugin Name: MagicBox
 Plugin URI: https://wpmagicbox.com
 Description: <strong>MagicBox</strong> <code>everything for wordpress</code>. Turn your website into a professional CMS system
 Version: 1.2.1

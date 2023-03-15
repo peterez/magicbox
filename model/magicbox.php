@@ -281,8 +281,8 @@ class MagicBox extends
         }
 
         if ($hasMenu == false){
-            add_menu_page('MagicBox', 'MagicBox', 'manage_options', 'magic-box', array($magicBox, 'runPage'));
-            add_submenu_page('magic-box', 'MagicBox Dashboard', 'Dashboard', 'manage_options', 'magic-box', array($magicBox, 'runPage'));
+            add_menu_page('MagicBox', 'MagicBox', 'manage_options', 'magicbox', array($magicBox, 'runPage'));
+            add_submenu_page('magic-box', 'MagicBox Dashboard', 'Dashboard', 'manage_options', 'magicbox', array($magicBox, 'runPage'));
         }
 
         foreach ($this->categories as $modulSlug => $value) {
