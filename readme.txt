@@ -7,6 +7,7 @@ Stable tag: 1.2.1
 Requires PHP: 5.6
 License: GPLv3 or later
 License URI: https://opensource.org/licenses/GPL-3.0
+Update URI: https://wpmagicbox.com/changelog
 
 Do not install unnecessary plugins on your site. MagicBox is everything you need.
 
@@ -320,6 +321,8 @@ When user login the website you can redirect specific admin role automatically a
 
 https://youtu.be/9lZ7xawZOHI
 
+
+Note: If you want to use more features in magicbox, you need to get API key. Apart from that, you can use all the features included in the plugin for free. We have integrated our REST API into the plugin for your convenience when you want to upgrade your plugin. At the same time, we have added our control mechanism so that you can make new developments, updates and bug fixes with one click. You do not need an account or payment to use the plugin.
 
 == Frequently Asked Questions ==
 

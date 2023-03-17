@@ -1,20 +1,11 @@
 <?php
 
-
-add_action('wp_ajax_nopriv_mbGetPostSearch', 'mbGetPostSearch');
-add_action('wp_ajax_mbGetPostSearch', 'mbGetPostSearch');
-
-
-function remove_shortcode_from_home( $content ) {
-    if ( is_home() ) {
-        $content = strip_shortcodes( $content );
-    }
-    return $content;
-}
+add_action('wp_ajax_nopriv_magicbox_GetPostSearch', 'magicbox_GetPostSearch');
+add_action('wp_ajax_magicbox_GetPostSearch', 'magicbox_GetPostSearch');
 
 
 
-function mbGetPostSearch()
+function magicbox_GetPostSearch()
 {
     $magicBox = new \MagicBox\MagicBox();
     $options = $magicBox->getOptionFromDb();
@@ -33,7 +24,7 @@ function mbGetPostSearch()
  
                     $content = strip_shortcodes(get_the_excerpt());
                     if ($options['live_search']['show_img'] == "1") {
-                        $imgUrl = esc_attr(get_the_post_thumbnail(null, "post-thumbnail", "align=absmiddle"));
+                        $imgUrl = esc_url(get_the_post_thumbnail(null, "post-thumbnail", "align=absmiddle"));
                     } else {
                         $imgUrl = "";
                     }
@@ -45,7 +36,7 @@ function mbGetPostSearch()
                     ?>
                     <a href="<?php the_permalink() ?>">
                         <?php if ($imgUrl != "") { ?>
-                            <?php echo  $imgUrl; ?>
+                            <?php echo  ($imgUrl); ?>
                         <?php } ?>
                         <?php echo  esc_attr($title) ?></a>
                     <?php if (intval($options['live_search']['cut_desc']) > 0) { ?>
@@ -195,7 +186,7 @@ class mb_live_search
                         mbLiveRequest = jQuery.ajax({
                             type: "GET",
                             url: "<?php echo site_url()?>/wp-admin/admin-ajax.php",
-                            data: {action: "mbGetPostSearch", "keyword": keyword},
+                            data: {action: "magicbox_GetPostSearch", "keyword": keyword},
                             success: function (response) {
 
                                 jQuery('.instantSearchArea').show(0).html(response);

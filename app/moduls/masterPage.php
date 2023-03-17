@@ -1,8 +1,8 @@
 <?php global $menuIcons;
 $magicBoxLink = "admin.php?page=magicbox";
-$_REQUEST['page'] = esc_attr($_REQUEST['page']);
-$_REQUEST['sub'] = esc_attr($_REQUEST['sub']);
-$_REQUEST['method'] = esc_attr($_REQUEST['method']);
+$_REQUEST['page'] = sanitize_text_field($_REQUEST['page']);
+$_REQUEST['sub'] = sanitize_text_field($_REQUEST['sub']);
+$_REQUEST['method'] = sanitize_text_field($_REQUEST['method']);
 ?>
 <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap shadow-sm p-0 mb-4">
     <a class="navbar-brand" href="#">WP MagicBox</a>
