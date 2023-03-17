@@ -115,7 +115,7 @@
       <file leaf-file-name="magicboxStaff.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/magicboxStaff.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="284" column="0" selection-start="8104" selection-end="8104" vertical-scroll-proportion="-7.133333" vertical-offset="5750" max-vertical-offset="16338">
+            <state line="8" column="5" selection-start="237" selection-end="237" vertical-scroll-proportion="-5.6" vertical-offset="0" max-vertical-offset="16338">
               <folding />
             </state>
           </provider>
@@ -133,7 +133,7 @@
       <file leaf-file-name="readme.txt" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/readme.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="325" column="0" selection-start="17552" selection-end="17552" vertical-scroll-proportion="0.80496055" vertical-offset="6111" max-vertical-offset="9492">
+            <state line="401" column="82" selection-start="20003" selection-end="20003" vertical-scroll-proportion="0.57384443" vertical-offset="7912" max-vertical-offset="9555">
               <folding />
             </state>
           </provider>
@@ -687,13 +687,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/magicboxStaff.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="284" column="0" selection-start="8104" selection-end="8104" vertical-scroll-proportion="-7.133333" vertical-offset="5750" max-vertical-offset="16338">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/moduls/mb_live_search/view/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="60" column="48" selection-start="3474" selection-end="3474" vertical-scroll-proportion="-1.9821428" vertical-offset="1149" max-vertical-offset="2268">
@@ -718,9 +711,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/model/magicboxStaff.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="5" selection-start="237" selection-end="237" vertical-scroll-proportion="-5.6" vertical-offset="0" max-vertical-offset="16338">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="325" column="0" selection-start="17552" selection-end="17552" vertical-scroll-proportion="0.80496055" vertical-offset="6111" max-vertical-offset="9492">
+        <state line="401" column="82" selection-start="20003" selection-end="20003" vertical-scroll-proportion="0.57384443" vertical-offset="7912" max-vertical-offset="9555">
           <folding />
         </state>
       </provider>

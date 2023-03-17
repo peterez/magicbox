@@ -398,6 +398,9 @@ What can't you do? With many features in MAGICBOX, you can manage your WordPress
 50-51.jpg
 
 
+== Upgrade Notice ==
+If you wanna more features and functionality you can upgrade this plugin. If you don't wanna upgrade the plugin you can use some features as free and unlimited.
+
 
 == Changelog ==
 
