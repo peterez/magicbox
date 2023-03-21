@@ -18,8 +18,6 @@ $_mb_assets_loading_gifs_ =  $_mb_assets_img_ . "/loading-gifs";
 
 $mbAllModulDirs[] = $_mb_moduls_;
 
-$GLOBALS{'_mb_helpers_'} = $GLOBALS{'_mb_helpers_'}==""?$_mb_helpers_:$GLOBALS{'_mb_helpers_'};
-$GLOBALS{'_mb_ext_'} = $GLOBALS{'_mb_ext_'}==""?$_mb_ext_:$GLOBALS{'_mb_ext_'};
 
 
 /* Includes */

@@ -112,10 +112,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="magicboxStaff.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="magicboxStaff.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/magicboxStaff.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="192" column="30" selection-start="5328" selection-end="5328" vertical-scroll-proportion="0.38387486" vertical-offset="3713" max-vertical-offset="16359">
+            <state line="192" column="30" selection-start="5328" selection-end="5328" vertical-scroll-proportion="-5.696429" vertical-offset="3713" max-vertical-offset="16359">
               <folding />
             </state>
           </provider>
@@ -154,6 +154,15 @@
         <entry file="file://$PROJECT_DIR$/app/moduls/mb_custom_dashboard/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="27" column="31" selection-start="535" selection-end="551" vertical-scroll-proportion="-4.071429" vertical-offset="339" max-vertical-offset="7308">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="core.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/system/core.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="0" selection-start="596" selection-end="596" vertical-scroll-proportion="0.47412756" vertical-offset="26" max-vertical-offset="7917">
               <folding />
             </state>
           </provider>
@@ -213,7 +222,6 @@
         <option value="$PROJECT_DIR$/app/moduls/mb_form_builder/index.php" />
         <option value="$PROJECT_DIR$/app/moduls/mb_live_search/view/index.php" />
         <option value="$PROJECT_DIR$/assets/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/system/core.php" />
         <option value="$PROJECT_DIR$/assets/css/main.css" />
         <option value="$PROJECT_DIR$/app/moduls/main/magic_box-view.php" />
         <option value="$PROJECT_DIR$/app/moduls/mb_admin_menu_manager/view/index.php" />
@@ -249,6 +257,7 @@
         <option value="$PROJECT_DIR$/app/moduls/mb_preloader/view/index.php" />
         <option value="$PROJECT_DIR$/model/magicbox.php" />
         <option value="$PROJECT_DIR$/model/magicboxStaff.php" />
+        <option value="$PROJECT_DIR$/system/core.php" />
       </list>
     </option>
   </component>
@@ -304,6 +313,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="magicbox_freemium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magicbox_freemium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magicbox_freemium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -452,7 +475,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -638,13 +661,6 @@
         <state line="400" column="10" selection-start="19910" selection-end="19910" vertical-scroll-proportion="0.5501691" vertical-offset="7912" max-vertical-offset="9555" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/system/core.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="364" selection-end="364" vertical-scroll-proportion="0.3178114" vertical-offset="0" max-vertical-offset="7959">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/moduls/main/mb_admin_panel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="861">
@@ -803,7 +819,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/model/magicboxStaff.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="192" column="30" selection-start="5328" selection-end="5328" vertical-scroll-proportion="0.38387486" vertical-offset="3713" max-vertical-offset="16359">
+        <state line="192" column="30" selection-start="5328" selection-end="5328" vertical-scroll-proportion="-5.696429" vertical-offset="3713" max-vertical-offset="16359">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/core.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="596" selection-end="596" vertical-scroll-proportion="0.47412756" vertical-offset="26" max-vertical-offset="7917">
           <folding />
         </state>
       </provider>
