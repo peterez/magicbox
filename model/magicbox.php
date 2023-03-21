@@ -227,8 +227,8 @@ class MagicBox extends
             }
             /* For view page */
             $options = $this->options;
-
-            include $GLOBALS{'_mb_moduls_'} . '/masterPage.php';
+            global $_mb_moduls_;
+            include $_mb_moduls_ . '/masterPage.php';
         }
     }
 
@@ -310,13 +310,13 @@ class MagicBox extends
         global $menuList;
 
         $this->categories = $this->oldCategories == ""? array() : $this->oldCategories;
-
+        global $_mb_moduls_;
         if (@is_array($menuList)){
             foreach ($menuList as $modulSlug => $value) {
 
                 $this->categories[$modulSlug]['title'] = $value['title'];
 
-                $incFile = $GLOBALS{'_mb_moduls_'} . '/main/' . $modulSlug . '.php';
+                $incFile = $_mb_moduls_ . '/main/' . $modulSlug . '.php';
 
                 if (file_exists($incFile)){
                     $this->categories[$modulSlug]['has'] = 1;
@@ -342,7 +342,7 @@ class MagicBox extends
 
                             $this->categories[$modulSlug]['subs'][$modulSlugSub]['title'] = $title;
 
-                            $theSubFile = $GLOBALS{'_mb_moduls_'} . '/' . $modulSlugSub . '/index.php';
+                            $theSubFile = $_mb_moduls_ . '/' . $modulSlugSub . '/index.php';
                             if (file_exists($theSubFile)){
 
                                 if(!file_exists($theSubFile.'.demo')) {

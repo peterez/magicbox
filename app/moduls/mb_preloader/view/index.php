@@ -54,8 +54,10 @@
                 <div class="col-12">
                     <div class="col-12">
                         <div class="loadingGifs">
-                            <?php for($i=1; $i<=37; $i++) {
-                                $iconUrl = $GLOBALS{'_mb_assets_loading_gifs_'}."/".$i.".gif";
+                            <?php
+                            global $_mb_assets_loading_gifs_;
+                            for($i=1; $i<=37; $i++) {
+                                $iconUrl = $_mb_assets_loading_gifs_."/".$i.".gif";
                                 ?>
                                 <img src="<?php echo $iconUrl?>" />
                             <?php  }

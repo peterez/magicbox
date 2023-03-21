@@ -2,96 +2,96 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f14e56d3-3091-493c-a54c-573d8948c039" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_popup/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_popup/view/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_captcha/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_captcha/view/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_custom_dashboard/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_custom_dashboard/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_custom_redirects/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_custom_redirects/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_tracking_codes/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_tracking_codes/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_userini_editor/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_userini_editor/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_admin_menu_manager/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_admin_menu_manager/view/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_image_upload_optimiser/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_image_upload_optimiser/view/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_white_label/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_white_label/view/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_custom_login/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_custom_login/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_image_upload_optimiser/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_image_upload_optimiser/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_gutenberg_editor/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_gutenberg_editor/view/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_lazyload/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_lazyload/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_disqus_comment/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_disqus_comment/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_backup_manager/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_backup_manager/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_backup_manager/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_backup_manager/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_seo_image/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_seo_image/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_admin_menu_manager/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_admin_menu_manager/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_custom_css/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_custom_css/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_visit_limitation/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_visit_limitation/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_bulk_mail/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_bulk_mail/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_login_logs/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_login_logs/view/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_form_builder/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_form_builder/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_post_authentication/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_post_authentication/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_code_insert_manager/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_code_insert_manager/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_google_authenticator/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_google_authenticator/view/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_clone_manager/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_clone_manager/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_fancybox/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_fancybox/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_bulk_image_resize/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_bulk_image_resize/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_login_logs/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_login_logs/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_lazyload/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_lazyload/view/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_code_insert_manager/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_code_insert_manager/view/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_cookie_policy/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_cookie_policy/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_userini_editor/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_userini_editor/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_user_switch/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_user_switch/view/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_cache_manager/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_cache_manager/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_popup/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_popup/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_gutenberg_editor/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_gutenberg_editor/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_url_replacement/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_url_replacement/view/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_captcha/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_captcha/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_robot_txt_editor/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_robot_txt_editor/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_user_switch/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_user_switch/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_error_logs/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_error_logs/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_white_label/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_white_label/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_admin_menu_manager/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_admin_menu_manager/view/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_duplicate_manager/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_duplicate_manager/view/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_sitemap/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_sitemap/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_comment_manager/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_comment_manager/view/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/magicboxStaff.php" afterPath="$PROJECT_DIR$/model/magicboxStaff.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_admin_menu_manager/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_admin_menu_manager/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_contact_buttons/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_contact_buttons/view/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_custom_redirects/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_custom_redirects/view/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_disqus_comment/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_disqus_comment/view/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_error_page_manager/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_error_page_manager/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_form_builder/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_form_builder/view/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_cache_manager/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_cache_manager/view/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_login_url/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_login_url/index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\main\magic_box-view.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\main\magic_box-view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_error_redirects/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_error_redirects/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/magicbox.php" afterPath="$PROJECT_DIR$/model/magicbox.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_site_redirects/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_site_redirects/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_custom_dashboard/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_custom_dashboard/view/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_fancybox/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_fancybox/view/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_error_page_manager/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_error_page_manager/view/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/asset.css" afterPath="$PROJECT_DIR$/assets/css/asset.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_live_search/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_live_search/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_htaccess_editor/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_htaccess_editor/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_sitemap/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_sitemap/view/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_maintenance_mode/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_maintenance_mode/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_keyword_suggestion/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_keyword_suggestion/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_tracking_codes/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_tracking_codes/view/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_cookie_policy/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_cookie_policy/view/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_user_permissions/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_user_permissions/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_user_permissions/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_user_permissions/view/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_preloader/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_preloader/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_google_authenticator/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_google_authenticator/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_seo_image/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_seo_image/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_duplicate_manager/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_duplicate_manager/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/masterPage.php" afterPath="$PROJECT_DIR$/app/moduls/masterPage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/main.css" afterPath="$PROJECT_DIR$/assets/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_bulk_image_resize/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_bulk_image_resize/view/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_url_replacement/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_url_replacement/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_contact_buttons/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_contact_buttons/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_bulk_mail/view/sendMail.php" afterPath="$PROJECT_DIR$/app/moduls/mb_bulk_mail/view/sendMail.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_smtp/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_smtp/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_bulk_mail/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_bulk_mail/view/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_comment_manager/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_comment_manager/index.php" />
-      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_affiliate_marketing\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_affiliate_marketing\index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_preloader/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_preloader/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_cache_manager/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_cache_manager/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_post_authentication/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_post_authentication/view/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_custom_css/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_custom_css/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_error_redirects/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_error_redirects/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_tracking_codes/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_tracking_codes/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_comment_manager/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_comment_manager/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_lazyload/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_lazyload/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_login_logs/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_login_logs/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_clone_manager/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_clone_manager/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_comment_manager/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_comment_manager/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_gutenberg_editor/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_gutenberg_editor/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_custom_dashboard/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_custom_dashboard/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_google_authenticator/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_google_authenticator/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_bulk_image_resize/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_bulk_image_resize/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_robot_txt_editor/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_robot_txt_editor/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_cookie_policy/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_cookie_policy/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_login_url/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_login_url/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_custom_redirects/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_custom_redirects/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/asset.css" afterPath="$PROJECT_DIR$/assets/css/asset.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_contact_buttons/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_contact_buttons/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_bulk_mail/view/sendMail.php" afterPath="$PROJECT_DIR$/app/moduls/mb_bulk_mail/view/sendMail.php" />
+      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_affiliate_marketing\index.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\mb_affiliate_marketing\index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_htaccess_editor/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_htaccess_editor/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_url_replacement/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_url_replacement/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/main.css" afterPath="$PROJECT_DIR$/assets/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_image_upload_optimiser/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_image_upload_optimiser/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_popup/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_popup/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_cache_manager/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_cache_manager/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_captcha/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_captcha/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_sitemap/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_sitemap/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_live_search/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_live_search/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_custom_dashboard/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_custom_dashboard/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_white_label/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_white_label/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_duplicate_manager/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_duplicate_manager/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_error_logs/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_error_logs/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_site_redirects/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_site_redirects/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_captcha/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_captcha/index.php" />
+      <change type="MODIFICATION" beforePath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\main\magic_box-view.php" afterPath="D:\Easy\eds-www\mb\wp-content\plugins\magicbox_freemium\app\moduls\main\magic_box-view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_sitemap/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_sitemap/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_login_logs/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_login_logs/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_gutenberg_editor/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_gutenberg_editor/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_google_authenticator/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_google_authenticator/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_user_permissions/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_user_permissions/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_code_insert_manager/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_code_insert_manager/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_popup/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_popup/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_contact_buttons/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_contact_buttons/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_error_page_manager/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_error_page_manager/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_white_label/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_white_label/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_bulk_mail/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_bulk_mail/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_keyword_suggestion/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_keyword_suggestion/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_fancybox/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_fancybox/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_user_switch/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_user_switch/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_error_redirects/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_error_redirects/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_preloader/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_preloader/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_form_builder/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_form_builder/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_tracking_codes/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_tracking_codes/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_user_switch/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_user_switch/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_backup_manager/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_backup_manager/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_maintenance_mode/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_maintenance_mode/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_duplicate_manager/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_duplicate_manager/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_form_builder/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_form_builder/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_error_page_manager/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_error_page_manager/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_disqus_comment/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_disqus_comment/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_custom_login/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_custom_login/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_post_authentication/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_post_authentication/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/magicboxStaff.php" afterPath="$PROJECT_DIR$/model/magicboxStaff.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/masterPage.php" afterPath="$PROJECT_DIR$/app/moduls/masterPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_cookie_policy/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_cookie_policy/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_fancybox/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_fancybox/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_form_builder/view/formList.php" afterPath="$PROJECT_DIR$/app/moduls/mb_form_builder/view/formList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_smtp/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_smtp/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_user_permissions/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_user_permissions/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_bulk_image_resize/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_bulk_image_resize/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_preloader/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_preloader/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_backup_manager/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_backup_manager/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_url_replacement/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_url_replacement/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_code_insert_manager/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_code_insert_manager/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_lazyload/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_lazyload/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/magicbox.php" afterPath="$PROJECT_DIR$/model/magicbox.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_error_redirects/view/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_error_redirects/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/moduls/mb_disqus_comment/index.php" afterPath="$PROJECT_DIR$/app/moduls/mb_disqus_comment/index.php" />
     </list>
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -112,49 +112,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="magicboxStaff.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="magicboxStaff.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/model/magicboxStaff.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="5" selection-start="237" selection-end="237" vertical-scroll-proportion="-5.6" vertical-offset="0" max-vertical-offset="16338">
+            <state line="192" column="30" selection-start="5328" selection-end="5328" vertical-scroll-proportion="0.38387486" vertical-offset="3713" max-vertical-offset="16359">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="masterPage.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/moduls/masterPage.php">
+      <file leaf-file-name="mb_settings-view.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/moduls/main/mb_settings-view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="2" selection-start="252" selection-end="252" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="5586">
+            <state line="1" column="32" selection-start="64" selection-end="64" vertical-scroll-proportion="-0.7" vertical-offset="0" max-vertical-offset="1575">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readme.txt" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/readme.txt">
+      <file leaf-file-name="mb_speed-view.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/moduls/main/mb_speed-view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="401" column="82" selection-start="20003" selection-end="20003" vertical-scroll-proportion="0.57384443" vertical-offset="7912" max-vertical-offset="9555">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/moduls/mb_live_search/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="434" selection-end="434" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="2415">
-              <folding>
-                <element signature="n#instantSearch#0;n#mb_live_search#0;n#!!top" expanded="false" />
-                <marker date="1679040485963" expanded="false" signature="5560:5566" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/moduls/mb_live_search/view/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="48" selection-start="3474" selection-end="3474" vertical-scroll-proportion="-1.9821428" vertical-offset="1149" max-vertical-offset="2268">
+            <state line="1" column="32" selection-start="64" selection-end="64" vertical-scroll-proportion="-0.7" vertical-offset="0" max-vertical-offset="1575">
               <folding />
             </state>
           </provider>
@@ -163,25 +142,36 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="14" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="945">
+            <state line="33" column="57" selection-start="919" selection-end="923" vertical-scroll-proportion="-20.9" vertical-offset="66" max-vertical-offset="945">
+              <folding>
+                <element signature="e#6#273#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/moduls/mb_custom_dashboard/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="31" selection-start="535" selection-end="551" vertical-scroll-proportion="-4.071429" vertical-offset="339" max-vertical-offset="7308">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="core.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system/core.php">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/moduls/mb_login_url/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="37" selection-start="928" selection-end="936" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="7959">
+            <state line="157" column="50" selection-start="5220" selection-end="5220" vertical-scroll-proportion="-4.821429" vertical-offset="3027" max-vertical-offset="3927">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="magicbox.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/magicbox.php">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/moduls/mb_preloader/view/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="277" column="36" selection-start="8843" selection-end="8843" vertical-scroll-proportion="0.0" vertical-offset="5817" max-vertical-offset="8442">
+            <state line="59" column="68" selection-start="3281" selection-end="3281" vertical-scroll-proportion="-5.571429" vertical-offset="927" max-vertical-offset="4431">
               <folding />
             </state>
           </provider>
@@ -208,13 +198,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/moduls/mb_bulk_mail/index.php" />
-        <option value="$PROJECT_DIR$/app/moduls/mb_bulk_mail/view/index.php" />
-        <option value="$PROJECT_DIR$/app/moduls/mb_bulk_mail/view/sendMail.php" />
-        <option value="$PROJECT_DIR$/app/moduls/mb_form_builder/view/index.php" />
         <option value="$PROJECT_DIR$/app/moduls/mb_form_builder/view/formList.php" />
         <option value="$PROJECT_DIR$/app/moduls/mb_contact_buttons/index.php" />
-        <option value="$PROJECT_DIR$/app/moduls/mb_contact_buttons/view/index.php" />
         <option value="$PROJECT_DIR$/app/moduls/mb_clone_manager/index.php" />
         <option value="$PROJECT_DIR$/app/moduls/mb_comment_manager/view/index.php" />
         <option value="$PROJECT_DIR$/app/moduls/mb_disqus_comment/view/index.php" />
@@ -231,6 +216,21 @@
         <option value="$PROJECT_DIR$/system/core.php" />
         <option value="$PROJECT_DIR$/assets/css/main.css" />
         <option value="$PROJECT_DIR$/app/moduls/main/magic_box-view.php" />
+        <option value="$PROJECT_DIR$/app/moduls/mb_admin_menu_manager/view/index.php" />
+        <option value="$PROJECT_DIR$/app/moduls/mb_duplicate_manager/view/index.php" />
+        <option value="$PROJECT_DIR$/app/moduls/mb_form_builder/view/contacts.php" />
+        <option value="$PROJECT_DIR$/app/moduls/mb_userini_editor/view/index.php" />
+        <option value="$PROJECT_DIR$/assets/js/asset.js" />
+        <option value="$PROJECT_DIR$/app/moduls/mb_userini_editor/index.php" />
+        <option value="$PROJECT_DIR$/app/moduls/mb_htaccess_editor/index.php" />
+        <option value="$PROJECT_DIR$/app/moduls/mb_robot_txt_editor/index.php" />
+        <option value="$PROJECT_DIR$/app/moduls/mb_custom_css/view/index.php" />
+        <option value="$PROJECT_DIR$/app/moduls/mb_popup/view/index.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/app/moduls/mb_live_search/index.php" />
+        <option value="$PROJECT_DIR$/readme.txt" />
+        <option value="$PROJECT_DIR$/app/moduls/masterPage.php" />
+        <option value="$PROJECT_DIR$/app/moduls/main/magicbox-view.php" />
         <option value="$PROJECT_DIR$/app/moduls/main/mb_admin_panel-view.php" />
         <option value="$PROJECT_DIR$/app/moduls/main/mb_code_manager-view.php" />
         <option value="$PROJECT_DIR$/app/moduls/main/mb_contact-view.php" />
@@ -243,22 +243,12 @@
         <option value="$PROJECT_DIR$/app/moduls/main/mb_seo-view.php" />
         <option value="$PROJECT_DIR$/app/moduls/main/mb_settings-view.php" />
         <option value="$PROJECT_DIR$/app/moduls/main/mb_speed-view.php" />
-        <option value="$PROJECT_DIR$/app/moduls/mb_admin_menu_manager/view/index.php" />
-        <option value="$PROJECT_DIR$/app/moduls/mb_duplicate_manager/view/index.php" />
-        <option value="$PROJECT_DIR$/app/moduls/mb_form_builder/view/contacts.php" />
-        <option value="$PROJECT_DIR$/app/moduls/mb_userini_editor/view/index.php" />
-        <option value="$PROJECT_DIR$/assets/js/asset.js" />
-        <option value="$PROJECT_DIR$/app/moduls/mb_userini_editor/index.php" />
-        <option value="$PROJECT_DIR$/app/moduls/mb_htaccess_editor/index.php" />
-        <option value="$PROJECT_DIR$/app/moduls/mb_robot_txt_editor/index.php" />
-        <option value="$PROJECT_DIR$/app/moduls/mb_custom_css/view/index.php" />
-        <option value="$PROJECT_DIR$/app/moduls/mb_popup/view/index.php" />
-        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/app/moduls/mb_contact_buttons/view/index.php" />
+        <option value="$PROJECT_DIR$/app/moduls/mb_custom_dashboard/index.php" />
+        <option value="$PROJECT_DIR$/app/moduls/mb_login_url/index.php" />
+        <option value="$PROJECT_DIR$/app/moduls/mb_preloader/view/index.php" />
         <option value="$PROJECT_DIR$/model/magicbox.php" />
         <option value="$PROJECT_DIR$/model/magicboxStaff.php" />
-        <option value="$PROJECT_DIR$/app/moduls/mb_live_search/index.php" />
-        <option value="$PROJECT_DIR$/app/moduls/masterPage.php" />
-        <option value="$PROJECT_DIR$/readme.txt" />
       </list>
     </option>
   </component>
@@ -299,7 +289,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -315,6 +304,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="magicbox_freemium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magicbox_freemium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magicbox_freemium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -350,8 +353,57 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magicbox_freemium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magicbox_freemium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="moduls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mb_preloader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magicbox_freemium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magicbox_freemium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="moduls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mb_preloader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -408,7 +460,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27635783" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27902022" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -416,11 +468,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -445,42 +497,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/model/magicbox.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="277" column="36" selection-start="8843" selection-end="8843" vertical-scroll-proportion="0.0" vertical-offset="5817" max-vertical-offset="8442">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/magicbox.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="283" column="56" selection-start="9022" selection-end="9022" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8442">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/asset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="1" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="4032" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="400" column="9" selection-start="19430" selection-end="19430" vertical-scroll-proportion="0.0" vertical-offset="6106" max-vertical-offset="9429" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/magicboxStaff.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="761" column="72" selection-start="25208" selection-end="25211" vertical-scroll-proportion="0.0" vertical-offset="15652" max-vertical-offset="16485">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/moduls/mb_user_permissions/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="6" selection-end="37" vertical-scroll-proportion="-0.0" vertical-offset="21" max-vertical-offset="1617" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/moduls/mb_lazyload/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="8" selection-start="186" selection-end="186" vertical-scroll-proportion="0.32079905" vertical-offset="0" max-vertical-offset="945" />
@@ -536,74 +552,9 @@
         <state line="451" column="27" selection-start="9540" selection-end="9540" vertical-scroll-proportion="-12.384615" vertical-offset="9149" max-vertical-offset="93912" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/moduls/main/mb_admin_panel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/moduls/main/mb_code_manager.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="987" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/moduls/main/mb_admin_panel-view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="66" selection-start="0" selection-end="2943" vertical-scroll-proportion="-11.766666" vertical-offset="256" max-vertical-offset="1554" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/moduls/main/mb_code_manager-view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="0" selection-start="3091" selection-end="3091" vertical-scroll-proportion="-25.366667" vertical-offset="667" max-vertical-offset="1554" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/moduls/main/mb_contact-view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="0" selection-start="3091" selection-end="3091" vertical-scroll-proportion="-27.166666" vertical-offset="613" max-vertical-offset="1554" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/moduls/main/mb_design-view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="0" selection-start="3091" selection-end="3091" vertical-scroll-proportion="-27.166666" vertical-offset="613" max-vertical-offset="1554" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/moduls/main/mb_documentation-view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="0" selection-start="3091" selection-end="3091" vertical-scroll-proportion="-25.366667" vertical-offset="667" max-vertical-offset="1554" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/moduls/main/mb_faq-view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="0" selection-start="3091" selection-end="3091" vertical-scroll-proportion="-27.166666" vertical-offset="613" max-vertical-offset="1554" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/moduls/main/mb_information-view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="0" selection-start="3091" selection-end="3091" vertical-scroll-proportion="-26.466667" vertical-offset="634" max-vertical-offset="1554" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/moduls/main/mb_marketing-view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="0" selection-start="3091" selection-end="3091" vertical-scroll-proportion="-26.9" vertical-offset="621" max-vertical-offset="1554" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/moduls/main/mb_security-view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="0" selection-start="3091" selection-end="3091" vertical-scroll-proportion="-26.466667" vertical-offset="634" max-vertical-offset="1554" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/moduls/main/mb_seo-view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="0" selection-start="3091" selection-end="3091" vertical-scroll-proportion="-26.466667" vertical-offset="634" max-vertical-offset="1554" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/moduls/main/mb_settings-view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="0" selection-start="3091" selection-end="3091" vertical-scroll-proportion="-26.466667" vertical-offset="634" max-vertical-offset="1554" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/moduls/main/mb_speed-view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="28" selection-start="2313" selection-end="2313" vertical-scroll-proportion="-5.089286" vertical-offset="660" max-vertical-offset="1554" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/moduls/mb_admin_menu_manager/view/index.php">
@@ -666,61 +617,193 @@
         <state line="11" column="40" selection-start="308" selection-end="308" vertical-scroll-proportion="-7.7" vertical-offset="0" max-vertical-offset="9597" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="14" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="945">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/core.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="37" selection-start="928" selection-end="936" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="7959">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/magicbox.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="277" column="36" selection-start="8843" selection-end="8843" vertical-scroll-proportion="0.0" vertical-offset="5817" max-vertical-offset="8442">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/moduls/mb_live_search/view/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="48" selection-start="3474" selection-end="3474" vertical-scroll-proportion="-1.9821428" vertical-offset="1149" max-vertical-offset="2268">
+        <state line="60" column="48" selection-start="3474" selection-end="3474" vertical-scroll-proportion="0.0" vertical-offset="1149" max-vertical-offset="2268">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/moduls/mb_live_search/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="434" selection-end="434" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="2415">
+        <state line="15" column="0" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="4620">
           <folding>
-            <element signature="n#instantSearch#0;n#mb_live_search#0;n#!!top" expanded="false" />
-            <marker date="1679040485963" expanded="false" signature="5560:5566" placeholder="..." />
+            <marker date="1679040485963" expanded="false" signature="-1:-1" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="400" column="10" selection-start="19910" selection-end="19910" vertical-scroll-proportion="0.5501691" vertical-offset="7912" max-vertical-offset="9555" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/core.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="364" selection-end="364" vertical-scroll-proportion="0.3178114" vertical-offset="0" max-vertical-offset="7959">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/moduls/main/mb_admin_panel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="861">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/moduls/masterPage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="2" selection-start="252" selection-end="252" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="5586">
+        <state line="195" column="0" selection-start="10389" selection-end="10417" vertical-scroll-proportion="-11.571428" vertical-offset="3447" max-vertical-offset="5607">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/moduls/main/magicbox-view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5460">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/moduls/main/mb_admin_panel-view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="64" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1575">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/moduls/main/mb_code_manager-view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="32" selection-start="64" selection-end="64" vertical-scroll-proportion="-0.7" vertical-offset="0" max-vertical-offset="1575">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/moduls/main/mb_contact-view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="32" selection-start="64" selection-end="64" vertical-scroll-proportion="-0.7" vertical-offset="0" max-vertical-offset="1575">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/moduls/main/mb_design-view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="32" selection-start="64" selection-end="64" vertical-scroll-proportion="-0.7" vertical-offset="0" max-vertical-offset="1575">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/moduls/main/mb_documentation-view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="32" selection-start="64" selection-end="64" vertical-scroll-proportion="-0.7" vertical-offset="0" max-vertical-offset="1575">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/moduls/main/mb_faq-view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="32" selection-start="64" selection-end="64" vertical-scroll-proportion="-0.7" vertical-offset="0" max-vertical-offset="1575">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/moduls/main/mb_information-view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="32" selection-start="64" selection-end="64" vertical-scroll-proportion="-0.7" vertical-offset="0" max-vertical-offset="1575">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/moduls/main/mb_marketing-view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="32" selection-start="64" selection-end="64" vertical-scroll-proportion="-0.7" vertical-offset="0" max-vertical-offset="1575">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/moduls/main/mb_security-view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="32" selection-start="64" selection-end="64" vertical-scroll-proportion="-0.7" vertical-offset="0" max-vertical-offset="1575">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/moduls/main/mb_seo-view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="32" selection-start="64" selection-end="64" vertical-scroll-proportion="-0.7" vertical-offset="0" max-vertical-offset="1575">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/moduls/main/mb_settings-view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="32" selection-start="64" selection-end="64" vertical-scroll-proportion="-0.7" vertical-offset="0" max-vertical-offset="1575">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/moduls/main/mb_speed-view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="32" selection-start="64" selection-end="64" vertical-scroll-proportion="-0.7" vertical-offset="0" max-vertical-offset="1575">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/moduls/mb_custom_dashboard/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="31" selection-start="535" selection-end="551" vertical-scroll-proportion="-4.071429" vertical-offset="339" max-vertical-offset="7308">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/moduls/mb_login_url/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="157" column="50" selection-start="5220" selection-end="5220" vertical-scroll-proportion="-4.821429" vertical-offset="3027" max-vertical-offset="3927">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/moduls/mb_contact_buttons/view/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="21" selection-start="27" selection-end="27" vertical-scroll-proportion="0.025925925" vertical-offset="0" max-vertical-offset="15687">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/magicbox.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="344" column="49" selection-start="11201" selection-end="11201" vertical-scroll-proportion="0.8" vertical-offset="6576" max-vertical-offset="8442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="57" selection-start="919" selection-end="923" vertical-scroll-proportion="-20.9" vertical-offset="66" max-vertical-offset="945">
+          <folding>
+            <element signature="e#6#273#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/moduls/mb_contact_buttons/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.031287607" vertical-offset="26" max-vertical-offset="1071">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/moduls/mb_preloader/view/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="68" selection-start="3281" selection-end="3281" vertical-scroll-proportion="-5.571429" vertical-offset="927" max-vertical-offset="4431">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/magicboxStaff.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="5" selection-start="237" selection-end="237" vertical-scroll-proportion="-5.6" vertical-offset="0" max-vertical-offset="16338">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="401" column="82" selection-start="20003" selection-end="20003" vertical-scroll-proportion="0.57384443" vertical-offset="7912" max-vertical-offset="9555">
+        <state line="192" column="30" selection-start="5328" selection-end="5328" vertical-scroll-proportion="0.38387486" vertical-offset="3713" max-vertical-offset="16359">
           <folding />
         </state>
       </provider>

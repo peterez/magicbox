@@ -25,9 +25,9 @@ class mb_custom_dashboard
     }
 
     function mbAssets() {
-
+        global $_mb_assets_url_;
         wp_enqueue_script("jQuery");
-        wp_enqueue_script("mb-bootstrap-datatables10", $GLOBALS{'_mb_assets_url_'} . '/js/asset.js', false, '1.0.' . rand(1, 9999));
+        wp_enqueue_script("mb-bootstrap-datatables10", $_mb_assets_url_ . '/js/asset.js', false, '1.0.' . rand(1, 9999));
     }
 
     function toDo() {

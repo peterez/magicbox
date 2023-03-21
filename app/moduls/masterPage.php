@@ -193,22 +193,23 @@ $_REQUEST['method'] = sanitize_text_field($_REQUEST['method']);
             </nav>
         <?php } ?>
         <?php
+        global $_mb_moduls_;
 
         if ($subModul == ""){
             $pathAfter                     = '/main/' . $modulPath . "-view.php";
-            $file                          = $GLOBALS{'_mb_moduls_'} . $pathAfter;
+            $file                          = $_mb_moduls_ . $pathAfter;
             $mbMasterPageFiles[$modulPath] = $file;
         } else {
             $pathAfter                      = '/' . $modul . '/view/' . $methodName . '.php';
-            $file                           = $GLOBALS{'_mb_moduls_'} . $pathAfter;
+            $file                           = $_mb_moduls_ . $pathAfter;
             $mbMasterPageFiles[$methodName] = $file;
         }
 
         if (file_exists($file)){
             @include $file;
         } else {
-
-            foreach ($GLOBALS{'mbAllModulDirs'} as $theModulDir) {
+            global $mbAllModulDirs;
+            foreach ($mbAllModulDirs as $theModulDir) {
                 $file = $theModulDir . $pathAfter;
                 if (file_exists($file)){
                     @include $file;

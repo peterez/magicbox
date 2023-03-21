@@ -1,3 +1,4 @@
+<?php global $_mb_icon_url_; ?>
 <div class="mbDashboard">
     <div class="modal fade" id="licenceKeyModal" tabindex="-1" aria-labelledby="licenceKeyModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
@@ -158,7 +159,7 @@
                         <div class="dashboardItem <?php echo $subKey ?>">
                             <a class="nav-link" href="<?php echo $menuUrl ?>&sub=<?php echo $pureSubKey ?>">
                                 <div class="dashboardItemIcon">
-                                    <img src="<?php echo $GLOBALS{'_mb_icon_url_'} ?>/<?php echo $subKey ?>.png"/>
+                                    <img src="<?php echo $_mb_icon_url_ ?>/<?php echo $subKey ?>.png"/>
                                 </div>
                                 <div class="dashboardItemTitle">
                                     <h4><?php echo esc_attr($it['title']) ?></h4>

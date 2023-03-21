@@ -21,7 +21,8 @@ if (!class_exists('MagicboxStaff')){
             $get = json_decode(@$this->gau("check/{$code}/{$domain}/{$version}"), true);
 
             if (!is_array($get)){
-                $get       = $GLOBALS{'lkrp'};
+                global $lkrp;
+                $get       = $lkrp;
                 $get['lk'] = trim($code);
             }
             $get['lk'] = trim($code);
@@ -68,15 +69,15 @@ if (!class_exists('MagicboxStaff')){
             $isJson = json_decode($magicbox_getFile, true);
 
             if ($isJson['result'] != "fail"){
-
-                $path = $GLOBALS{'_mb_ext_'} . "/magicbox-" . uniqid() . rand(1, 9999999) . ".zip";
+                global $_mb_ext_;
+                $path = $_mb_ext_ . "/magicbox-" . uniqid() . rand(1, 9999999) . ".zip";
 
                 $ret = file_put_contents($path, $magicbox_getFile);
 
                 if ($ret){
-
+                    global $_mb_dir_;
                     WP_Filesystem();
-                    $rett = unzip_file($path, $GLOBALS{'_mb_dir_'});
+                    $rett = unzip_file($path, $_mb_dir_);
 
                     $isWpError = is_wp_error($rett);
 
@@ -110,8 +111,8 @@ if (!class_exists('MagicboxStaff')){
 
                 return $locale;
             }, 10);
-
-            load_plugin_textdomain("magicbox", false, $GLOBALS{'_mb_dir_'} . '/languages');
+            global $_mb_dir_;
+            load_plugin_textdomain("magicbox", false, $_mb_dir_ . '/languages');
         }
 
 
@@ -188,8 +189,8 @@ if (!class_exists('MagicboxStaff')){
 
             @ob_start();
             global $wpdb;
-
-            $theFile = $GLOBALS{'_mb_ext_'} . "/mb.sql";
+            global $_mb_ext_;
+            $theFile = $_mb_ext_ . "/mb.sql";
 
             $templine = '';
             if (file_exists($theFile)){
@@ -564,14 +565,14 @@ if (!class_exists('MagicboxStaff')){
 
 
         function getLoadedPath($key, $type) {
-
-            return $GLOBALS{'_mb_ext_'} . "/code/" . $key . "." . $type;
+            global $_mb_ext_;
+            return $_mb_ext_ . "/code/" . $key . "." . $type;
         }
 
 
         function getLoadedUrl($key, $type) {
-
-            return $GLOBALS{'_mb_ext_url_'} . "/code/" . $key . "." . $type;
+            global $_mb_ext_url_;
+            return $_mb_ext_url_ . "/code/" . $key . "." . $type;
         }
 
 
@@ -725,43 +726,43 @@ if (!class_exists('MagicboxStaff')){
 
             /* admin panel */
             $version = intval($this->version);
+            global $_mb_assets_url_;
+            wp_enqueue_style('mb-bootstrap', $_mb_assets_url_ . '/css/bootstrap.min.css', false, $version);
+            wp_enqueue_style('mb-bootstrap-datatables', $_mb_assets_url_ . '/css/dataTables.bootstrap5.min.css', false, $version);
+            wp_enqueue_style('mb-bootstrap-datatables1', $_mb_assets_url_ . '/css/asset.css', false, $version);
+            wp_enqueue_style('mb-bootstrap-datatables2', $_mb_assets_url_ . '/css/main.css', false, $version);
+            wp_enqueue_style('mb-bootstrap-datatables3', $_mb_assets_url_ . '/css/bootstrap-icons.css', false, $version);
+            wp_enqueue_style('mb-bootstrap-datatables4', $_mb_assets_url_ . '/css/bootstrap-tagsinput.css', false, $version);
+            wp_enqueue_style("mb-bootstrap-datatables15", $_mb_assets_url_ . '/picker/themes/nano.min.css', false, $version);
+            wp_enqueue_style("mb-bootstrap-datatables17", $_mb_assets_url_ . '/sweetalert/sweetalert2.min.css', false, $version);
 
-            wp_enqueue_style('mb-bootstrap', $GLOBALS{'_mb_assets_url_'} . '/css/bootstrap.min.css', false, $version);
-            wp_enqueue_style('mb-bootstrap-datatables', $GLOBALS{'_mb_assets_url_'} . '/css/dataTables.bootstrap5.min.css', false, $version);
-            wp_enqueue_style('mb-bootstrap-datatables1', $GLOBALS{'_mb_assets_url_'} . '/css/asset.css', false, $version);
-            wp_enqueue_style('mb-bootstrap-datatables2', $GLOBALS{'_mb_assets_url_'} . '/css/main.css', false, $version);
-            wp_enqueue_style('mb-bootstrap-datatables3', $GLOBALS{'_mb_assets_url_'} . '/css/bootstrap-icons.css', false, $version);
-            wp_enqueue_style('mb-bootstrap-datatables4', $GLOBALS{'_mb_assets_url_'} . '/css/bootstrap-tagsinput.css', false, $version);
-            wp_enqueue_style("mb-bootstrap-datatables15", $GLOBALS{'_mb_assets_url_'} . '/picker/themes/nano.min.css', false, $version);
-            wp_enqueue_style("mb-bootstrap-datatables17", $GLOBALS{'_mb_assets_url_'} . '/sweetalert/sweetalert2.min.css', false, $version);
-
-            wp_enqueue_script("mb-bootstrap-datatables2", $GLOBALS{'_mb_assets_url_'} . '/js/jquery.dataTables.min.js', false, $version);
-            wp_enqueue_script("mb-bootstrap-datatables3", $GLOBALS{'_mb_assets_url_'} . '/js/dataTables.bootstrap5.min.js', false, $version);
-            wp_enqueue_script("mb-bootstrap-datatables4", $GLOBALS{'_mb_assets_url_'} . '/js/bootstrap.bundle.min.js', false, $version);
-            wp_enqueue_script("mb-bootstrap-datatables10", $GLOBALS{'_mb_assets_url_'} . '/js/asset.js', false, $version);
-            wp_enqueue_script("mb-bootstrap-datatables11", $GLOBALS{'_mb_assets_url_'} . '/js/bootstrap-tagsinput.js', false, $version);
-            wp_enqueue_script("mb-bootstrap-datatables12", $GLOBALS{'_mb_assets_url_'} . '/js/d28852a19c.js', false, $version);
-            wp_enqueue_script("mb-bootstrap-datatables14", $GLOBALS{'_mb_assets_url_'} . '/picker/pickr.es5.min.js', false, $version);
-            wp_enqueue_script("mb-bootstrap-datatables16", $GLOBALS{'_mb_assets_url_'} . '/sweetalert/sweetalert2.min.js', false, $version);
+            wp_enqueue_script("mb-bootstrap-datatables2", $_mb_assets_url_ . '/js/jquery.dataTables.min.js', false, $version);
+            wp_enqueue_script("mb-bootstrap-datatables3", $_mb_assets_url_ . '/js/dataTables.bootstrap5.min.js', false, $version);
+            wp_enqueue_script("mb-bootstrap-datatables4", $_mb_assets_url_ . '/js/bootstrap.bundle.min.js', false, $version);
+            wp_enqueue_script("mb-bootstrap-datatables10", $_mb_assets_url_ . '/js/asset.js', false, $version);
+            wp_enqueue_script("mb-bootstrap-datatables11", $_mb_assets_url_ . '/js/bootstrap-tagsinput.js', false, $version);
+            wp_enqueue_script("mb-bootstrap-datatables12", $_mb_assets_url_ . '/js/d28852a19c.js', false, $version);
+            wp_enqueue_script("mb-bootstrap-datatables14", $_mb_assets_url_ . '/picker/pickr.es5.min.js', false, $version);
+            wp_enqueue_script("mb-bootstrap-datatables16", $_mb_assets_url_ . '/sweetalert/sweetalert2.min.js', false, $version);
 
         }
 
 
         function themeAssetsFooter() {
-
+            global $_mb_assets_url_;
             /* admin panel */
             $version = intval($this->version);
-            wp_enqueue_script("mb-bootstrap-datatables", $GLOBALS{'_mb_assets_url_'} . '/js/custom.js', false, $version);
+            wp_enqueue_script("mb-bootstrap-datatables", $_mb_assets_url_ . '/js/custom.js', false, $version);
             echo '<script>var popoverTriggerList = [].slice.call(document.querySelectorAll(\'[data-bs-toggle="popover"]\'));    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) { return new bootstrap.Popover(popoverTriggerEl)});</script>';
         }
 
 
         function themeAssetsFrontend() {
-
+            global $_mb_assets_url_;
             /* front-end */
             $version = intval($this->version);
-            wp_enqueue_style('mb-frontend', $GLOBALS{'_mb_assets_url_'} . '/css/mbFrontend.css', false, $version);
-            wp_enqueue_script('mb-frontend', $GLOBALS{'_mb_assets_url_'} . '/js/mbFrontend.js', false, $version);
+            wp_enqueue_style('mb-frontend', $_mb_assets_url_ . '/css/mbFrontend.css', false, $version);
+            wp_enqueue_script('mb-frontend', $_mb_assets_url_ . '/js/mbFrontend.js', false, $version);
         }
 
 

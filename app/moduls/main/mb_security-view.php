@@ -1,3 +1,4 @@
+<?php global $_mb_icon_url_; ?>
 <div class="card bg-light mt-0">
 
     <div class="mbDashboard">
@@ -44,7 +45,7 @@
                                     <div class="dashboardItem <?php echo $subKey ?>">
                                         <a class="nav-link" href="<?php echo $menuUrl ?>&sub=<?php echo $pureSubKey ?>">
                                             <div class="dashboardItemIcon">
-                                                <img src="<?php echo $GLOBALS{'_mb_icon_url_'} ?>/<?php echo $subKey ?>.png"/>
+                                                <img src="<?php echo $_mb_icon_url_ ?>/<?php echo $subKey ?>.png"/>
                                             </div>
                                             <div class="dashboardItemTitle">
                                                 <h4><?php echo esc_attr($it['title']) ?></h4>

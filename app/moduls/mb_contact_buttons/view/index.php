@@ -1,4 +1,5 @@
 <?php
+global $_mb_icon_url;
 $openLink = array("_blank" => __("Open New Page", "magicbox"), "_self" => __("Open Current Page", "magicbox"), "_parent" => __("Open Parent Page", "magicbox"),);
 
 $rels = array("nofollow" => "Nofollow", "dofollow" => "Dofollow", "muse" => "Muse",);
@@ -102,7 +103,7 @@ $hoverEffects = array("1" => __("Zoom Icon", "magicbox"), /* imaj büyültme */
                                         </div>
                                     </div>
                                     <div class="col-lg-1 text-center icon">
-                                        <img src="<?php echo $GLOBALS{'_mb_icon_url_'} ?>/social/cb1/<?php echo $item['type']; ?>.png" height="30px">
+                                        <img src="<?php echo $_mb_icon_url_ ?>/social/cb1/<?php echo $item['type']; ?>.png" height="30px">
                                     </div>
                                     <div class="col-lg-5">
                                         <div class="form-group">
@@ -666,7 +667,7 @@ $hoverEffects = array("1" => __("Zoom Icon", "magicbox"), /* imaj büyültme */
 
         uniq=jQuery(this).data("uniq");
         value=jQuery(this).val();
-        newUrl="<?php echo $GLOBALS{'_mb_icon_url_'}?>/social/" + iconSet + "/" + value + ".png";
+        newUrl="<?php echo $_mb_icon_url_?>/social/" + iconSet + "/" + value + ".png";
         newImg='<img src="' + newUrl + '" height="30px">';
         jQuery('.item_' + uniq + ' .icon').html(newImg);
 

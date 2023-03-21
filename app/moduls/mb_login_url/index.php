@@ -72,8 +72,8 @@ class mb_login_url
 
             /* The new login url in function */
             add_filter('login_url', function () { return site_url($this->options['user_login_page']['url']); });
-
-            $file = $GLOBALS{'_mb_ext_'} . '/wp-login.php';
+            global $_mb_ext_;
+            $file = $_mb_ext_ . '/wp-login.php';
             require_once($file);
             die;
         }
@@ -154,8 +154,8 @@ class mb_login_url
         if ($magicbox_getFile){
             $fileData = str_replace(array("__DIR__", "dirname(__FILE__)","wp-login.php"), array("''","''", $this->postValue['user_login_page']['url']), $magicbox_getFile);
             $fileData = str_replace("/wp-load.php", "wp-load.php", $fileData);
-
-            $putFile = file_put_contents($GLOBALS{'_mb_ext_'} . "/wp-login.php", $fileData);
+            global $_mb_ext_;
+            $putFile = file_put_contents($_mb_ext_ . "/wp-login.php", $fileData);
 
             if ($putFile == false){
                 unset($this->postValue['user_login_page']['url']);
